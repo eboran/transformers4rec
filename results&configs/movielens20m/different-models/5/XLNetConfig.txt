@@ -1,0 +1,2972 @@
+max_sequence_length: 5
+[{'name': 'session_id', 'value_count': {'max': '5'}, 'type': 'INT', 'int_domain': {'name': 'session_id', 'min': '1', 'max': '138494'}, 'annotation': {'tag': ['groupby_col']}}, {'name': 'item_id-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'INT', 'int_domain': {'name': 'item_id-list_seq', 'min': '1', 'max': '138493', 'is_categorical': True}, 'annotation': {'tag': ['item_id', 'list', 'categorical', 'item']}}, {'name': 'rating-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': 'rating-list_seq', 'max': 5.0}, 'annotation': {'tag': ['continuous', 'list']}}, {'name': 'genome_relevance-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': 'genome_relevance-list_seq', 'max': 1.0}, 'annotation': {'tag': ['continuous', 'list']}}, {'name': '_genres-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': '_genres-list_seq', 'max': 21.0}, 'annotation': {'tag': ['categorical', 'list']}}, {'name': 'genome_tag-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': 'genome_tag-list_seq', 'max': 815.0}, 'annotation': {'tag': ['categorical', 'list']}}, {'name': 'tag-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': 'tag-list_seq', 'max': 17942.0}, 'annotation': {'tag': ['categorical', 'list']}}, {'name': 'et_dayofday-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': 'et_dayofday-list_seq', 'min': 1.0, 'max': 31.0}, 'annotation': {'tag': ['continuous', 'list']}}, {'name': 'et_dayofweek-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': 'et_dayofweek-list_seq', 'max': 6.0}, 'annotation': {'tag': ['continuous', 'list']}}, {'name': 'et_year-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': 'et_year-list_seq', 'min': 1995.0, 'max': 2015.0}, 'annotation': {'tag': ['continuous', 'list']}}, {'name': 'et_dayofweek_sin-list_seq', 'value_count': {'min': '2', 'max': '5'}, 'type': 'FLOAT', 'float_domain': {'name': 'et_dayofweek_sin-list_seq', 'min': -1.0, 'max': 1.0}, 'annotation': {'tag': ['continuous', 'time', 'list']}}]
+session_id ValueCount(min=0, max=5)
+item_id-list_seq ValueCount(min=2, max=5)
+rating-list_seq ValueCount(min=2, max=5)
+genome_relevance-list_seq ValueCount(min=2, max=5)
+_genres-list_seq ValueCount(min=2, max=5)
+genome_tag-list_seq ValueCount(min=2, max=5)
+tag-list_seq ValueCount(min=2, max=5)
+et_dayofday-list_seq ValueCount(min=2, max=5)
+et_dayofweek-list_seq ValueCount(min=2, max=5)
+et_year-list_seq ValueCount(min=2, max=5)
+et_dayofweek_sin-list_seq ValueCount(min=2, max=5)
+XLNetConfig
+XLNetConfig
+
+***** Launch training for day 3: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/4/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/3/train.parquet']
+
+***** Evaluation results for day 4:*****
+
+ eval_/next-item/avg_precision@10 = 0.0
+ eval_/next-item/avg_precision@20 = 0.0
+ eval_/next-item/ndcg@10 = 0.0
+ eval_/next-item/ndcg@20 = 0.0
+ eval_/next-item/recall@10 = 0.0
+ eval_/next-item/recall@20 = 0.0
+
+***** Launch training for day 4: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/5/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/4/train.parquet']
+
+***** Evaluation results for day 5:*****
+
+ eval_/next-item/avg_precision@10 = 0.0
+ eval_/next-item/avg_precision@20 = 0.021367523819208145
+ eval_/next-item/ndcg@10 = 0.0
+ eval_/next-item/ndcg@20 = 0.09729496389627457
+ eval_/next-item/recall@10 = 0.0
+ eval_/next-item/recall@20 = 0.4273504614830017
+
+***** Launch training for day 5: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/6/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/5/train.parquet']
+
+***** Evaluation results for day 6:*****
+
+ eval_/next-item/avg_precision@10 = 0.485981285572052
+ eval_/next-item/avg_precision@20 = 0.485981285572052
+ eval_/next-item/ndcg@10 = 0.485981285572052
+ eval_/next-item/ndcg@20 = 0.485981285572052
+ eval_/next-item/recall@10 = 0.485981285572052
+ eval_/next-item/recall@20 = 0.485981285572052
+
+***** Launch training for day 6: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/7/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/6/train.parquet']
+
+***** Evaluation results for day 7:*****
+
+ eval_/next-item/avg_precision@10 = 0.4806201756000519
+ eval_/next-item/avg_precision@20 = 0.4806201756000519
+ eval_/next-item/ndcg@10 = 0.4806201756000519
+ eval_/next-item/ndcg@20 = 0.4806201756000519
+ eval_/next-item/recall@10 = 0.4806201756000519
+ eval_/next-item/recall@20 = 0.4806201756000519
+
+***** Launch training for day 7: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/8/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/7/train.parquet']
+
+***** Evaluation results for day 8:*****
+
+ eval_/next-item/avg_precision@10 = 0.46162790060043335
+ eval_/next-item/avg_precision@20 = 0.4729650914669037
+ eval_/next-item/ndcg@10 = 0.4638006091117859
+ eval_/next-item/ndcg@20 = 0.5006638169288635
+ eval_/next-item/recall@10 = 0.47093021869659424
+ eval_/next-item/recall@20 = 0.6075581312179565
+
+***** Launch training for day 8: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/9/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/8/train.parquet']
+
+***** Evaluation results for day 9:*****
+
+ eval_/next-item/avg_precision@10 = 0.5105452537536621
+ eval_/next-item/avg_precision@20 = 0.5121914148330688
+ eval_/next-item/ndcg@10 = 0.5392334461212158
+ eval_/next-item/ndcg@20 = 0.5464035868644714
+ eval_/next-item/recall@10 = 0.6296296119689941
+ eval_/next-item/recall@20 = 0.6604938507080078
+
+***** Launch training for day 9: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/10/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/9/train.parquet']
+
+***** Evaluation results for day 10:*****
+
+ eval_/next-item/avg_precision@10 = 0.4355568289756775
+ eval_/next-item/avg_precision@20 = 0.4385949671268463
+ eval_/next-item/ndcg@10 = 0.47821465134620667
+ eval_/next-item/ndcg@20 = 0.4888771176338196
+ eval_/next-item/recall@10 = 0.6157024502754211
+ eval_/next-item/recall@20 = 0.6570247411727905
+
+***** Launch training for day 10: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/11/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/10/train.parquet']
+
+***** Evaluation results for day 11:*****
+
+ eval_/next-item/avg_precision@10 = 0.4569111168384552
+ eval_/next-item/avg_precision@20 = 0.46078214049339294
+ eval_/next-item/ndcg@10 = 0.49647700786590576
+ eval_/next-item/ndcg@20 = 0.5113754868507385
+ eval_/next-item/recall@10 = 0.6174496412277222
+ eval_/next-item/recall@20 = 0.6744966506958008
+
+***** Launch training for day 11: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/12/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/11/train.parquet']
+
+***** Evaluation results for day 12:*****
+
+ eval_/next-item/avg_precision@10 = 0.5204263925552368
+ eval_/next-item/avg_precision@20 = 0.5241186618804932
+ eval_/next-item/ndcg@10 = 0.5543175935745239
+ eval_/next-item/ndcg@20 = 0.5674096345901489
+ eval_/next-item/recall@10 = 0.6605839133262634
+ eval_/next-item/recall@20 = 0.7116788029670715
+
+***** Launch training for day 12: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/13/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/12/train.parquet']
+
+***** Evaluation results for day 13:*****
+
+ eval_/next-item/avg_precision@10 = 0.18326283991336823
+ eval_/next-item/avg_precision@20 = 0.18447397649288177
+ eval_/next-item/ndcg@10 = 0.2384549081325531
+ eval_/next-item/ndcg@20 = 0.24334199726581573
+ eval_/next-item/recall@10 = 0.41624364256858826
+ eval_/next-item/recall@20 = 0.4365482032299042
+
+***** Launch training for day 13: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/14/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/13/train.parquet']
+
+***** Evaluation results for day 14:*****
+
+ eval_/next-item/avg_precision@10 = 0.2610374987125397
+ eval_/next-item/avg_precision@20 = 0.2634972929954529
+ eval_/next-item/ndcg@10 = 0.33419594168663025
+ eval_/next-item/ndcg@20 = 0.34278160333633423
+ eval_/next-item/recall@10 = 0.5629138946533203
+ eval_/next-item/recall@20 = 0.5960264801979065
+
+***** Launch training for day 14: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/15/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/14/train.parquet']
+
+***** Evaluation results for day 15:*****
+
+ eval_/next-item/avg_precision@10 = 0.1711873710155487
+ eval_/next-item/avg_precision@20 = 0.17661158740520477
+ eval_/next-item/ndcg@10 = 0.24782869219779968
+ eval_/next-item/ndcg@20 = 0.27087533473968506
+ eval_/next-item/recall@10 = 0.4901961088180542
+ eval_/next-item/recall@20 = 0.5882353186607361
+
+***** Launch training for day 15: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/16/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/15/train.parquet']
+
+***** Evaluation results for day 16:*****
+
+ eval_/next-item/avg_precision@10 = 0.2108534276485443
+ eval_/next-item/avg_precision@20 = 0.2183416336774826
+ eval_/next-item/ndcg@10 = 0.2851443290710449
+ eval_/next-item/ndcg@20 = 0.3128625750541687
+ eval_/next-item/recall@10 = 0.5129870176315308
+ eval_/next-item/recall@20 = 0.6233766078948975
+
+***** Launch training for day 16: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/17/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/16/train.parquet']
+
+***** Evaluation results for day 17:*****
+
+ eval_/next-item/avg_precision@10 = 0.20923738181591034
+ eval_/next-item/avg_precision@20 = 0.2152402698993683
+ eval_/next-item/ndcg@10 = 0.28179123997688293
+ eval_/next-item/ndcg@20 = 0.3017648756504059
+ eval_/next-item/recall@10 = 0.5037593841552734
+ eval_/next-item/recall@20 = 0.5789473652839661
+
+***** Launch training for day 17: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/18/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/17/train.parquet']
+
+***** Evaluation results for day 18:*****
+
+ eval_/next-item/avg_precision@10 = 0.14139385521411896
+ eval_/next-item/avg_precision@20 = 0.14637084305286407
+ eval_/next-item/ndcg@10 = 0.3497867286205292
+ eval_/next-item/ndcg@20 = 0.36980774998664856
+ eval_/next-item/recall@10 = 0.5347222089767456
+ eval_/next-item/recall@20 = 0.6180555820465088
+
+***** Launch training for day 18: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/19/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/18/train.parquet']
+
+***** Evaluation results for day 19:*****
+
+ eval_/next-item/avg_precision@10 = 0.2198917120695114
+ eval_/next-item/avg_precision@20 = 0.22604407370090485
+ eval_/next-item/ndcg@10 = 0.2903674840927124
+ eval_/next-item/ndcg@20 = 0.3149681091308594
+ eval_/next-item/recall@10 = 0.5169491767883301
+ eval_/next-item/recall@20 = 0.6186440587043762
+
+***** Launch training for day 19: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/20/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/19/train.parquet']
+
+***** Evaluation results for day 20:*****
+
+ eval_/next-item/avg_precision@10 = 0.2524436116218567
+ eval_/next-item/avg_precision@20 = 0.26430121064186096
+ eval_/next-item/ndcg@10 = 0.33303385972976685
+ eval_/next-item/ndcg@20 = 0.37442919611930847
+ eval_/next-item/recall@10 = 0.5921052694320679
+ eval_/next-item/recall@20 = 0.75
+
+***** Launch training for day 20: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/21/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/20/train.parquet']
+
+***** Evaluation results for day 21:*****
+
+ eval_/next-item/avg_precision@10 = 0.04444444552063942
+ eval_/next-item/avg_precision@20 = 0.061538465321063995
+ eval_/next-item/ndcg@10 = 0.0859672874212265
+ eval_/next-item/ndcg@20 = 0.1443338543176651
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.4444444477558136
+
+***** Launch training for day 21: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/22/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/21/train.parquet']
+
+***** Evaluation results for day 22:*****
+
+ eval_/next-item/avg_precision@10 = 0.13829366862773895
+ eval_/next-item/avg_precision@20 = 0.14478716254234314
+ eval_/next-item/ndcg@10 = 0.1881626695394516
+ eval_/next-item/ndcg@20 = 0.20808717608451843
+ eval_/next-item/recall@10 = 0.3571428656578064
+ eval_/next-item/recall@20 = 0.4285714626312256
+
+***** Launch training for day 22: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/23/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/22/train.parquet']
+
+***** Evaluation results for day 23:*****
+
+ eval_/next-item/avg_precision@10 = 0.07297052443027496
+ eval_/next-item/avg_precision@20 = 0.07703214883804321
+ eval_/next-item/ndcg@10 = 0.11410973221063614
+ eval_/next-item/ndcg@20 = 0.12868259847164154
+ eval_/next-item/recall@10 = 0.2571428716182709
+ eval_/next-item/recall@20 = 0.3142857253551483
+
+***** Launch training for day 23: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/24/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/23/train.parquet']
+
+***** Evaluation results for day 24:*****
+
+ eval_/next-item/avg_precision@10 = 0.17885488271713257
+ eval_/next-item/avg_precision@20 = 0.17885488271713257
+ eval_/next-item/ndcg@10 = 0.21893145143985748
+ eval_/next-item/ndcg@20 = 0.21893145143985748
+ eval_/next-item/recall@10 = 0.3571428656578064
+ eval_/next-item/recall@20 = 0.3571428656578064
+
+***** Launch training for day 24: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/25/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/24/train.parquet']
+
+***** Evaluation results for day 25:*****
+
+ eval_/next-item/avg_precision@10 = 0.0069444444961845875
+ eval_/next-item/avg_precision@20 = 0.011111111380159855
+ eval_/next-item/ndcg@10 = 0.01881437562406063
+ eval_/next-item/ndcg@20 = 0.03443937748670578
+ eval_/next-item/recall@10 = 0.0625
+ eval_/next-item/recall@20 = 0.125
+
+***** Launch training for day 25: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/26/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/25/train.parquet']
+
+***** Evaluation results for day 26:*****
+
+ eval_/next-item/avg_precision@10 = 0.23444445431232452
+ eval_/next-item/avg_precision@20 = 0.2427777796983719
+ eval_/next-item/ndcg@10 = 0.3205665051937103
+ eval_/next-item/ndcg@20 = 0.3475903272628784
+ eval_/next-item/recall@10 = 0.6000000238418579
+ eval_/next-item/recall@20 = 0.699999988079071
+
+***** Launch training for day 26: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/27/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/26/train.parquet']
+
+***** Evaluation results for day 27:*****
+
+ eval_/next-item/avg_precision@10 = 0.1715686321258545
+ eval_/next-item/avg_precision@20 = 0.17524510622024536
+ eval_/next-item/ndcg@10 = 0.2018045037984848
+ eval_/next-item/ndcg@20 = 0.2161957174539566
+ eval_/next-item/recall@10 = 0.29411765933036804
+ eval_/next-item/recall@20 = 0.3529411852359772
+
+***** Launch training for day 27: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/28/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/27/train.parquet']
+
+***** Evaluation results for day 28:*****
+
+ eval_/next-item/avg_precision@10 = 0.08611112087965012
+ eval_/next-item/avg_precision@20 = 0.09166667610406876
+ eval_/next-item/ndcg@10 = 0.12975963950157166
+ eval_/next-item/ndcg@20 = 0.1477755308151245
+ eval_/next-item/recall@10 = 0.2666666805744171
+ eval_/next-item/recall@20 = 0.3333333432674408
+
+***** Launch training for day 28: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/29/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/28/train.parquet']
+
+***** Evaluation results for day 29:*****
+
+ eval_/next-item/avg_precision@10 = 0.25238096714019775
+ eval_/next-item/avg_precision@20 = 0.25238096714019775
+ eval_/next-item/ndcg@10 = 0.32517167925834656
+ eval_/next-item/ndcg@20 = 0.32517167925834656
+ eval_/next-item/recall@10 = 0.5714285969734192
+ eval_/next-item/recall@20 = 0.5714285969734192
+
+***** Launch training for day 29: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/30/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/29/train.parquet']
+
+***** Evaluation results for day 30:*****
+
+ eval_/next-item/avg_precision@10 = 0.0363636389374733
+ eval_/next-item/avg_precision@20 = 0.05000000074505806
+ eval_/next-item/ndcg@10 = 0.07033687829971313
+ eval_/next-item/ndcg@20 = 0.11763125658035278
+ eval_/next-item/recall@10 = 0.1818181872367859
+ eval_/next-item/recall@20 = 0.3636363744735718
+
+***** Launch training for day 30: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/31/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/30/train.parquet']
+
+***** Evaluation results for day 31:*****
+
+ eval_/next-item/avg_precision@10 = 0.09096045792102814
+ eval_/next-item/avg_precision@20 = 0.09985833615064621
+ eval_/next-item/ndcg@10 = 0.12579713761806488
+ eval_/next-item/ndcg@20 = 0.1566680371761322
+ eval_/next-item/recall@10 = 0.23728813230991364
+ eval_/next-item/recall@20 = 0.35593220591545105
+
+***** Launch training for day 31: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/32/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/31/train.parquet']
+
+***** Evaluation results for day 32:*****
+
+ eval_/next-item/avg_precision@10 = 0.06055900454521179
+ eval_/next-item/avg_precision@20 = 0.0629744678735733
+ eval_/next-item/ndcg@10 = 0.0967879444360733
+ eval_/next-item/ndcg@20 = 0.10702311992645264
+ eval_/next-item/recall@10 = 0.21739131212234497
+ eval_/next-item/recall@20 = 0.260869562625885
+
+***** Launch training for day 32: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/33/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/32/train.parquet']
+
+***** Evaluation results for day 33:*****
+
+ eval_/next-item/avg_precision@10 = 0.0
+ eval_/next-item/avg_precision@20 = 0.01794871874153614
+ eval_/next-item/ndcg@10 = 0.0
+ eval_/next-item/ndcg@20 = 0.06408119201660156
+ eval_/next-item/recall@10 = 0.0
+ eval_/next-item/recall@20 = 0.25
+
+***** Launch training for day 33: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/34/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/33/train.parquet']
+
+***** Evaluation results for day 34:*****
+
+ eval_/next-item/avg_precision@10 = 0.0714285746216774
+ eval_/next-item/avg_precision@20 = 0.0714285746216774
+ eval_/next-item/ndcg@10 = 0.09013282507658005
+ eval_/next-item/ndcg@20 = 0.09013282507658005
+ eval_/next-item/recall@10 = 0.1428571492433548
+ eval_/next-item/recall@20 = 0.1428571492433548
+
+***** Launch training for day 34: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/35/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/34/train.parquet']
+
+***** Evaluation results for day 35:*****
+
+ eval_/next-item/avg_precision@10 = 0.0833333358168602
+ eval_/next-item/avg_precision@20 = 0.09294871985912323
+ eval_/next-item/ndcg@10 = 0.12339212000370026
+ eval_/next-item/ndcg@20 = 0.15622331202030182
+ eval_/next-item/recall@10 = 0.25
+ eval_/next-item/recall@20 = 0.375
+
+***** Launch training for day 35: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/36/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/35/train.parquet']
+
+***** Evaluation results for day 36:*****
+
+ eval_/next-item/avg_precision@10 = 0.050724636763334274
+ eval_/next-item/avg_precision@20 = 0.057413600385189056
+ eval_/next-item/ndcg@10 = 0.0589655302464962
+ eval_/next-item/ndcg@20 = 0.08180461823940277
+ eval_/next-item/recall@10 = 0.08695652335882187
+ eval_/next-item/recall@20 = 0.17391304671764374
+
+***** Launch training for day 36: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/37/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/36/train.parquet']
+
+***** Evaluation results for day 37:*****
+
+ eval_/next-item/avg_precision@10 = 0.13055557012557983
+ eval_/next-item/avg_precision@20 = 0.14345239102840424
+ eval_/next-item/ndcg@10 = 0.17749273777008057
+ eval_/next-item/ndcg@20 = 0.22134241461753845
+ eval_/next-item/recall@10 = 0.3333333432674408
+ eval_/next-item/recall@20 = 0.5
+
+***** Launch training for day 37: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/38/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/37/train.parquet']
+
+***** Evaluation results for day 38:*****
+
+ eval_/next-item/avg_precision@10 = 0.2928571403026581
+ eval_/next-item/avg_precision@20 = 0.3024725317955017
+ eval_/next-item/ndcg@10 = 0.3400232791900635
+ eval_/next-item/ndcg@20 = 0.37285447120666504
+ eval_/next-item/recall@10 = 0.5
+ eval_/next-item/recall@20 = 0.625
+
+***** Launch training for day 38: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/39/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/38/train.parquet']
+
+***** Evaluation results for day 39:*****
+
+ eval_/next-item/avg_precision@10 = 0.10000000149011612
+ eval_/next-item/avg_precision@20 = 0.10000000149011612
+ eval_/next-item/ndcg@10 = 0.12618595361709595
+ eval_/next-item/ndcg@20 = 0.12618595361709595
+ eval_/next-item/recall@10 = 0.20000000298023224
+ eval_/next-item/recall@20 = 0.20000000298023224
+
+***** Launch training for day 39: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/40/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/39/train.parquet']
+
+***** Evaluation results for day 40:*****
+
+ eval_/next-item/avg_precision@10 = 0.1607142984867096
+ eval_/next-item/avg_precision@20 = 0.1726190596818924
+ eval_/next-item/ndcg@10 = 0.18792356550693512
+ eval_/next-item/ndcg@20 = 0.22652901709079742
+ eval_/next-item/recall@10 = 0.2857142984867096
+ eval_/next-item/recall@20 = 0.4285714626312256
+
+***** Launch training for day 40: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/41/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/40/train.parquet']
+
+***** Evaluation results for day 41:*****
+
+ eval_/next-item/avg_precision@10 = 0.01587301678955555
+ eval_/next-item/avg_precision@20 = 0.01587301678955555
+ eval_/next-item/ndcg@10 = 0.04300428926944733
+ eval_/next-item/ndcg@20 = 0.04300428926944733
+ eval_/next-item/recall@10 = 0.1428571492433548
+ eval_/next-item/recall@20 = 0.1428571492433548
+
+***** Launch training for day 41: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/42/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/41/train.parquet']
+
+***** Evaluation results for day 42:*****
+
+ eval_/next-item/avg_precision@10 = 0.25
+ eval_/next-item/avg_precision@20 = 0.25
+ eval_/next-item/ndcg@10 = 0.28613531589508057
+ eval_/next-item/ndcg@20 = 0.28613531589508057
+ eval_/next-item/recall@10 = 0.4000000059604645
+ eval_/next-item/recall@20 = 0.4000000059604645
+
+***** Launch training for day 42: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/43/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/42/train.parquet']
+
+***** Evaluation results for day 43:*****
+
+ eval_/next-item/avg_precision@10 = 0.24000000953674316
+ eval_/next-item/avg_precision@20 = 0.24000000953674316
+ eval_/next-item/ndcg@10 = 0.27737054228782654
+ eval_/next-item/ndcg@20 = 0.27737054228782654
+ eval_/next-item/recall@10 = 0.4000000059604645
+ eval_/next-item/recall@20 = 0.4000000059604645
+
+***** Launch training for day 43: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/44/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/43/train.parquet']
+
+***** Evaluation results for day 44:*****
+
+ eval_/next-item/avg_precision@10 = 0.1666666716337204
+ eval_/next-item/avg_precision@20 = 0.1666666716337204
+ eval_/next-item/ndcg@10 = 0.1666666716337204
+ eval_/next-item/ndcg@20 = 0.1666666716337204
+ eval_/next-item/recall@10 = 0.1666666716337204
+ eval_/next-item/recall@20 = 0.1666666716337204
+
+***** Launch training for day 44: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/45/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/44/train.parquet']
+
+***** Evaluation results for day 45:*****
+
+ eval_/next-item/avg_precision@10 = 0.05000000447034836
+ eval_/next-item/avg_precision@20 = 0.05599401518702507
+ eval_/next-item/ndcg@10 = 0.06334662437438965
+ eval_/next-item/ndcg@20 = 0.08268921822309494
+ eval_/next-item/recall@10 = 0.1071428656578064
+ eval_/next-item/recall@20 = 0.1785714328289032
+
+***** Launch training for day 45: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/46/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/45/train.parquet']
+
+***** Evaluation results for day 46:*****
+
+ eval_/next-item/avg_precision@10 = 0.07251197099685669
+ eval_/next-item/avg_precision@20 = 0.07587021589279175
+ eval_/next-item/ndcg@10 = 0.09856387227773666
+ eval_/next-item/ndcg@20 = 0.11981737613677979
+ eval_/next-item/recall@10 = 0.1865079402923584
+ eval_/next-item/recall@20 = 0.2698412835597992
+
+***** Launch training for day 46: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/47/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/46/train.parquet']
+
+***** Evaluation results for day 47:*****
+
+ eval_/next-item/avg_precision@10 = 0.09201851487159729
+ eval_/next-item/avg_precision@20 = 0.09877251088619232
+ eval_/next-item/ndcg@10 = 0.11426694691181183
+ eval_/next-item/ndcg@20 = 0.13820655643939972
+ eval_/next-item/recall@10 = 0.18666666746139526
+ eval_/next-item/recall@20 = 0.2800000011920929
+
+***** Launch training for day 47: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/48/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/47/train.parquet']
+
+***** Evaluation results for day 48:*****
+
+ eval_/next-item/avg_precision@10 = 0.09230374544858932
+ eval_/next-item/avg_precision@20 = 0.0998949483036995
+ eval_/next-item/ndcg@10 = 0.11011188477277756
+ eval_/next-item/ndcg@20 = 0.13654981553554535
+ eval_/next-item/recall@10 = 0.1666666567325592
+ eval_/next-item/recall@20 = 0.2687074840068817
+
+***** Launch training for day 48: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/49/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/48/train.parquet']
+
+***** Evaluation results for day 49:*****
+
+ eval_/next-item/avg_precision@10 = 0.10830596089363098
+ eval_/next-item/avg_precision@20 = 0.1148911640048027
+ eval_/next-item/ndcg@10 = 0.13132637739181519
+ eval_/next-item/ndcg@20 = 0.1553015261888504
+ eval_/next-item/recall@10 = 0.20689654350280762
+ eval_/next-item/recall@20 = 0.3017241358757019
+
+***** Launch training for day 49: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/50/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/49/train.parquet']
+
+***** Evaluation results for day 50:*****
+
+ eval_/next-item/avg_precision@10 = 0.08822589367628098
+ eval_/next-item/avg_precision@20 = 0.09213472902774811
+ eval_/next-item/ndcg@10 = 0.1079077422618866
+ eval_/next-item/ndcg@20 = 0.12289991229772568
+ eval_/next-item/recall@10 = 0.17073169350624084
+ eval_/next-item/recall@20 = 0.23170730471611023
+
+***** Launch training for day 50: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/51/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/50/train.parquet']
+
+***** Evaluation results for day 51:*****
+
+ eval_/next-item/avg_precision@10 = 0.08603671193122864
+ eval_/next-item/avg_precision@20 = 0.09101807326078415
+ eval_/next-item/ndcg@10 = 0.10905419290065765
+ eval_/next-item/ndcg@20 = 0.12738321721553802
+ eval_/next-item/recall@10 = 0.1875
+ eval_/next-item/recall@20 = 0.2604166865348816
+
+***** Launch training for day 51: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/52/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/51/train.parquet']
+
+***** Evaluation results for day 52:*****
+
+ eval_/next-item/avg_precision@10 = 0.06944131851196289
+ eval_/next-item/avg_precision@20 = 0.07404612749814987
+ eval_/next-item/ndcg@10 = 0.08767734467983246
+ eval_/next-item/ndcg@20 = 0.10388927161693573
+ eval_/next-item/recall@10 = 0.14960630238056183
+ eval_/next-item/recall@20 = 0.21259842813014984
+
+***** Launch training for day 52: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/53/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/52/train.parquet']
+
+***** Evaluation results for day 53:*****
+
+ eval_/next-item/avg_precision@10 = 0.14400586485862732
+ eval_/next-item/avg_precision@20 = 0.14730393886566162
+ eval_/next-item/ndcg@10 = 0.15969032049179077
+ eval_/next-item/ndcg@20 = 0.17257565259933472
+ eval_/next-item/recall@10 = 0.21052631735801697
+ eval_/next-item/recall@20 = 0.2631579041481018
+
+***** Launch training for day 53: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/54/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/53/train.parquet']
+
+***** Evaluation results for day 54:*****
+
+ eval_/next-item/avg_precision@10 = 0.10246914625167847
+ eval_/next-item/avg_precision@20 = 0.103626549243927
+ eval_/next-item/ndcg@10 = 0.13200245797634125
+ eval_/next-item/ndcg@20 = 0.13653302192687988
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.24074074625968933
+
+***** Launch training for day 54: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/55/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/54/train.parquet']
+
+***** Evaluation results for day 55:*****
+
+ eval_/next-item/avg_precision@10 = 0.11923559755086899
+ eval_/next-item/avg_precision@20 = 0.12660753726959229
+ eval_/next-item/ndcg@10 = 0.14103831350803375
+ eval_/next-item/ndcg@20 = 0.1677505373954773
+ eval_/next-item/recall@10 = 0.21052631735801697
+ eval_/next-item/recall@20 = 0.31578949093818665
+
+***** Launch training for day 55: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/56/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/55/train.parquet']
+
+***** Evaluation results for day 56:*****
+
+ eval_/next-item/avg_precision@10 = 0.08309414982795715
+ eval_/next-item/avg_precision@20 = 0.08743373304605484
+ eval_/next-item/ndcg@10 = 0.10500644147396088
+ eval_/next-item/ndcg@20 = 0.11952921003103256
+ eval_/next-item/recall@10 = 0.1780821979045868
+ eval_/next-item/recall@20 = 0.232876718044281
+
+***** Launch training for day 56: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/57/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/56/train.parquet']
+
+***** Evaluation results for day 57:*****
+
+ eval_/next-item/avg_precision@10 = 0.06104651093482971
+ eval_/next-item/avg_precision@20 = 0.06220930069684982
+ eval_/next-item/ndcg@10 = 0.07853654026985168
+ eval_/next-item/ndcg@20 = 0.08383119851350784
+ eval_/next-item/recall@10 = 0.13953489065170288
+ eval_/next-item/recall@20 = 0.1627907007932663
+
+***** Launch training for day 57: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/58/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/57/train.parquet']
+
+***** Evaluation results for day 58:*****
+
+ eval_/next-item/avg_precision@10 = 0.09570495039224625
+ eval_/next-item/avg_precision@20 = 0.1017507016658783
+ eval_/next-item/ndcg@10 = 0.11459479480981827
+ eval_/next-item/ndcg@20 = 0.13681970536708832
+ eval_/next-item/recall@10 = 0.1764705926179886
+ eval_/next-item/recall@20 = 0.2647058963775635
+
+***** Launch training for day 58: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/59/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/58/train.parquet']
+
+***** Evaluation results for day 59:*****
+
+ eval_/next-item/avg_precision@10 = 0.10462362319231033
+ eval_/next-item/avg_precision@20 = 0.1091289073228836
+ eval_/next-item/ndcg@10 = 0.12738119065761566
+ eval_/next-item/ndcg@20 = 0.1430666595697403
+ eval_/next-item/recall@10 = 0.20075757801532745
+ eval_/next-item/recall@20 = 0.2613636553287506
+
+***** Launch training for day 59: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/60/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/59/train.parquet']
+
+***** Evaluation results for day 60:*****
+
+ eval_/next-item/avg_precision@10 = 0.08360902220010757
+ eval_/next-item/avg_precision@20 = 0.08725180476903915
+ eval_/next-item/ndcg@10 = 0.09809046983718872
+ eval_/next-item/ndcg@20 = 0.1113964319229126
+ eval_/next-item/recall@10 = 0.1473684310913086
+ eval_/next-item/recall@20 = 0.20000000298023224
+
+***** Launch training for day 60: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/61/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/60/train.parquet']
+
+***** Evaluation results for day 61:*****
+
+ eval_/next-item/avg_precision@10 = 0.12442921847105026
+ eval_/next-item/avg_precision@20 = 0.13293755054473877
+ eval_/next-item/ndcg@10 = 0.1340668946504593
+ eval_/next-item/ndcg@20 = 0.1674448400735855
+ eval_/next-item/recall@10 = 0.16438356041908264
+ eval_/next-item/recall@20 = 0.301369845867157
+
+***** Launch training for day 61: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/62/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/61/train.parquet']
+
+***** Evaluation results for day 62:*****
+
+ eval_/next-item/avg_precision@10 = 0.10127866268157959
+ eval_/next-item/avg_precision@20 = 0.11412375420331955
+ eval_/next-item/ndcg@10 = 0.13038994371891022
+ eval_/next-item/ndcg@20 = 0.1772325336933136
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.40740740299224854
+
+***** Launch training for day 62: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/63/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/62/train.parquet']
+
+***** Evaluation results for day 63:*****
+
+ eval_/next-item/avg_precision@10 = 0.018086884170770645
+ eval_/next-item/avg_precision@20 = 0.03723732382059097
+ eval_/next-item/ndcg@10 = 0.04304848983883858
+ eval_/next-item/ndcg@20 = 0.11515464633703232
+ eval_/next-item/recall@10 = 0.1315789520740509
+ eval_/next-item/recall@20 = 0.42105263471603394
+
+***** Launch training for day 63: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/64/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/63/train.parquet']
+
+***** Evaluation results for day 64:*****
+
+ eval_/next-item/avg_precision@10 = 0.05765305832028389
+ eval_/next-item/avg_precision@20 = 0.06997787952423096
+ eval_/next-item/ndcg@10 = 0.08492183685302734
+ eval_/next-item/ndcg@20 = 0.12877996265888214
+ eval_/next-item/recall@10 = 0.17142857611179352
+ eval_/next-item/recall@20 = 0.34285715222358704
+
+***** Launch training for day 64: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/65/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/64/train.parquet']
+
+***** Evaluation results for day 65:*****
+
+ eval_/next-item/avg_precision@10 = 0.08447206020355225
+ eval_/next-item/avg_precision@20 = 0.08447206020355225
+ eval_/next-item/ndcg@10 = 0.11479046195745468
+ eval_/next-item/ndcg@20 = 0.11479046195745468
+ eval_/next-item/recall@10 = 0.21739131212234497
+ eval_/next-item/recall@20 = 0.21739131212234497
+
+***** Launch training for day 65: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/66/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/65/train.parquet']
+
+***** Evaluation results for day 66:*****
+
+ eval_/next-item/avg_precision@10 = 0.05126488581299782
+ eval_/next-item/avg_precision@20 = 0.06396304070949554
+ eval_/next-item/ndcg@10 = 0.06495338678359985
+ eval_/next-item/ndcg@20 = 0.11057133972644806
+ eval_/next-item/recall@10 = 0.1071428656578064
+ eval_/next-item/recall@20 = 0.2857142984867096
+
+***** Launch training for day 66: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/67/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/66/train.parquet']
+
+***** Evaluation results for day 67:*****
+
+ eval_/next-item/avg_precision@10 = 0.0968075692653656
+ eval_/next-item/avg_precision@20 = 0.10601796954870224
+ eval_/next-item/ndcg@10 = 0.13089384138584137
+ eval_/next-item/ndcg@20 = 0.16295450925827026
+ eval_/next-item/recall@10 = 0.24719101190567017
+ eval_/next-item/recall@20 = 0.37078651785850525
+
+***** Launch training for day 67: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/68/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/67/train.parquet']
+
+***** Evaluation results for day 68:*****
+
+ eval_/next-item/avg_precision@10 = 0.16135206818580627
+ eval_/next-item/avg_precision@20 = 0.16262756288051605
+ eval_/next-item/ndcg@10 = 0.20669038593769073
+ eval_/next-item/ndcg@20 = 0.21126104891300201
+ eval_/next-item/recall@10 = 0.3571428656578064
+ eval_/next-item/recall@20 = 0.3750000298023224
+
+***** Launch training for day 68: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/69/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/68/train.parquet']
+
+***** Evaluation results for day 69:*****
+
+ eval_/next-item/avg_precision@10 = 0.07956724613904953
+ eval_/next-item/avg_precision@20 = 0.08292803168296814
+ eval_/next-item/ndcg@10 = 0.1249239593744278
+ eval_/next-item/ndcg@20 = 0.13853132724761963
+ eval_/next-item/recall@10 = 0.28301888704299927
+ eval_/next-item/recall@20 = 0.3396226465702057
+
+***** Launch training for day 69: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/70/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/69/train.parquet']
+
+***** Evaluation results for day 70:*****
+
+ eval_/next-item/avg_precision@10 = 0.14126984775066376
+ eval_/next-item/avg_precision@20 = 0.14527416229248047
+ eval_/next-item/ndcg@10 = 0.18008440732955933
+ eval_/next-item/ndcg@20 = 0.19395676255226135
+ eval_/next-item/recall@10 = 0.3035714328289032
+ eval_/next-item/recall@20 = 0.3571428656578064
+
+***** Launch training for day 70: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/71/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/70/train.parquet']
+
+***** Evaluation results for day 71:*****
+
+ eval_/next-item/avg_precision@10 = 0.18733522295951843
+ eval_/next-item/avg_precision@20 = 0.18887607753276825
+ eval_/next-item/ndcg@10 = 0.24757488071918488
+ eval_/next-item/ndcg@20 = 0.25230270624160767
+ eval_/next-item/recall@10 = 0.4406779706478119
+ eval_/next-item/recall@20 = 0.4576271176338196
+
+***** Launch training for day 71: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/72/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/71/train.parquet']
+
+***** Evaluation results for day 72:*****
+
+ eval_/next-item/avg_precision@10 = 0.07468553632497787
+ eval_/next-item/avg_precision@20 = 0.07720126211643219
+ eval_/next-item/ndcg@10 = 0.10638166964054108
+ eval_/next-item/ndcg@20 = 0.11581563204526901
+ eval_/next-item/recall@10 = 0.2075471729040146
+ eval_/next-item/recall@20 = 0.24528302252292633
+
+***** Launch training for day 72: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/73/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/72/train.parquet']
+
+***** Evaluation results for day 73:*****
+
+ eval_/next-item/avg_precision@10 = 0.11651787161827087
+ eval_/next-item/avg_precision@20 = 0.12273034453392029
+ eval_/next-item/ndcg@10 = 0.15726052224636078
+ eval_/next-item/ndcg@20 = 0.18280939757823944
+ eval_/next-item/recall@10 = 0.2857142984867096
+ eval_/next-item/recall@20 = 0.392857164144516
+
+***** Launch training for day 73: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/74/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/73/train.parquet']
+
+***** Evaluation results for day 74:*****
+
+ eval_/next-item/avg_precision@10 = 0.10367259383201599
+ eval_/next-item/avg_precision@20 = 0.1119978129863739
+ eval_/next-item/ndcg@10 = 0.1541566550731659
+ eval_/next-item/ndcg@20 = 0.18732860684394836
+ eval_/next-item/recall@10 = 0.3137255012989044
+ eval_/next-item/recall@20 = 0.45098039507865906
+
+***** Launch training for day 74: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/75/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/74/train.parquet']
+
+***** Evaluation results for day 75:*****
+
+ eval_/next-item/avg_precision@10 = 0.08123123645782471
+ eval_/next-item/avg_precision@20 = 0.08123123645782471
+ eval_/next-item/ndcg@10 = 0.126317098736763
+ eval_/next-item/ndcg@20 = 0.126317098736763
+ eval_/next-item/recall@10 = 0.27027028799057007
+ eval_/next-item/recall@20 = 0.27027028799057007
+
+***** Launch training for day 75: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/76/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/75/train.parquet']
+
+***** Evaluation results for day 76:*****
+
+ eval_/next-item/avg_precision@10 = 0.1618373692035675
+ eval_/next-item/avg_precision@20 = 0.1648716926574707
+ eval_/next-item/ndcg@10 = 0.2001008242368698
+ eval_/next-item/ndcg@20 = 0.2132737934589386
+ eval_/next-item/recall@10 = 0.3207547068595886
+ eval_/next-item/recall@20 = 0.37735849618911743
+
+***** Launch training for day 76: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/77/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/76/train.parquet']
+
+***** Evaluation results for day 77:*****
+
+ eval_/next-item/avg_precision@10 = 0.15932540595531464
+ eval_/next-item/avg_precision@20 = 0.1677117645740509
+ eval_/next-item/ndcg@10 = 0.22279757261276245
+ eval_/next-item/ndcg@20 = 0.2569684386253357
+ eval_/next-item/recall@10 = 0.4285714626312256
+ eval_/next-item/recall@20 = 0.5714285969734192
+
+***** Launch training for day 77: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/78/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/77/train.parquet']
+
+***** Evaluation results for day 78:*****
+
+ eval_/next-item/avg_precision@10 = 0.26522108912467957
+ eval_/next-item/avg_precision@20 = 0.26968538761138916
+ eval_/next-item/ndcg@10 = 0.3133598268032074
+ eval_/next-item/ndcg@20 = 0.33083486557006836
+ eval_/next-item/recall@10 = 0.4642857313156128
+ eval_/next-item/recall@20 = 0.535714328289032
+
+***** Launch training for day 78: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/79/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/78/train.parquet']
+
+***** Evaluation results for day 79:*****
+
+ eval_/next-item/avg_precision@10 = 0.10344827175140381
+ eval_/next-item/avg_precision@20 = 0.1070881262421608
+ eval_/next-item/ndcg@10 = 0.13874894380569458
+ eval_/next-item/ndcg@20 = 0.1719585657119751
+ eval_/next-item/recall@10 = 0.24137930572032928
+ eval_/next-item/recall@20 = 0.37931033968925476
+
+***** Launch training for day 79: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/80/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/79/train.parquet']
+
+***** Evaluation results for day 80:*****
+
+ eval_/next-item/avg_precision@10 = 0.1845785528421402
+ eval_/next-item/avg_precision@20 = 0.19199295341968536
+ eval_/next-item/ndcg@10 = 0.22186291217803955
+ eval_/next-item/ndcg@20 = 0.24836662411689758
+ eval_/next-item/recall@10 = 0.3448275923728943
+ eval_/next-item/recall@20 = 0.4482758641242981
+
+***** Launch training for day 80: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/81/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/80/train.parquet']
+
+***** Evaluation results for day 81:*****
+
+ eval_/next-item/avg_precision@10 = 0.14999999105930328
+ eval_/next-item/avg_precision@20 = 0.16163234412670135
+ eval_/next-item/ndcg@10 = 0.1795475333929062
+ eval_/next-item/ndcg@20 = 0.22271554172039032
+ eval_/next-item/recall@10 = 0.27586206793785095
+ eval_/next-item/recall@20 = 0.4482758641242981
+
+***** Launch training for day 81: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/82/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/81/train.parquet']
+
+***** Evaluation results for day 82:*****
+
+ eval_/next-item/avg_precision@10 = 0.13513708114624023
+ eval_/next-item/avg_precision@20 = 0.15137611329555511
+ eval_/next-item/ndcg@10 = 0.20431555807590485
+ eval_/next-item/ndcg@20 = 0.26492932438850403
+ eval_/next-item/recall@10 = 0.42424243688583374
+ eval_/next-item/recall@20 = 0.6666666865348816
+
+***** Launch training for day 82: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/83/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/82/train.parquet']
+
+***** Evaluation results for day 83:*****
+
+ eval_/next-item/avg_precision@10 = 0.12477478384971619
+ eval_/next-item/avg_precision@20 = 0.13575182855129242
+ eval_/next-item/ndcg@10 = 0.16076916456222534
+ eval_/next-item/ndcg@20 = 0.2014787793159485
+ eval_/next-item/recall@10 = 0.27027028799057007
+ eval_/next-item/recall@20 = 0.4324324429035187
+
+***** Launch training for day 83: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/84/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/83/train.parquet']
+
+***** Evaluation results for day 84:*****
+
+ eval_/next-item/avg_precision@10 = 0.13063064217567444
+ eval_/next-item/avg_precision@20 = 0.13586443662643433
+ eval_/next-item/ndcg@10 = 0.1654922366142273
+ eval_/next-item/ndcg@20 = 0.1855291873216629
+ eval_/next-item/recall@10 = 0.27027028799057007
+ eval_/next-item/recall@20 = 0.3513513505458832
+
+***** Launch training for day 84: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/85/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/84/train.parquet']
+
+***** Evaluation results for day 85:*****
+
+ eval_/next-item/avg_precision@10 = 0.10981734842061996
+ eval_/next-item/avg_precision@20 = 0.1193167045712471
+ eval_/next-item/ndcg@10 = 0.17034395039081573
+ eval_/next-item/ndcg@20 = 0.20501068234443665
+ eval_/next-item/recall@10 = 0.36986300349235535
+ eval_/next-item/recall@20 = 0.5068492889404297
+
+***** Launch training for day 85: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/86/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/85/train.parquet']
+
+***** Evaluation results for day 86:*****
+
+ eval_/next-item/avg_precision@10 = 0.18856292963027954
+ eval_/next-item/avg_precision@20 = 0.1931833177804947
+ eval_/next-item/ndcg@10 = 0.2517740726470947
+ eval_/next-item/ndcg@20 = 0.2664265036582947
+ eval_/next-item/recall@10 = 0.4464285969734192
+ eval_/next-item/recall@20 = 0.5
+
+***** Launch training for day 86: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/87/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/86/train.parquet']
+
+***** Evaluation results for day 87:*****
+
+ eval_/next-item/avg_precision@10 = 0.13719135522842407
+ eval_/next-item/avg_precision@20 = 0.14019761979579926
+ eval_/next-item/ndcg@10 = 0.1621519774198532
+ eval_/next-item/ndcg@20 = 0.17205755412578583
+ eval_/next-item/recall@10 = 0.24074074625968933
+ eval_/next-item/recall@20 = 0.2777777910232544
+
+***** Launch training for day 87: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/88/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/87/train.parquet']
+
+***** Evaluation results for day 88:*****
+
+ eval_/next-item/avg_precision@10 = 0.1759330779314041
+ eval_/next-item/avg_precision@20 = 0.1893296092748642
+ eval_/next-item/ndcg@10 = 0.22528870403766632
+ eval_/next-item/ndcg@20 = 0.2689604163169861
+ eval_/next-item/recall@10 = 0.37837839126586914
+ eval_/next-item/recall@20 = 0.5405405759811401
+
+***** Launch training for day 88: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/89/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/88/train.parquet']
+
+***** Evaluation results for day 89:*****
+
+ eval_/next-item/avg_precision@10 = 0.2502380907535553
+ eval_/next-item/avg_precision@20 = 0.26276448369026184
+ eval_/next-item/ndcg@10 = 0.2855372726917267
+ eval_/next-item/ndcg@20 = 0.3296961784362793
+ eval_/next-item/recall@10 = 0.4000000059604645
+ eval_/next-item/recall@20 = 0.5714285969734192
+
+***** Launch training for day 89: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/90/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/89/train.parquet']
+
+***** Evaluation results for day 90:*****
+
+ eval_/next-item/avg_precision@10 = 0.23071427643299103
+ eval_/next-item/avg_precision@20 = 0.2344357669353485
+ eval_/next-item/ndcg@10 = 0.2770910859107971
+ eval_/next-item/ndcg@20 = 0.2912559509277344
+ eval_/next-item/recall@10 = 0.4285714328289032
+ eval_/next-item/recall@20 = 0.48571428656578064
+
+***** Launch training for day 90: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/91/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/90/train.parquet']
+
+***** Evaluation results for day 91:*****
+
+ eval_/next-item/avg_precision@10 = 0.059756096452474594
+ eval_/next-item/avg_precision@20 = 0.06663929671049118
+ eval_/next-item/ndcg@10 = 0.09518925100564957
+ eval_/next-item/ndcg@20 = 0.11998958885669708
+ eval_/next-item/recall@10 = 0.2195121943950653
+ eval_/next-item/recall@20 = 0.31707316637039185
+
+***** Launch training for day 91: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/92/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/91/train.parquet']
+
+***** Evaluation results for day 92:*****
+
+ eval_/next-item/avg_precision@10 = 0.18908046185970306
+ eval_/next-item/avg_precision@20 = 0.1955459862947464
+ eval_/next-item/ndcg@10 = 0.2250547707080841
+ eval_/next-item/ndcg@20 = 0.25036346912384033
+ eval_/next-item/recall@10 = 0.3448275923728943
+ eval_/next-item/recall@20 = 0.4482758641242981
+
+***** Launch training for day 92: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/93/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/92/train.parquet']
+
+***** Evaluation results for day 93:*****
+
+ eval_/next-item/avg_precision@10 = 0.07568922638893127
+ eval_/next-item/avg_precision@20 = 0.09185398370027542
+ eval_/next-item/ndcg@10 = 0.09995568543672562
+ eval_/next-item/ndcg@20 = 0.15957288444042206
+ eval_/next-item/recall@10 = 0.18421052396297455
+ eval_/next-item/recall@20 = 0.42105263471603394
+
+***** Launch training for day 93: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/94/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/93/train.parquet']
+
+***** Evaluation results for day 94:*****
+
+ eval_/next-item/avg_precision@10 = 0.1407979428768158
+ eval_/next-item/avg_precision@20 = 0.15621720254421234
+ eval_/next-item/ndcg@10 = 0.1963316649198532
+ eval_/next-item/ndcg@20 = 0.2516164481639862
+ eval_/next-item/recall@10 = 0.37837839126586914
+ eval_/next-item/recall@20 = 0.5945945978164673
+
+***** Launch training for day 94: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/95/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/94/train.parquet']
+
+***** Evaluation results for day 95:*****
+
+ eval_/next-item/avg_precision@10 = 0.1602497100830078
+ eval_/next-item/avg_precision@20 = 0.16725121438503265
+ eval_/next-item/ndcg@10 = 0.2076737880706787
+ eval_/next-item/ndcg@20 = 0.23666855692863464
+ eval_/next-item/recall@10 = 0.3658536374568939
+ eval_/next-item/recall@20 = 0.4878048598766327
+
+***** Launch training for day 95: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/96/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/95/train.parquet']
+
+***** Evaluation results for day 96:*****
+
+ eval_/next-item/avg_precision@10 = 0.13986487686634064
+ eval_/next-item/avg_precision@20 = 0.1475936621427536
+ eval_/next-item/ndcg@10 = 0.183400958776474
+ eval_/next-item/ndcg@20 = 0.2110186517238617
+ eval_/next-item/recall@10 = 0.3243243396282196
+ eval_/next-item/recall@20 = 0.4324324429035187
+
+***** Launch training for day 96: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/97/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/96/train.parquet']
+
+***** Evaluation results for day 97:*****
+
+ eval_/next-item/avg_precision@10 = 0.1603703796863556
+ eval_/next-item/avg_precision@20 = 0.16558146476745605
+ eval_/next-item/ndcg@10 = 0.21853989362716675
+ eval_/next-item/ndcg@20 = 0.23613081872463226
+ eval_/next-item/recall@10 = 0.4000000059604645
+ eval_/next-item/recall@20 = 0.46666666865348816
+
+***** Launch training for day 97: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/98/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/97/train.parquet']
+
+***** Evaluation results for day 98:*****
+
+ eval_/next-item/avg_precision@10 = 0.10064484924077988
+ eval_/next-item/avg_precision@20 = 0.10627017915248871
+ eval_/next-item/ndcg@10 = 0.14965136349201202
+ eval_/next-item/ndcg@20 = 0.1763332635164261
+ eval_/next-item/recall@10 = 0.3035714328289032
+ eval_/next-item/recall@20 = 0.4107142984867096
+
+***** Launch training for day 98: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/99/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/98/train.parquet']
+
+***** Evaluation results for day 99:*****
+
+ eval_/next-item/avg_precision@10 = 0.15048500895500183
+ eval_/next-item/avg_precision@20 = 0.15688517689704895
+ eval_/next-item/ndcg@10 = 0.2080473154783249
+ eval_/next-item/ndcg@20 = 0.23142527043819427
+ eval_/next-item/recall@10 = 0.3888888955116272
+ eval_/next-item/recall@20 = 0.48148149251937866
+
+***** Launch training for day 99: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/100/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/99/train.parquet']
+
+***** Evaluation results for day 100:*****
+
+ eval_/next-item/avg_precision@10 = 0.39539679884910583
+ eval_/next-item/avg_precision@20 = 0.39997559785842896
+ eval_/next-item/ndcg@10 = 0.44180533289909363
+ eval_/next-item/ndcg@20 = 0.457030713558197
+ eval_/next-item/recall@10 = 0.6000000238418579
+ eval_/next-item/recall@20 = 0.6571428775787354
+
+***** Launch training for day 100: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/101/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/100/train.parquet']
+
+***** Evaluation results for day 101:*****
+
+ eval_/next-item/avg_precision@10 = 0.24519401788711548
+ eval_/next-item/avg_precision@20 = 0.24519401788711548
+ eval_/next-item/ndcg@10 = 0.29626455903053284
+ eval_/next-item/ndcg@20 = 0.29626455903053284
+ eval_/next-item/recall@10 = 0.46666666865348816
+ eval_/next-item/recall@20 = 0.46666666865348816
+
+***** Launch training for day 101: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/102/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/101/train.parquet']
+
+***** Evaluation results for day 102:*****
+
+ eval_/next-item/avg_precision@10 = 0.17222222685813904
+ eval_/next-item/avg_precision@20 = 0.17650029063224792
+ eval_/next-item/ndcg@10 = 0.2364504486322403
+ eval_/next-item/ndcg@20 = 0.251272052526474
+ eval_/next-item/recall@10 = 0.4571428596973419
+ eval_/next-item/recall@20 = 0.5142857432365417
+
+***** Launch training for day 102: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/103/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/102/train.parquet']
+
+***** Evaluation results for day 103:*****
+
+ eval_/next-item/avg_precision@10 = 0.11943373084068298
+ eval_/next-item/avg_precision@20 = 0.12520630657672882
+ eval_/next-item/ndcg@10 = 0.17306727170944214
+ eval_/next-item/ndcg@20 = 0.19377020001411438
+ eval_/next-item/recall@10 = 0.3513513505458832
+ eval_/next-item/recall@20 = 0.4324324429035187
+
+***** Launch training for day 103: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/104/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/103/train.parquet']
+
+***** Evaluation results for day 104:*****
+
+ eval_/next-item/avg_precision@10 = 0.1834215223789215
+ eval_/next-item/avg_precision@20 = 0.1882622390985489
+ eval_/next-item/ndcg@10 = 0.24407368898391724
+ eval_/next-item/ndcg@20 = 0.2611684203147888
+ eval_/next-item/recall@10 = 0.4444444477558136
+ eval_/next-item/recall@20 = 0.5111111402511597
+
+***** Launch training for day 104: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/105/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/104/train.parquet']
+
+***** Evaluation results for day 105:*****
+
+ eval_/next-item/avg_precision@10 = 0.11994259059429169
+ eval_/next-item/avg_precision@20 = 0.12373241782188416
+ eval_/next-item/ndcg@10 = 0.17996546626091003
+ eval_/next-item/ndcg@20 = 0.19530993700027466
+ eval_/next-item/recall@10 = 0.3829787075519562
+ eval_/next-item/recall@20 = 0.44680848717689514
+
+***** Launch training for day 105: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/106/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/105/train.parquet']
+
+***** Evaluation results for day 106:*****
+
+ eval_/next-item/avg_precision@10 = 0.15678130090236664
+ eval_/next-item/avg_precision@20 = 0.16360509395599365
+ eval_/next-item/ndcg@10 = 0.21661174297332764
+ eval_/next-item/ndcg@20 = 0.2436027228832245
+ eval_/next-item/recall@10 = 0.42222222685813904
+ eval_/next-item/recall@20 = 0.5333333611488342
+
+***** Launch training for day 106: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/107/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/106/train.parquet']
+
+***** Evaluation results for day 107:*****
+
+ eval_/next-item/avg_precision@10 = 0.11969136446714401
+ eval_/next-item/avg_precision@20 = 0.12424162030220032
+ eval_/next-item/ndcg@10 = 0.15844935178756714
+ eval_/next-item/ndcg@20 = 0.17520195245742798
+ eval_/next-item/recall@10 = 0.2888889014720917
+ eval_/next-item/recall@20 = 0.35555556416511536
+
+***** Launch training for day 107: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/108/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/107/train.parquet']
+
+***** Evaluation results for day 108:*****
+
+ eval_/next-item/avg_precision@10 = 0.14908163249492645
+ eval_/next-item/avg_precision@20 = 0.1555442065000534
+ eval_/next-item/ndcg@10 = 0.20061089098453522
+ eval_/next-item/ndcg@20 = 0.22295814752578735
+ eval_/next-item/recall@10 = 0.37142857909202576
+ eval_/next-item/recall@20 = 0.4571428596973419
+
+***** Launch training for day 108: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/109/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/108/train.parquet']
+
+***** Evaluation results for day 109:*****
+
+ eval_/next-item/avg_precision@10 = 0.19535917043685913
+ eval_/next-item/avg_precision@20 = 0.20364993810653687
+ eval_/next-item/ndcg@10 = 0.22576023638248444
+ eval_/next-item/ndcg@20 = 0.25586286187171936
+ eval_/next-item/recall@10 = 0.32203391194343567
+ eval_/next-item/recall@20 = 0.4406779706478119
+
+***** Launch training for day 109: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/110/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/109/train.parquet']
+
+***** Evaluation results for day 110:*****
+
+ eval_/next-item/avg_precision@10 = 0.10664194077253342
+ eval_/next-item/avg_precision@20 = 0.11040912568569183
+ eval_/next-item/ndcg@10 = 0.14650480449199677
+ eval_/next-item/ndcg@20 = 0.1593669205904007
+ eval_/next-item/recall@10 = 0.2786885201931
+ eval_/next-item/recall@20 = 0.32786881923675537
+
+***** Launch training for day 110: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/111/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/110/train.parquet']
+
+***** Evaluation results for day 111:*****
+
+ eval_/next-item/avg_precision@10 = 0.20786185562610626
+ eval_/next-item/avg_precision@20 = 0.21456028521060944
+ eval_/next-item/ndcg@10 = 0.25544002652168274
+ eval_/next-item/ndcg@20 = 0.28024792671203613
+ eval_/next-item/recall@10 = 0.4108910858631134
+ eval_/next-item/recall@20 = 0.5099009871482849
+
+***** Launch training for day 111: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/112/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/111/train.parquet']
+
+***** Evaluation results for day 112:*****
+
+ eval_/next-item/avg_precision@10 = 0.20948129892349243
+ eval_/next-item/avg_precision@20 = 0.21533894538879395
+ eval_/next-item/ndcg@10 = 0.23773862421512604
+ eval_/next-item/ndcg@20 = 0.25841569900512695
+ eval_/next-item/recall@10 = 0.330357164144516
+ eval_/next-item/recall@20 = 0.4107142984867096
+
+***** Launch training for day 112: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/113/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/112/train.parquet']
+
+***** Evaluation results for day 113:*****
+
+ eval_/next-item/avg_precision@10 = 0.3162437379360199
+ eval_/next-item/avg_precision@20 = 0.32719001173973083
+ eval_/next-item/ndcg@10 = 0.35014447569847107
+ eval_/next-item/ndcg@20 = 0.3900739550590515
+ eval_/next-item/recall@10 = 0.46052631735801697
+ eval_/next-item/recall@20 = 0.6184210777282715
+
+***** Launch training for day 113: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/114/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/113/train.parquet']
+
+***** Evaluation results for day 114:*****
+
+ eval_/next-item/avg_precision@10 = 0.18210923671722412
+ eval_/next-item/avg_precision@20 = 0.19414746761322021
+ eval_/next-item/ndcg@10 = 0.22361360490322113
+ eval_/next-item/ndcg@20 = 0.2668514847755432
+ eval_/next-item/recall@10 = 0.35593220591545105
+ eval_/next-item/recall@20 = 0.5254237055778503
+
+***** Launch training for day 114: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/115/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/114/train.parquet']
+
+***** Evaluation results for day 115:*****
+
+ eval_/next-item/avg_precision@10 = 0.2624706029891968
+ eval_/next-item/avg_precision@20 = 0.2668628394603729
+ eval_/next-item/ndcg@10 = 0.3134922385215759
+ eval_/next-item/ndcg@20 = 0.32822442054748535
+ eval_/next-item/recall@10 = 0.48148149251937866
+ eval_/next-item/recall@20 = 0.5370370149612427
+
+***** Launch training for day 115: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/116/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/115/train.parquet']
+
+***** Evaluation results for day 116:*****
+
+ eval_/next-item/avg_precision@10 = 0.15348325669765472
+ eval_/next-item/avg_precision@20 = 0.1585758626461029
+ eval_/next-item/ndcg@10 = 0.20066721737384796
+ eval_/next-item/ndcg@20 = 0.2181144803762436
+ eval_/next-item/recall@10 = 0.35555556416511536
+ eval_/next-item/recall@20 = 0.42222222685813904
+
+***** Launch training for day 116: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/117/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/116/train.parquet']
+
+***** Evaluation results for day 117:*****
+
+ eval_/next-item/avg_precision@10 = 0.1544165313243866
+ eval_/next-item/avg_precision@20 = 0.16435934603214264
+ eval_/next-item/ndcg@10 = 0.19140803813934326
+ eval_/next-item/ndcg@20 = 0.2253808230161667
+ eval_/next-item/recall@10 = 0.31481480598449707
+ eval_/next-item/recall@20 = 0.4444444477558136
+
+***** Launch training for day 117: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/118/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/117/train.parquet']
+
+***** Evaluation results for day 118:*****
+
+ eval_/next-item/avg_precision@10 = 0.15843068063259125
+ eval_/next-item/avg_precision@20 = 0.16486108303070068
+ eval_/next-item/ndcg@10 = 0.19183486700057983
+ eval_/next-item/ndcg@20 = 0.21556313335895538
+ eval_/next-item/recall@10 = 0.30188679695129395
+ eval_/next-item/recall@20 = 0.3962264060974121
+
+***** Launch training for day 118: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/119/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/118/train.parquet']
+
+***** Evaluation results for day 119:*****
+
+ eval_/next-item/avg_precision@10 = 0.1797986626625061
+ eval_/next-item/avg_precision@20 = 0.18818679451942444
+ eval_/next-item/ndcg@10 = 0.2445274293422699
+ eval_/next-item/ndcg@20 = 0.2765350341796875
+ eval_/next-item/recall@10 = 0.46296295523643494
+ eval_/next-item/recall@20 = 0.5925925970077515
+
+***** Launch training for day 119: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/120/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/119/train.parquet']
+
+***** Evaluation results for day 120:*****
+
+ eval_/next-item/avg_precision@10 = 0.12622161209583282
+ eval_/next-item/avg_precision@20 = 0.13820780813694
+ eval_/next-item/ndcg@10 = 0.16616851091384888
+ eval_/next-item/ndcg@20 = 0.2071918100118637
+ eval_/next-item/recall@10 = 0.29411765933036804
+ eval_/next-item/recall@20 = 0.45098039507865906
+
+***** Launch training for day 120: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/121/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/120/train.parquet']
+
+***** Evaluation results for day 121:*****
+
+ eval_/next-item/avg_precision@10 = 0.15926823019981384
+ eval_/next-item/avg_precision@20 = 0.1667260378599167
+ eval_/next-item/ndcg@10 = 0.21933941543102264
+ eval_/next-item/ndcg@20 = 0.24835456907749176
+ eval_/next-item/recall@10 = 0.4237288236618042
+ eval_/next-item/recall@20 = 0.5423728823661804
+
+***** Launch training for day 121: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/122/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/121/train.parquet']
+
+***** Evaluation results for day 122:*****
+
+ eval_/next-item/avg_precision@10 = 0.17762896418571472
+ eval_/next-item/avg_precision@20 = 0.18675045669078827
+ eval_/next-item/ndcg@10 = 0.2233581840991974
+ eval_/next-item/ndcg@20 = 0.25848597288131714
+ eval_/next-item/recall@10 = 0.3750000298023224
+ eval_/next-item/recall@20 = 0.5178571939468384
+
+***** Launch training for day 122: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/123/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/122/train.parquet']
+
+***** Evaluation results for day 123:*****
+
+ eval_/next-item/avg_precision@10 = 0.19148953258991241
+ eval_/next-item/avg_precision@20 = 0.20105895400047302
+ eval_/next-item/ndcg@10 = 0.22955438494682312
+ eval_/next-item/ndcg@20 = 0.265235036611557
+ eval_/next-item/recall@10 = 0.3571428656578064
+ eval_/next-item/recall@20 = 0.5
+
+***** Launch training for day 123: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/124/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/123/train.parquet']
+
+***** Evaluation results for day 124:*****
+
+ eval_/next-item/avg_precision@10 = 0.17500001192092896
+ eval_/next-item/avg_precision@20 = 0.18283599615097046
+ eval_/next-item/ndcg@10 = 0.2208765149116516
+ eval_/next-item/ndcg@20 = 0.25023749470710754
+ eval_/next-item/recall@10 = 0.37254902720451355
+ eval_/next-item/recall@20 = 0.4901961088180542
+
+***** Launch training for day 124: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/125/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/124/train.parquet']
+
+***** Evaluation results for day 125:*****
+
+ eval_/next-item/avg_precision@10 = 0.2645833492279053
+ eval_/next-item/avg_precision@20 = 0.2715931832790375
+ eval_/next-item/ndcg@10 = 0.28635990619659424
+ eval_/next-item/ndcg@20 = 0.3117339015007019
+ eval_/next-item/recall@10 = 0.3499999940395355
+ eval_/next-item/recall@20 = 0.45000001788139343
+
+***** Launch training for day 125: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/126/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/125/train.parquet']
+
+***** Evaluation results for day 126:*****
+
+ eval_/next-item/avg_precision@10 = 0.12433862686157227
+ eval_/next-item/avg_precision@20 = 0.13146384060382843
+ eval_/next-item/ndcg@10 = 0.1632997840642929
+ eval_/next-item/ndcg@20 = 0.19069388508796692
+ eval_/next-item/recall@10 = 0.2888889014720917
+ eval_/next-item/recall@20 = 0.4000000059604645
+
+***** Launch training for day 126: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/127/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/126/train.parquet']
+
+***** Evaluation results for day 127:*****
+
+ eval_/next-item/avg_precision@10 = 0.11396520584821701
+ eval_/next-item/avg_precision@20 = 0.12994146347045898
+ eval_/next-item/ndcg@10 = 0.14673620462417603
+ eval_/next-item/ndcg@20 = 0.20188194513320923
+ eval_/next-item/recall@10 = 0.25
+ eval_/next-item/recall@20 = 0.46153849363327026
+
+***** Launch training for day 127: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/128/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/127/train.parquet']
+
+***** Evaluation results for day 128:*****
+
+ eval_/next-item/avg_precision@10 = 0.18373015522956848
+ eval_/next-item/avg_precision@20 = 0.19232068955898285
+ eval_/next-item/ndcg@10 = 0.2258695513010025
+ eval_/next-item/ndcg@20 = 0.2563735544681549
+ eval_/next-item/recall@10 = 0.3571428656578064
+ eval_/next-item/recall@20 = 0.4761904776096344
+
+***** Launch training for day 128: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/129/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/128/train.parquet']
+
+***** Evaluation results for day 129:*****
+
+ eval_/next-item/avg_precision@10 = 0.26626986265182495
+ eval_/next-item/avg_precision@20 = 0.2706582844257355
+ eval_/next-item/ndcg@10 = 0.31041333079338074
+ eval_/next-item/ndcg@20 = 0.3277853727340698
+ eval_/next-item/recall@10 = 0.4523809552192688
+ eval_/next-item/recall@20 = 0.523809552192688
+
+***** Launch training for day 129: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/130/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/129/train.parquet']
+
+***** Evaluation results for day 130:*****
+
+ eval_/next-item/avg_precision@10 = 0.2337154597043991
+ eval_/next-item/avg_precision@20 = 0.24394740164279938
+ eval_/next-item/ndcg@10 = 0.2892352342605591
+ eval_/next-item/ndcg@20 = 0.3235163390636444
+ eval_/next-item/recall@10 = 0.46296295523643494
+ eval_/next-item/recall@20 = 0.5925925970077515
+
+***** Launch training for day 130: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/131/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/130/train.parquet']
+
+***** Evaluation results for day 131:*****
+
+ eval_/next-item/avg_precision@10 = 0.17993074655532837
+ eval_/next-item/avg_precision@20 = 0.18186499178409576
+ eval_/next-item/ndcg@10 = 0.24351491034030914
+ eval_/next-item/ndcg@20 = 0.24944984912872314
+ eval_/next-item/recall@10 = 0.44680848717689514
+ eval_/next-item/recall@20 = 0.46808508038520813
+
+***** Launch training for day 131: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/132/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/131/train.parquet']
+
+***** Evaluation results for day 132:*****
+
+ eval_/next-item/avg_precision@10 = 0.21541352570056915
+ eval_/next-item/avg_precision@20 = 0.2214779406785965
+ eval_/next-item/ndcg@10 = 0.286725789308548
+ eval_/next-item/ndcg@20 = 0.3088761866092682
+ eval_/next-item/recall@10 = 0.5087719559669495
+ eval_/next-item/recall@20 = 0.5964912176132202
+
+***** Launch training for day 132: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/133/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/132/train.parquet']
+
+***** Evaluation results for day 133:*****
+
+ eval_/next-item/avg_precision@10 = 0.13485337793827057
+ eval_/next-item/avg_precision@20 = 0.14596626162528992
+ eval_/next-item/ndcg@10 = 0.1752890944480896
+ eval_/next-item/ndcg@20 = 0.2145485132932663
+ eval_/next-item/recall@10 = 0.3050847351551056
+ eval_/next-item/recall@20 = 0.4576271176338196
+
+***** Launch training for day 133: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/134/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/133/train.parquet']
+
+***** Evaluation results for day 134:*****
+
+ eval_/next-item/avg_precision@10 = 0.15920047461986542
+ eval_/next-item/avg_precision@20 = 0.16567420959472656
+ eval_/next-item/ndcg@10 = 0.22223664820194244
+ eval_/next-item/ndcg@20 = 0.24566800892353058
+ eval_/next-item/recall@10 = 0.42592594027519226
+ eval_/next-item/recall@20 = 0.5185185074806213
+
+***** Launch training for day 134: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/135/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/134/train.parquet']
+
+***** Evaluation results for day 135:*****
+
+ eval_/next-item/avg_precision@10 = 0.09929193556308746
+ eval_/next-item/avg_precision@20 = 0.10433578491210938
+ eval_/next-item/ndcg@10 = 0.15326887369155884
+ eval_/next-item/ndcg@20 = 0.17262451350688934
+ eval_/next-item/recall@10 = 0.3333333432674408
+ eval_/next-item/recall@20 = 0.4117647111415863
+
+***** Launch training for day 135: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/136/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/135/train.parquet']
+
+***** Evaluation results for day 136:*****
+
+ eval_/next-item/avg_precision@10 = 0.1519841104745865
+ eval_/next-item/avg_precision@20 = 0.15372627973556519
+ eval_/next-item/ndcg@10 = 0.19998887181282043
+ eval_/next-item/ndcg@20 = 0.2062317430973053
+ eval_/next-item/recall@10 = 0.3658536374568939
+ eval_/next-item/recall@20 = 0.39024388790130615
+
+***** Launch training for day 136: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/137/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/136/train.parquet']
+
+***** Evaluation results for day 137:*****
+
+ eval_/next-item/avg_precision@10 = 0.11465609073638916
+ eval_/next-item/avg_precision@20 = 0.12372691184282303
+ eval_/next-item/ndcg@10 = 0.155435711145401
+ eval_/next-item/ndcg@20 = 0.1889304667711258
+ eval_/next-item/recall@10 = 0.2888889014720917
+ eval_/next-item/recall@20 = 0.42222222685813904
+
+***** Launch training for day 137: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/138/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/137/train.parquet']
+
+***** Evaluation results for day 138:*****
+
+ eval_/next-item/avg_precision@10 = 0.14858277142047882
+ eval_/next-item/avg_precision@20 = 0.1545196920633316
+ eval_/next-item/ndcg@10 = 0.20772026479244232
+ eval_/next-item/ndcg@20 = 0.2287190854549408
+ eval_/next-item/recall@10 = 0.40816324949264526
+ eval_/next-item/recall@20 = 0.4897959232330322
+
+***** Launch training for day 138: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/139/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/138/train.parquet']
+
+***** Evaluation results for day 139:*****
+
+ eval_/next-item/avg_precision@10 = 0.10917367786169052
+ eval_/next-item/avg_precision@20 = 0.12039799988269806
+ eval_/next-item/ndcg@10 = 0.14311745762825012
+ eval_/next-item/ndcg@20 = 0.1831541806459427
+ eval_/next-item/recall@10 = 0.2549019753932953
+ eval_/next-item/recall@20 = 0.4117647111415863
+
+***** Launch training for day 139: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/140/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/139/train.parquet']
+
+***** Evaluation results for day 140:*****
+
+ eval_/next-item/avg_precision@10 = 0.29814815521240234
+ eval_/next-item/avg_precision@20 = 0.3053843677043915
+ eval_/next-item/ndcg@10 = 0.3343212604522705
+ eval_/next-item/ndcg@20 = 0.3618640601634979
+ eval_/next-item/recall@10 = 0.4444444477558136
+ eval_/next-item/recall@20 = 0.5555555820465088
+
+***** Launch training for day 140: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/141/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/140/train.parquet']
+
+***** Evaluation results for day 141:*****
+
+ eval_/next-item/avg_precision@10 = 0.11890756338834763
+ eval_/next-item/avg_precision@20 = 0.12455923110246658
+ eval_/next-item/ndcg@10 = 0.15405789017677307
+ eval_/next-item/ndcg@20 = 0.1758170872926712
+ eval_/next-item/recall@10 = 0.2647058963775635
+ eval_/next-item/recall@20 = 0.3529411852359772
+
+***** Launch training for day 141: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/142/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/141/train.parquet']
+
+***** Evaluation results for day 142:*****
+
+ eval_/next-item/avg_precision@10 = 0.24327483773231506
+ eval_/next-item/avg_precision@20 = 0.24872681498527527
+ eval_/next-item/ndcg@10 = 0.27895158529281616
+ eval_/next-item/ndcg@20 = 0.298909991979599
+ eval_/next-item/recall@10 = 0.3947368562221527
+ eval_/next-item/recall@20 = 0.4736842215061188
+
+***** Launch training for day 142: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/143/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/142/train.parquet']
+
+***** Evaluation results for day 143:*****
+
+ eval_/next-item/avg_precision@10 = 0.18398268520832062
+ eval_/next-item/avg_precision@20 = 0.1872294396162033
+ eval_/next-item/ndcg@10 = 0.23926061391830444
+ eval_/next-item/ndcg@20 = 0.25089508295059204
+ eval_/next-item/recall@10 = 0.4318181872367859
+ eval_/next-item/recall@20 = 0.47727274894714355
+
+***** Launch training for day 143: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/144/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/143/train.parquet']
+
+***** Evaluation results for day 144:*****
+
+ eval_/next-item/avg_precision@10 = 0.13495934009552002
+ eval_/next-item/avg_precision@20 = 0.14090056717395782
+ eval_/next-item/ndcg@10 = 0.17373137176036835
+ eval_/next-item/ndcg@20 = 0.19331979751586914
+ eval_/next-item/recall@10 = 0.2926829159259796
+ eval_/next-item/recall@20 = 0.3658536374568939
+
+***** Launch training for day 144: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/145/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/144/train.parquet']
+
+***** Evaluation results for day 145:*****
+
+ eval_/next-item/avg_precision@10 = 0.1596371978521347
+ eval_/next-item/avg_precision@20 = 0.16651387512683868
+ eval_/next-item/ndcg@10 = 0.2099001705646515
+ eval_/next-item/ndcg@20 = 0.23333659768104553
+ eval_/next-item/recall@10 = 0.3750000298023224
+ eval_/next-item/recall@20 = 0.4642857313156128
+
+***** Launch training for day 145: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/146/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/145/train.parquet']
+
+***** Evaluation results for day 146:*****
+
+ eval_/next-item/avg_precision@10 = 0.13790850341320038
+ eval_/next-item/avg_precision@20 = 0.14178521931171417
+ eval_/next-item/ndcg@10 = 0.17128121852874756
+ eval_/next-item/ndcg@20 = 0.185898095369339
+ eval_/next-item/recall@10 = 0.27450981736183167
+ eval_/next-item/recall@20 = 0.3333333432674408
+
+***** Launch training for day 146: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/147/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/146/train.parquet']
+
+***** Evaluation results for day 147:*****
+
+ eval_/next-item/avg_precision@10 = 0.2767460346221924
+ eval_/next-item/avg_precision@20 = 0.2858128845691681
+ eval_/next-item/ndcg@10 = 0.31571638584136963
+ eval_/next-item/ndcg@20 = 0.3454950451850891
+ eval_/next-item/recall@10 = 0.4444444477558136
+ eval_/next-item/recall@20 = 0.5555555820465088
+
+***** Launch training for day 147: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/148/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/147/train.parquet']
+
+***** Evaluation results for day 148:*****
+
+ eval_/next-item/avg_precision@10 = 0.11951058357954025
+ eval_/next-item/avg_precision@20 = 0.12727557122707367
+ eval_/next-item/ndcg@10 = 0.15743900835514069
+ eval_/next-item/ndcg@20 = 0.18694913387298584
+ eval_/next-item/recall@10 = 0.2857142984867096
+ eval_/next-item/recall@20 = 0.4047619104385376
+
+***** Launch training for day 148: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/149/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/148/train.parquet']
+
+***** Evaluation results for day 149:*****
+
+ eval_/next-item/avg_precision@10 = 0.1457529067993164
+ eval_/next-item/avg_precision@20 = 0.15167398750782013
+ eval_/next-item/ndcg@10 = 0.19141432642936707
+ eval_/next-item/ndcg@20 = 0.21229811012744904
+ eval_/next-item/recall@10 = 0.3243243396282196
+ eval_/next-item/recall@20 = 0.4054054021835327
+
+***** Launch training for day 149: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/150/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/149/train.parquet']
+
+***** Evaluation results for day 150:*****
+
+ eval_/next-item/avg_precision@10 = 0.07820573449134827
+ eval_/next-item/avg_precision@20 = 0.08384941518306732
+ eval_/next-item/ndcg@10 = 0.12318716198205948
+ eval_/next-item/ndcg@20 = 0.14327958226203918
+ eval_/next-item/recall@10 = 0.27450981736183167
+ eval_/next-item/recall@20 = 0.3529411852359772
+
+***** Launch training for day 150: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/151/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/150/train.parquet']
+
+***** Evaluation results for day 151:*****
+
+ eval_/next-item/avg_precision@10 = 0.1844576746225357
+ eval_/next-item/avg_precision@20 = 0.1906655877828598
+ eval_/next-item/ndcg@10 = 0.2325052171945572
+ eval_/next-item/ndcg@20 = 0.25253263115882874
+ eval_/next-item/recall@10 = 0.3888888955116272
+ eval_/next-item/recall@20 = 0.46296295523643494
+
+***** Launch training for day 151: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/152/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/151/train.parquet']
+
+***** Evaluation results for day 152:*****
+
+ eval_/next-item/avg_precision@10 = 0.19183006882667542
+ eval_/next-item/avg_precision@20 = 0.195013165473938
+ eval_/next-item/ndcg@10 = 0.23034320771694183
+ eval_/next-item/ndcg@20 = 0.24083146452903748
+ eval_/next-item/recall@10 = 0.3529411852359772
+ eval_/next-item/recall@20 = 0.3921568691730499
+
+***** Launch training for day 152: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/153/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/152/train.parquet']
+
+***** Evaluation results for day 153:*****
+
+ eval_/next-item/avg_precision@10 = 0.0695195272564888
+ eval_/next-item/avg_precision@20 = 0.08110208064317703
+ eval_/next-item/ndcg@10 = 0.10876967757940292
+ eval_/next-item/ndcg@20 = 0.15018285810947418
+ eval_/next-item/recall@10 = 0.2432432472705841
+ eval_/next-item/recall@20 = 0.4054054021835327
+
+***** Launch training for day 153: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/154/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/153/train.parquet']
+
+***** Evaluation results for day 154:*****
+
+ eval_/next-item/avg_precision@10 = 0.13241057097911835
+ eval_/next-item/avg_precision@20 = 0.14222830533981323
+ eval_/next-item/ndcg@10 = 0.17766153812408447
+ eval_/next-item/ndcg@20 = 0.21365073323249817
+ eval_/next-item/recall@10 = 0.3253968358039856
+ eval_/next-item/recall@20 = 0.4682539999485016
+
+***** Launch training for day 154: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/155/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/154/train.parquet']
+
+***** Evaluation results for day 155:*****
+
+ eval_/next-item/avg_precision@10 = 0.1421167254447937
+ eval_/next-item/avg_precision@20 = 0.14978285133838654
+ eval_/next-item/ndcg@10 = 0.18334588408470154
+ eval_/next-item/ndcg@20 = 0.211154043674469
+ eval_/next-item/recall@10 = 0.31707316637039185
+ eval_/next-item/recall@20 = 0.4268292486667633
+
+***** Launch training for day 155: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/156/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/155/train.parquet']
+
+***** Evaluation results for day 156:*****
+
+ eval_/next-item/avg_precision@10 = 0.12054508179426193
+ eval_/next-item/avg_precision@20 = 0.12927652895450592
+ eval_/next-item/ndcg@10 = 0.1506035178899765
+ eval_/next-item/ndcg@20 = 0.1834624707698822
+ eval_/next-item/recall@10 = 0.24528302252292633
+ eval_/next-item/recall@20 = 0.37735849618911743
+
+***** Launch training for day 156: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/157/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/156/train.parquet']
+
+***** Evaluation results for day 157:*****
+
+ eval_/next-item/avg_precision@10 = 0.1568181961774826
+ eval_/next-item/avg_precision@20 = 0.16509388387203217
+ eval_/next-item/ndcg@10 = 0.19225335121154785
+ eval_/next-item/ndcg@20 = 0.2226879894733429
+ eval_/next-item/recall@10 = 0.3030303120613098
+ eval_/next-item/recall@20 = 0.42424243688583374
+
+***** Launch training for day 157: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/158/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/157/train.parquet']
+
+***** Evaluation results for day 158:*****
+
+ eval_/next-item/avg_precision@10 = 0.08764775097370148
+ eval_/next-item/avg_precision@20 = 0.09774068742990494
+ eval_/next-item/ndcg@10 = 0.11112955212593079
+ eval_/next-item/ndcg@20 = 0.14846007525920868
+ eval_/next-item/recall@10 = 0.1914893537759781
+ eval_/next-item/recall@20 = 0.3404255211353302
+
+***** Launch training for day 158: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/159/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/158/train.parquet']
+
+***** Evaluation results for day 159:*****
+
+ eval_/next-item/avg_precision@10 = 0.17678573727607727
+ eval_/next-item/avg_precision@20 = 0.18349342048168182
+ eval_/next-item/ndcg@10 = 0.2194240689277649
+ eval_/next-item/ndcg@20 = 0.24557305872440338
+ eval_/next-item/recall@10 = 0.3571428656578064
+ eval_/next-item/recall@20 = 0.4642857313156128
+
+***** Launch training for day 159: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/160/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/159/train.parquet']
+
+***** Evaluation results for day 160:*****
+
+ eval_/next-item/avg_precision@10 = 0.11506439745426178
+ eval_/next-item/avg_precision@20 = 0.12174440175294876
+ eval_/next-item/ndcg@10 = 0.16696082055568695
+ eval_/next-item/ndcg@20 = 0.19094128906726837
+ eval_/next-item/recall@10 = 0.3396226465702057
+ eval_/next-item/recall@20 = 0.43396228551864624
+
+***** Launch training for day 160: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/161/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/160/train.parquet']
+
+***** Evaluation results for day 161:*****
+
+ eval_/next-item/avg_precision@10 = 0.1281915009021759
+ eval_/next-item/avg_precision@20 = 0.14435577392578125
+ eval_/next-item/ndcg@10 = 0.15361915528774261
+ eval_/next-item/ndcg@20 = 0.20912519097328186
+ eval_/next-item/recall@10 = 0.23404254019260406
+ eval_/next-item/recall@20 = 0.44680848717689514
+
+***** Launch training for day 161: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/162/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/161/train.parquet']
+
+***** Evaluation results for day 162:*****
+
+ eval_/next-item/avg_precision@10 = 0.08265432715415955
+ eval_/next-item/avg_precision@20 = 0.08763749152421951
+ eval_/next-item/ndcg@10 = 0.12545570731163025
+ eval_/next-item/ndcg@20 = 0.14840702712535858
+ eval_/next-item/recall@10 = 0.2666666805744171
+ eval_/next-item/recall@20 = 0.35555556416511536
+
+***** Launch training for day 162: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/163/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/162/train.parquet']
+
+***** Evaluation results for day 163:*****
+
+ eval_/next-item/avg_precision@10 = 0.08777777850627899
+ eval_/next-item/avg_precision@20 = 0.09817405790090561
+ eval_/next-item/ndcg@10 = 0.11905103176832199
+ eval_/next-item/ndcg@20 = 0.15416163206100464
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.35555556416511536
+
+***** Launch training for day 163: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/164/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/163/train.parquet']
+
+***** Evaluation results for day 164:*****
+
+ eval_/next-item/avg_precision@10 = 0.08397212624549866
+ eval_/next-item/avg_precision@20 = 0.09465837478637695
+ eval_/next-item/ndcg@10 = 0.10966799408197403
+ eval_/next-item/ndcg@20 = 0.15142947435379028
+ eval_/next-item/recall@10 = 0.19512194395065308
+ eval_/next-item/recall@20 = 0.3658536374568939
+
+***** Launch training for day 164: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/165/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/164/train.parquet']
+
+***** Evaluation results for day 165:*****
+
+ eval_/next-item/avg_precision@10 = 0.1276276409626007
+ eval_/next-item/avg_precision@20 = 0.13468676805496216
+ eval_/next-item/ndcg@10 = 0.15459802746772766
+ eval_/next-item/ndcg@20 = 0.18135331571102142
+ eval_/next-item/recall@10 = 0.2432432472705841
+ eval_/next-item/recall@20 = 0.3513513505458832
+
+***** Launch training for day 165: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/166/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/165/train.parquet']
+
+***** Evaluation results for day 166:*****
+
+ eval_/next-item/avg_precision@10 = 0.028306879103183746
+ eval_/next-item/avg_precision@20 = 0.038011062890291214
+ eval_/next-item/ndcg@10 = 0.05423755943775177
+ eval_/next-item/ndcg@20 = 0.0861341655254364
+ eval_/next-item/recall@10 = 0.1428571492433548
+ eval_/next-item/recall@20 = 0.261904776096344
+
+***** Launch training for day 166: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/167/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/166/train.parquet']
+
+***** Evaluation results for day 167:*****
+
+ eval_/next-item/avg_precision@10 = 0.03453453630208969
+ eval_/next-item/avg_precision@20 = 0.040082864463329315
+ eval_/next-item/ndcg@10 = 0.06388650089502335
+ eval_/next-item/ndcg@20 = 0.08426931500434875
+ eval_/next-item/recall@10 = 0.1621621698141098
+ eval_/next-item/recall@20 = 0.2432432472705841
+
+***** Launch training for day 167: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/168/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/167/train.parquet']
+
+***** Evaluation results for day 168:*****
+
+ eval_/next-item/avg_precision@10 = 0.0805448368191719
+ eval_/next-item/avg_precision@20 = 0.08752286434173584
+ eval_/next-item/ndcg@10 = 0.12407863885164261
+ eval_/next-item/ndcg@20 = 0.15075500309467316
+ eval_/next-item/recall@10 = 0.27027028799057007
+ eval_/next-item/recall@20 = 0.37837839126586914
+
+***** Launch training for day 168: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/169/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/168/train.parquet']
+
+***** Evaluation results for day 169:*****
+
+ eval_/next-item/avg_precision@10 = 0.08967475593090057
+ eval_/next-item/avg_precision@20 = 0.09723544865846634
+ eval_/next-item/ndcg@10 = 0.12744814157485962
+ eval_/next-item/ndcg@20 = 0.15640243887901306
+ eval_/next-item/recall@10 = 0.2549019753932953
+ eval_/next-item/recall@20 = 0.37254902720451355
+
+***** Launch training for day 169: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/170/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/169/train.parquet']
+
+***** Evaluation results for day 170:*****
+
+ eval_/next-item/avg_precision@10 = 0.06992707401514053
+ eval_/next-item/avg_precision@20 = 0.08359585702419281
+ eval_/next-item/ndcg@10 = 0.09787838160991669
+ eval_/next-item/ndcg@20 = 0.14643028378486633
+ eval_/next-item/recall@10 = 0.18918919563293457
+ eval_/next-item/recall@20 = 0.37837839126586914
+
+***** Launch training for day 170: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/171/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/170/train.parquet']
+
+***** Evaluation results for day 171:*****
+
+ eval_/next-item/avg_precision@10 = 0.0875697135925293
+ eval_/next-item/avg_precision@20 = 0.09002671390771866
+ eval_/next-item/ndcg@10 = 0.14669905602931976
+ eval_/next-item/ndcg@20 = 0.15423806011676788
+ eval_/next-item/recall@10 = 0.3513513505458832
+ eval_/next-item/recall@20 = 0.37837839126586914
+
+***** Launch training for day 171: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/172/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/171/train.parquet']
+
+***** Evaluation results for day 172:*****
+
+ eval_/next-item/avg_precision@10 = 0.13499999046325684
+ eval_/next-item/avg_precision@20 = 0.13935606181621552
+ eval_/next-item/ndcg@10 = 0.1840239316225052
+ eval_/next-item/ndcg@20 = 0.197753444314003
+ eval_/next-item/recall@10 = 0.3499999940395355
+ eval_/next-item/recall@20 = 0.4000000059604645
+
+***** Launch training for day 172: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/173/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/172/train.parquet']
+
+***** Evaluation results for day 173:*****
+
+ eval_/next-item/avg_precision@10 = 0.09097222983837128
+ eval_/next-item/avg_precision@20 = 0.09669118374586105
+ eval_/next-item/ndcg@10 = 0.11659165471792221
+ eval_/next-item/ndcg@20 = 0.14035272598266602
+ eval_/next-item/recall@10 = 0.20000000298023224
+ eval_/next-item/recall@20 = 0.30000001192092896
+
+***** Launch training for day 173: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/174/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/173/train.parquet']
+
+***** Evaluation results for day 174:*****
+
+ eval_/next-item/avg_precision@10 = 0.04548611864447594
+ eval_/next-item/avg_precision@20 = 0.05338294059038162
+ eval_/next-item/ndcg@10 = 0.11834648996591568
+ eval_/next-item/ndcg@20 = 0.1490158885717392
+ eval_/next-item/recall@10 = 0.2750000059604645
+ eval_/next-item/recall@20 = 0.4000000059604645
+
+***** Launch training for day 174: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/175/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/174/train.parquet']
+
+***** Evaluation results for day 175:*****
+
+ eval_/next-item/avg_precision@10 = 0.2135869562625885
+ eval_/next-item/avg_precision@20 = 0.21486572921276093
+ eval_/next-item/ndcg@10 = 0.24507653713226318
+ eval_/next-item/ndcg@20 = 0.25028982758522034
+ eval_/next-item/recall@10 = 0.3478260934352875
+ eval_/next-item/recall@20 = 0.3695652186870575
+
+***** Launch training for day 175: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/176/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/175/train.parquet']
+
+***** Evaluation results for day 176:*****
+
+ eval_/next-item/avg_precision@10 = 0.19012250006198883
+ eval_/next-item/avg_precision@20 = 0.1970766931772232
+ eval_/next-item/ndcg@10 = 0.2254631072282791
+ eval_/next-item/ndcg@20 = 0.2521999478340149
+ eval_/next-item/recall@10 = 0.3478260934352875
+ eval_/next-item/recall@20 = 0.45652174949645996
+
+***** Launch training for day 176: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/177/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/176/train.parquet']
+
+***** Evaluation results for day 177:*****
+
+ eval_/next-item/avg_precision@10 = 0.35216572880744934
+ eval_/next-item/avg_precision@20 = 0.35809165239334106
+ eval_/next-item/ndcg@10 = 0.3885345757007599
+ eval_/next-item/ndcg@20 = 0.4100196957588196
+ eval_/next-item/recall@10 = 0.508474588394165
+ eval_/next-item/recall@20 = 0.5932203531265259
+
+***** Launch training for day 177: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/178/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/177/train.parquet']
+
+***** Evaluation results for day 178:*****
+
+ eval_/next-item/avg_precision@10 = 0.3793944716453552
+ eval_/next-item/avg_precision@20 = 0.38399356603622437
+ eval_/next-item/ndcg@10 = 0.41192030906677246
+ eval_/next-item/ndcg@20 = 0.4299563765525818
+ eval_/next-item/recall@10 = 0.5185185074806213
+ eval_/next-item/recall@20 = 0.5925925970077515
+
+***** Launch training for day 178: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/179/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/178/train.parquet']
+
+***** Evaluation results for day 179:*****
+
+ eval_/next-item/avg_precision@10 = 0.3378888666629791
+ eval_/next-item/avg_precision@20 = 0.3405384421348572
+ eval_/next-item/ndcg@10 = 0.3658617436885834
+ eval_/next-item/ndcg@20 = 0.37582290172576904
+ eval_/next-item/recall@10 = 0.4599999785423279
+ eval_/next-item/recall@20 = 0.5
+
+***** Launch training for day 179: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/180/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/179/train.parquet']
+
+***** Evaluation results for day 180:*****
+
+ eval_/next-item/avg_precision@10 = 0.46081557869911194
+ eval_/next-item/avg_precision@20 = 0.46772274374961853
+ eval_/next-item/ndcg@10 = 0.4828638434410095
+ eval_/next-item/ndcg@20 = 0.5091569423675537
+ eval_/next-item/recall@10 = 0.5531914830207825
+ eval_/next-item/recall@20 = 0.6595744490623474
+
+***** Launch training for day 180: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/181/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/180/train.parquet']
+
+***** Evaluation results for day 181:*****
+
+ eval_/next-item/avg_precision@10 = 0.4785265028476715
+ eval_/next-item/avg_precision@20 = 0.48109185695648193
+ eval_/next-item/ndcg@10 = 0.5066384077072144
+ eval_/next-item/ndcg@20 = 0.5161028504371643
+ eval_/next-item/recall@10 = 0.6037735939025879
+ eval_/next-item/recall@20 = 0.6415094137191772
+
+***** Launch training for day 181: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/182/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/181/train.parquet']
+
+***** Evaluation results for day 182:*****
+
+ eval_/next-item/avg_precision@10 = 0.38378193974494934
+ eval_/next-item/avg_precision@20 = 0.38492611050605774
+ eval_/next-item/ndcg@10 = 0.4058680534362793
+ eval_/next-item/ndcg@20 = 0.4164622724056244
+ eval_/next-item/recall@10 = 0.47826087474823
+ eval_/next-item/recall@20 = 0.52173912525177
+
+***** Launch training for day 182: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/183/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/182/train.parquet']
+
+***** Evaluation results for day 183:*****
+
+ eval_/next-item/avg_precision@10 = 0.24739231169223785
+ eval_/next-item/avg_precision@20 = 0.24739231169223785
+ eval_/next-item/ndcg@10 = 0.2852606177330017
+ eval_/next-item/ndcg@20 = 0.2852606177330017
+ eval_/next-item/recall@10 = 0.4107142984867096
+ eval_/next-item/recall@20 = 0.4107142984867096
+
+***** Launch training for day 183: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/184/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/183/train.parquet']
+
+***** Evaluation results for day 184:*****
+
+ eval_/next-item/avg_precision@10 = 0.23059965670108795
+ eval_/next-item/avg_precision@20 = 0.24001944065093994
+ eval_/next-item/ndcg@10 = 0.2460135966539383
+ eval_/next-item/ndcg@20 = 0.27967768907546997
+ eval_/next-item/recall@10 = 0.29629629850387573
+ eval_/next-item/recall@20 = 0.42592594027519226
+
+***** Launch training for day 184: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/185/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/184/train.parquet']
+
+***** Evaluation results for day 185:*****
+
+ eval_/next-item/avg_precision@10 = 0.2536492645740509
+ eval_/next-item/avg_precision@20 = 0.256181925535202
+ eval_/next-item/ndcg@10 = 0.2809407711029053
+ eval_/next-item/ndcg@20 = 0.29075661301612854
+ eval_/next-item/recall@10 = 0.37254902720451355
+ eval_/next-item/recall@20 = 0.4117647111415863
+
+***** Launch training for day 185: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/186/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/185/train.parquet']
+
+***** Evaluation results for day 186:*****
+
+ eval_/next-item/avg_precision@10 = 0.3399721086025238
+ eval_/next-item/avg_precision@20 = 0.3399721086025238
+ eval_/next-item/ndcg@10 = 0.37361669540405273
+ eval_/next-item/ndcg@20 = 0.37361669540405273
+ eval_/next-item/recall@10 = 0.4864864945411682
+ eval_/next-item/recall@20 = 0.4864864945411682
+
+***** Launch training for day 186: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/187/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/186/train.parquet']
+
+***** Evaluation results for day 187:*****
+
+ eval_/next-item/avg_precision@10 = 0.19887389242649078
+ eval_/next-item/avg_precision@20 = 0.21182483434677124
+ eval_/next-item/ndcg@10 = 0.22216488420963287
+ eval_/next-item/ndcg@20 = 0.2697770297527313
+ eval_/next-item/recall@10 = 0.29729729890823364
+ eval_/next-item/recall@20 = 0.4864864945411682
+
+***** Launch training for day 187: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/188/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/187/train.parquet']
+
+***** Evaluation results for day 188:*****
+
+ eval_/next-item/avg_precision@10 = 0.25435373187065125
+ eval_/next-item/avg_precision@20 = 0.2655494213104248
+ eval_/next-item/ndcg@10 = 0.2890035808086395
+ eval_/next-item/ndcg@20 = 0.33146506547927856
+ eval_/next-item/recall@10 = 0.4000000059604645
+ eval_/next-item/recall@20 = 0.5714285969734192
+
+***** Launch training for day 188: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/189/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/188/train.parquet']
+
+***** Evaluation results for day 189:*****
+
+ eval_/next-item/avg_precision@10 = 0.23184524476528168
+ eval_/next-item/avg_precision@20 = 0.23340773582458496
+ eval_/next-item/ndcg@10 = 0.2718372344970703
+ eval_/next-item/ndcg@20 = 0.2789519429206848
+ eval_/next-item/recall@10 = 0.40625
+ eval_/next-item/recall@20 = 0.4375
+
+***** Launch training for day 189: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/190/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/189/train.parquet']
+
+***** Evaluation results for day 190:*****
+
+ eval_/next-item/avg_precision@10 = 0.23943452537059784
+ eval_/next-item/avg_precision@20 = 0.24247024953365326
+ eval_/next-item/ndcg@10 = 0.2826690673828125
+ eval_/next-item/ndcg@20 = 0.29475972056388855
+ eval_/next-item/recall@10 = 0.42500001192092896
+ eval_/next-item/recall@20 = 0.4749999940395355
+
+***** Launch training for day 190: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/191/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/190/train.parquet']
+
+***** Evaluation results for day 191:*****
+
+ eval_/next-item/avg_precision@10 = 0.16166667640209198
+ eval_/next-item/avg_precision@20 = 0.16795454919338226
+ eval_/next-item/ndcg@10 = 0.17720907926559448
+ eval_/next-item/ndcg@20 = 0.1993117481470108
+ eval_/next-item/recall@10 = 0.22857142984867096
+ eval_/next-item/recall@20 = 0.3142857253551483
+
+***** Launch training for day 191: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/192/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/191/train.parquet']
+
+***** Evaluation results for day 192:*****
+
+ eval_/next-item/avg_precision@10 = 0.33671173453330994
+ eval_/next-item/avg_precision@20 = 0.34376177191734314
+ eval_/next-item/ndcg@10 = 0.35966888070106506
+ eval_/next-item/ndcg@20 = 0.38645073771476746
+ eval_/next-item/recall@10 = 0.4324324429035187
+ eval_/next-item/recall@20 = 0.5405405759811401
+
+***** Launch training for day 192: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/193/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/192/train.parquet']
+
+***** Evaluation results for day 193:*****
+
+ eval_/next-item/avg_precision@10 = 0.26318684220314026
+ eval_/next-item/avg_precision@20 = 0.2681547701358795
+ eval_/next-item/ndcg@10 = 0.28273525834083557
+ eval_/next-item/ndcg@20 = 0.3017602860927582
+ eval_/next-item/recall@10 = 0.3461538553237915
+ eval_/next-item/recall@20 = 0.42307692766189575
+
+***** Launch training for day 193: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/194/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/193/train.parquet']
+
+***** Evaluation results for day 194:*****
+
+ eval_/next-item/avg_precision@10 = 0.28088802099227905
+ eval_/next-item/avg_precision@20 = 0.29021045565605164
+ eval_/next-item/ndcg@10 = 0.30408504605293274
+ eval_/next-item/ndcg@20 = 0.3381558358669281
+ eval_/next-item/recall@10 = 0.37837839126586914
+ eval_/next-item/recall@20 = 0.5135135054588318
+
+***** Launch training for day 194: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/195/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/194/train.parquet']
+
+***** Evaluation results for day 195:*****
+
+ eval_/next-item/avg_precision@10 = 0.2584727704524994
+ eval_/next-item/avg_precision@20 = 0.2614850699901581
+ eval_/next-item/ndcg@10 = 0.29352664947509766
+ eval_/next-item/ndcg@20 = 0.3062615394592285
+ eval_/next-item/recall@10 = 0.4054054021835327
+ eval_/next-item/recall@20 = 0.45945948362350464
+
+***** Launch training for day 195: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/196/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/195/train.parquet']
+
+***** Evaluation results for day 196:*****
+
+ eval_/next-item/avg_precision@10 = 0.27323848009109497
+ eval_/next-item/avg_precision@20 = 0.2761975824832916
+ eval_/next-item/ndcg@10 = 0.3053686022758484
+ eval_/next-item/ndcg@20 = 0.31718477606773376
+ eval_/next-item/recall@10 = 0.4146341383457184
+ eval_/next-item/recall@20 = 0.46341460943222046
+
+***** Launch training for day 196: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/197/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/196/train.parquet']
+
+***** Evaluation results for day 197:*****
+
+ eval_/next-item/avg_precision@10 = 0.22956620156764984
+ eval_/next-item/avg_precision@20 = 0.23742832243442535
+ eval_/next-item/ndcg@10 = 0.25255677103996277
+ eval_/next-item/ndcg@20 = 0.28057757019996643
+ eval_/next-item/recall@10 = 0.3287671208381653
+ eval_/next-item/recall@20 = 0.4383561611175537
+
+***** Launch training for day 197: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/198/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/197/train.parquet']
+
+***** Evaluation results for day 198:*****
+
+ eval_/next-item/avg_precision@10 = 0.3196267783641815
+ eval_/next-item/avg_precision@20 = 0.3270696997642517
+ eval_/next-item/ndcg@10 = 0.3596545159816742
+ eval_/next-item/ndcg@20 = 0.38692253828048706
+ eval_/next-item/recall@10 = 0.4864864945411682
+ eval_/next-item/recall@20 = 0.5945945978164673
+
+***** Launch training for day 198: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/199/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/198/train.parquet']
+
+***** Evaluation results for day 199:*****
+
+ eval_/next-item/avg_precision@10 = 0.2936936914920807
+ eval_/next-item/avg_precision@20 = 0.299620658159256
+ eval_/next-item/ndcg@10 = 0.30740511417388916
+ eval_/next-item/ndcg@20 = 0.32850131392478943
+ eval_/next-item/recall@10 = 0.3513513505458832
+ eval_/next-item/recall@20 = 0.4324324429035187
+
+***** Launch training for day 199: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/200/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/199/train.parquet']
+
+***** Evaluation results for day 200:*****
+
+ eval_/next-item/avg_precision@10 = 0.18965516984462738
+ eval_/next-item/avg_precision@20 = 0.19685597717761993
+ eval_/next-item/ndcg@10 = 0.21805055439472198
+ eval_/next-item/ndcg@20 = 0.24425920844078064
+ eval_/next-item/recall@10 = 0.3103448152542114
+ eval_/next-item/recall@20 = 0.41379308700561523
+
+***** Launch training for day 200: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/201/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/200/train.parquet']
+
+***** Evaluation results for day 201:*****
+
+ eval_/next-item/avg_precision@10 = 0.2109195441007614
+ eval_/next-item/avg_precision@20 = 0.21916991472244263
+ eval_/next-item/ndcg@10 = 0.23508721590042114
+ eval_/next-item/ndcg@20 = 0.2625889480113983
+ eval_/next-item/recall@10 = 0.3103448152542114
+ eval_/next-item/recall@20 = 0.41379308700561523
+
+***** Launch training for day 201: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/202/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/201/train.parquet']
+
+***** Evaluation results for day 202:*****
+
+ eval_/next-item/avg_precision@10 = 0.35715168714523315
+ eval_/next-item/avg_precision@20 = 0.36416831612586975
+ eval_/next-item/ndcg@10 = 0.40227043628692627
+ eval_/next-item/ndcg@20 = 0.4257925748825073
+ eval_/next-item/recall@10 = 0.5555555820465088
+ eval_/next-item/recall@20 = 0.644444465637207
+
+***** Launch training for day 202: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/203/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/202/train.parquet']
+
+***** Evaluation results for day 203:*****
+
+ eval_/next-item/avg_precision@10 = 0.30405405163764954
+ eval_/next-item/avg_precision@20 = 0.309504896402359
+ eval_/next-item/ndcg@10 = 0.3345926105976105
+ eval_/next-item/ndcg@20 = 0.35490959882736206
+ eval_/next-item/recall@10 = 0.4324324429035187
+ eval_/next-item/recall@20 = 0.5135135054588318
+
+***** Launch training for day 203: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/204/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/203/train.parquet']
+
+***** Evaluation results for day 204:*****
+
+ eval_/next-item/avg_precision@10 = 0.3189223110675812
+ eval_/next-item/avg_precision@20 = 0.3189223110675812
+ eval_/next-item/ndcg@10 = 0.336778849363327
+ eval_/next-item/ndcg@20 = 0.336778849363327
+ eval_/next-item/recall@10 = 0.3947368562221527
+ eval_/next-item/recall@20 = 0.3947368562221527
+
+***** Launch training for day 204: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/205/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/204/train.parquet']
+
+***** Evaluation results for day 205:*****
+
+ eval_/next-item/avg_precision@10 = 0.3003003001213074
+ eval_/next-item/avg_precision@20 = 0.30832597613334656
+ eval_/next-item/ndcg@10 = 0.3054332435131073
+ eval_/next-item/ndcg@20 = 0.3333768844604492
+ eval_/next-item/recall@10 = 0.3243243396282196
+ eval_/next-item/recall@20 = 0.4324324429035187
+
+***** Launch training for day 205: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/206/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/205/train.parquet']
+
+***** Evaluation results for day 206:*****
+
+ eval_/next-item/avg_precision@10 = 0.12606577575206757
+ eval_/next-item/avg_precision@20 = 0.13335277140140533
+ eval_/next-item/ndcg@10 = 0.15621745586395264
+ eval_/next-item/ndcg@20 = 0.1843271702528
+ eval_/next-item/recall@10 = 0.2571428716182709
+ eval_/next-item/recall@20 = 0.37142857909202576
+
+***** Launch training for day 206: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/207/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/206/train.parquet']
+
+***** Evaluation results for day 207:*****
+
+ eval_/next-item/avg_precision@10 = 0.22833333909511566
+ eval_/next-item/avg_precision@20 = 0.23701325058937073
+ eval_/next-item/ndcg@10 = 0.2621883451938629
+ eval_/next-item/ndcg@20 = 0.2919943034648895
+ eval_/next-item/recall@10 = 0.37142857909202576
+ eval_/next-item/recall@20 = 0.48571428656578064
+
+***** Launch training for day 207: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/208/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/207/train.parquet']
+
+***** Evaluation results for day 208:*****
+
+ eval_/next-item/avg_precision@10 = 0.2967800796031952
+ eval_/next-item/avg_precision@20 = 0.29828381538391113
+ eval_/next-item/ndcg@10 = 0.3268917202949524
+ eval_/next-item/ndcg@20 = 0.33350253105163574
+ eval_/next-item/recall@10 = 0.4285714328289032
+ eval_/next-item/recall@20 = 0.4571428596973419
+
+***** Launch training for day 208: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/209/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/208/train.parquet']
+
+***** Evaluation results for day 209:*****
+
+ eval_/next-item/avg_precision@10 = 0.33174601197242737
+ eval_/next-item/avg_precision@20 = 0.33791211247444153
+ eval_/next-item/ndcg@10 = 0.34091314673423767
+ eval_/next-item/ndcg@20 = 0.3628644645214081
+ eval_/next-item/recall@10 = 0.37142857909202576
+ eval_/next-item/recall@20 = 0.4571428596973419
+
+***** Launch training for day 209: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/210/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/209/train.parquet']
+
+***** Evaluation results for day 210:*****
+
+ eval_/next-item/avg_precision@10 = 0.31029409170150757
+ eval_/next-item/avg_precision@20 = 0.316217303276062
+ eval_/next-item/ndcg@10 = 0.3413704037666321
+ eval_/next-item/ndcg@20 = 0.3634380102157593
+ eval_/next-item/recall@10 = 0.44117647409439087
+ eval_/next-item/recall@20 = 0.529411792755127
+
+***** Launch training for day 210: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/211/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/210/train.parquet']
+
+***** Evaluation results for day 211:*****
+
+ eval_/next-item/avg_precision@10 = 0.21021826565265656
+ eval_/next-item/avg_precision@20 = 0.21621303260326385
+ eval_/next-item/ndcg@10 = 0.2312421351671219
+ eval_/next-item/ndcg@20 = 0.25258365273475647
+ eval_/next-item/recall@10 = 0.3055555522441864
+ eval_/next-item/recall@20 = 0.3888888955116272
+
+***** Launch training for day 211: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/212/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/211/train.parquet']
+
+***** Evaluation results for day 212:*****
+
+ eval_/next-item/avg_precision@10 = 0.49015870690345764
+ eval_/next-item/avg_precision@20 = 0.4965689480304718
+ eval_/next-item/ndcg@10 = 0.5158489346504211
+ eval_/next-item/ndcg@20 = 0.5371643900871277
+ eval_/next-item/recall@10 = 0.5999999642372131
+ eval_/next-item/recall@20 = 0.6800000071525574
+
+***** Launch training for day 212: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/213/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/212/train.parquet']
+
+***** Evaluation results for day 213:*****
+
+ eval_/next-item/avg_precision@10 = 0.39262843132019043
+ eval_/next-item/avg_precision@20 = 0.39619213342666626
+ eval_/next-item/ndcg@10 = 0.43307730555534363
+ eval_/next-item/ndcg@20 = 0.4459681510925293
+ eval_/next-item/recall@10 = 0.5593220591545105
+ eval_/next-item/recall@20 = 0.6101694703102112
+
+***** Launch training for day 213: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/214/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/213/train.parquet']
+
+***** Evaluation results for day 214:*****
+
+ eval_/next-item/avg_precision@10 = 0.29722222685813904
+ eval_/next-item/avg_precision@20 = 0.29886695742607117
+ eval_/next-item/ndcg@10 = 0.34437984228134155
+ eval_/next-item/ndcg@20 = 0.3516104221343994
+ eval_/next-item/recall@10 = 0.5
+ eval_/next-item/recall@20 = 0.53125
+
+***** Launch training for day 214: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/215/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/214/train.parquet']
+
+***** Evaluation results for day 215:*****
+
+ eval_/next-item/avg_precision@10 = 0.29411765933036804
+ eval_/next-item/avg_precision@20 = 0.2965686321258545
+ eval_/next-item/ndcg@10 = 0.31629830598831177
+ eval_/next-item/ndcg@20 = 0.32424649596214294
+ eval_/next-item/recall@10 = 0.38235294818878174
+ eval_/next-item/recall@20 = 0.4117647111415863
+
+***** Launch training for day 215: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/216/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/215/train.parquet']
+
+***** Evaluation results for day 216:*****
+
+ eval_/next-item/avg_precision@10 = 0.34739580750465393
+ eval_/next-item/avg_precision@20 = 0.35403648018836975
+ eval_/next-item/ndcg@10 = 0.3833368420600891
+ eval_/next-item/ndcg@20 = 0.4072396457195282
+ eval_/next-item/recall@10 = 0.5
+ eval_/next-item/recall@20 = 0.59375
+
+***** Launch training for day 216: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/217/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/216/train.parquet']
+
+***** Evaluation results for day 217:*****
+
+ eval_/next-item/avg_precision@10 = 0.2862934470176697
+ eval_/next-item/avg_precision@20 = 0.29231390357017517
+ eval_/next-item/ndcg@10 = 0.3136216104030609
+ eval_/next-item/ndcg@20 = 0.3346361517906189
+ eval_/next-item/recall@10 = 0.4054054021835327
+ eval_/next-item/recall@20 = 0.4864864945411682
+
+***** Launch training for day 217: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/218/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/217/train.parquet']
+
+***** Evaluation results for day 218:*****
+
+ eval_/next-item/avg_precision@10 = 0.31358858942985535
+ eval_/next-item/avg_precision@20 = 0.3201201260089874
+ eval_/next-item/ndcg@10 = 0.34111931920051575
+ eval_/next-item/ndcg@20 = 0.3672536611557007
+ eval_/next-item/recall@10 = 0.4324324429035187
+ eval_/next-item/recall@20 = 0.5405405759811401
+
+***** Launch training for day 218: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/219/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/218/train.parquet']
+
+***** Evaluation results for day 219:*****
+
+ eval_/next-item/avg_precision@10 = 0.5030030012130737
+ eval_/next-item/avg_precision@20 = 0.5091348886489868
+ eval_/next-item/ndcg@10 = 0.5187519192695618
+ eval_/next-item/ndcg@20 = 0.5443611145019531
+ eval_/next-item/recall@10 = 0.5675675868988037
+ eval_/next-item/recall@20 = 0.6756756901741028
+
+***** Launch training for day 219: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/220/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/219/train.parquet']
+
+***** Evaluation results for day 220:*****
+
+ eval_/next-item/avg_precision@10 = 0.3047765791416168
+ eval_/next-item/avg_precision@20 = 0.3068341910839081
+ eval_/next-item/ndcg@10 = 0.34446293115615845
+ eval_/next-item/ndcg@20 = 0.35318177938461304
+ eval_/next-item/recall@10 = 0.48148149251937866
+ eval_/next-item/recall@20 = 0.5185185074806213
+
+***** Launch training for day 220: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/221/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/220/train.parquet']
+
+***** Evaluation results for day 221:*****
+
+ eval_/next-item/avg_precision@10 = 0.2610544264316559
+ eval_/next-item/avg_precision@20 = 0.2694723606109619
+ eval_/next-item/ndcg@10 = 0.2746264636516571
+ eval_/next-item/ndcg@20 = 0.30890092253685
+ eval_/next-item/recall@10 = 0.3214285969734192
+ eval_/next-item/recall@20 = 0.4642857313156128
+
+***** Launch training for day 221: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/222/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/221/train.parquet']
+
+***** Evaluation results for day 222:*****
+
+ eval_/next-item/avg_precision@10 = 0.32608696818351746
+ eval_/next-item/avg_precision@20 = 0.3282608985900879
+ eval_/next-item/ndcg@10 = 0.35295942425727844
+ eval_/next-item/ndcg@20 = 0.3628581464290619
+ eval_/next-item/recall@10 = 0.43478262424468994
+ eval_/next-item/recall@20 = 0.47826087474823
+
+***** Launch training for day 222: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/223/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/222/train.parquet']
+
+***** Evaluation results for day 223:*****
+
+ eval_/next-item/avg_precision@10 = 0.3365384638309479
+ eval_/next-item/avg_precision@20 = 0.33974358439445496
+ eval_/next-item/ndcg@10 = 0.34852334856987
+ eval_/next-item/ndcg@20 = 0.35891711711883545
+ eval_/next-item/recall@10 = 0.38461539149284363
+ eval_/next-item/recall@20 = 0.42307692766189575
+
+***** Launch training for day 223: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/224/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/223/train.parquet']
+
+***** Evaluation results for day 224:*****
+
+ eval_/next-item/avg_precision@10 = 0.4275362193584442
+ eval_/next-item/avg_precision@20 = 0.4360675811767578
+ eval_/next-item/ndcg@10 = 0.4404752254486084
+ eval_/next-item/ndcg@20 = 0.4728242754936218
+ eval_/next-item/recall@10 = 0.47826087474823
+ eval_/next-item/recall@20 = 0.6086956858634949
+
+***** Launch training for day 224: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/225/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/224/train.parquet']
+
+***** Evaluation results for day 225:*****
+
+ eval_/next-item/avg_precision@10 = 0.39313724637031555
+ eval_/next-item/avg_precision@20 = 0.4014994502067566
+ eval_/next-item/ndcg@10 = 0.4246906638145447
+ eval_/next-item/ndcg@20 = 0.45469364523887634
+ eval_/next-item/recall@10 = 0.529411792755127
+ eval_/next-item/recall@20 = 0.6470588445663452
+
+***** Launch training for day 225: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/226/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/225/train.parquet']
+
+***** Evaluation results for day 226:*****
+
+ eval_/next-item/avg_precision@10 = 0.2590000033378601
+ eval_/next-item/avg_precision@20 = 0.26135292649269104
+ eval_/next-item/ndcg@10 = 0.29989275336265564
+ eval_/next-item/ndcg@20 = 0.3094852566719055
+ eval_/next-item/recall@10 = 0.4399999976158142
+ eval_/next-item/recall@20 = 0.47999998927116394
+
+***** Launch training for day 226: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/227/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/226/train.parquet']
+
+***** Evaluation results for day 227:*****
+
+ eval_/next-item/avg_precision@10 = 0.40324604511260986
+ eval_/next-item/avg_precision@20 = 0.4063512682914734
+ eval_/next-item/ndcg@10 = 0.43933817744255066
+ eval_/next-item/ndcg@20 = 0.45314669609069824
+ eval_/next-item/recall@10 = 0.5600000023841858
+ eval_/next-item/recall@20 = 0.6200000047683716
+
+***** Launch training for day 227: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/228/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/227/train.parquet']
+
+***** Evaluation results for day 228:*****
+
+ eval_/next-item/avg_precision@10 = 0.38292771577835083
+ eval_/next-item/avg_precision@20 = 0.38802027702331543
+ eval_/next-item/ndcg@10 = 0.4068751931190491
+ eval_/next-item/ndcg@20 = 0.4243224859237671
+ eval_/next-item/recall@10 = 0.4888888895511627
+ eval_/next-item/recall@20 = 0.5555555820465088
+
+***** Launch training for day 228: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/229/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/228/train.parquet']
+
+***** Evaluation results for day 229:*****
+
+ eval_/next-item/avg_precision@10 = 0.5397533774375916
+ eval_/next-item/avg_precision@20 = 0.5459483861923218
+ eval_/next-item/ndcg@10 = 0.5563714504241943
+ eval_/next-item/ndcg@20 = 0.5789413452148438
+ eval_/next-item/recall@10 = 0.6071428656578064
+ eval_/next-item/recall@20 = 0.6964285969734192
+
+***** Launch training for day 229: *****
+eval_paths ['./datasets/preproc_sessions_by_day5/230/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/229/train.parquet']
+
+***** Evaluation results for day 230:*****
+
+ eval_/next-item/avg_precision@10 = 0.4719759225845337
+ eval_/next-item/avg_precision@20 = 0.47513681650161743
+ eval_/next-item/ndcg@10 = 0.5025493502616882
+ eval_/next-item/ndcg@20 = 0.5196111798286438
+ eval_/next-item/recall@10 = 0.6034482717514038
+ eval_/next-item/recall@20 = 0.6724137663841248
+ indexed_by_time_eval_/next-item/avg_precision@10 = 0.1918114384139851
+ indexed_by_time_eval_/next-item/avg_precision@20 = 0.19813844849179102
+ indexed_by_time_eval_/next-item/ndcg@10 = 0.22894177992011744
+ indexed_by_time_eval_/next-item/ndcg@20 = 0.2522195878926878
+ indexed_by_time_eval_/next-item/recall@10 = 0.34749959839204336
+ indexed_by_time_eval_/next-item/recall@20 = 0.4395358230967879

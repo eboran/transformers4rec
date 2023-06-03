@@ -1,0 +1,3574 @@
+max_sequence_length: 5
+session_id ValueCount(min=0, max=5)
+item_id-list_seq ValueCount(min=2, max=5)
+genome_tag-list_seq ValueCount(min=2, max=5)
+
+***** Launch training for day 3: *****
+{'loss': 11.9925, 'learning_rate': 2e-05, 'epoch': 10.0}
+{'train_runtime': 0.6732, 'train_samples_per_second': 14.854, 'train_steps_per_second': 14.854, 'train_loss': 11.99248046875, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/4/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/3/train.parquet']
+
+***** Evaluation results for day 4:*****
+
+ eval_/next-item/avg_precision@10 = 0.0
+ eval_/next-item/avg_precision@20 = 0.0
+ eval_/next-item/ndcg@10 = 0.0
+ eval_/next-item/ndcg@20 = 0.0
+ eval_/next-item/recall@10 = 0.0
+ eval_/next-item/recall@20 = 0.0
+
+***** Launch training for day 4: *****
+{'loss': 11.7912, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6868, 'train_samples_per_second': 14.559, 'train_steps_per_second': 14.559, 'train_loss': 11.791152954101562, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/5/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/4/train.parquet']
+
+***** Evaluation results for day 5:*****
+
+ eval_/next-item/avg_precision@10 = 0.056196585297584534
+ eval_/next-item/avg_precision@20 = 0.056196585297584534
+ eval_/next-item/ndcg@10 = 0.14068353176116943
+ eval_/next-item/ndcg@20 = 0.14068353176116943
+ eval_/next-item/recall@10 = 0.4273504614830017
+ eval_/next-item/recall@20 = 0.4273504614830017
+
+***** Launch training for day 5: *****
+{'loss': 11.6698, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 11.5691, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 11.5159, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3386, 'train_samples_per_second': 7.471, 'train_steps_per_second': 22.412, 'train_loss': 11.584944661458334, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/6/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/5/train.parquet']
+
+***** Evaluation results for day 6:*****
+
+ eval_/next-item/avg_precision@10 = 0.485981285572052
+ eval_/next-item/avg_precision@20 = 0.485981285572052
+ eval_/next-item/ndcg@10 = 0.485981285572052
+ eval_/next-item/ndcg@20 = 0.485981285572052
+ eval_/next-item/recall@10 = 0.485981285572052
+ eval_/next-item/recall@20 = 0.485981285572052
+
+***** Launch training for day 6: *****
+{'loss': 11.3818, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 11.1977, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 11.0212, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 10.8633, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 10.7557, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 10.6713, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 10.6371, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.3579, 'train_samples_per_second': 4.241, 'train_steps_per_second': 29.687, 'train_loss': 10.932595389229911, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/7/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/6/train.parquet']
+
+***** Evaluation results for day 7:*****
+
+ eval_/next-item/avg_precision@10 = 0.4806201756000519
+ eval_/next-item/avg_precision@20 = 0.48083552718162537
+ eval_/next-item/ndcg@10 = 0.4806201756000519
+ eval_/next-item/ndcg@20 = 0.4813184440135956
+ eval_/next-item/recall@10 = 0.4806201756000519
+ eval_/next-item/recall@20 = 0.4832041561603546
+
+***** Launch training for day 7: *****
+{'loss': 10.5245, 'learning_rate': 8.888888888888889e-05, 'epoch': 1.11}
+{'loss': 10.3208, 'learning_rate': 7.777777777777778e-05, 'epoch': 2.22}
+{'loss': 10.1798, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 10.1067, 'learning_rate': 5.555555555555556e-05, 'epoch': 4.44}
+{'loss': 9.9298, 'learning_rate': 4.4444444444444447e-05, 'epoch': 5.56}
+{'loss': 9.9088, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 9.8605, 'learning_rate': 2.2222222222222223e-05, 'epoch': 7.78}
+{'loss': 9.8118, 'learning_rate': 1.1111111111111112e-05, 'epoch': 8.89}
+{'loss': 9.8166, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.8921, 'train_samples_per_second': 3.458, 'train_steps_per_second': 31.119, 'train_loss': 10.051050652398004, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/8/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/7/train.parquet']
+
+***** Evaluation results for day 8:*****
+
+ eval_/next-item/avg_precision@10 = 0.4875519275665283
+ eval_/next-item/avg_precision@20 = 0.4875519275665283
+ eval_/next-item/ndcg@10 = 0.5141706466674805
+ eval_/next-item/ndcg@20 = 0.5141706466674805
+ eval_/next-item/recall@10 = 0.6017441749572754
+ eval_/next-item/recall@20 = 0.6017441749572754
+
+***** Launch training for day 8: *****
+{'loss': 9.7702, 'learning_rate': 8.75e-05, 'epoch': 1.25}
+{'loss': 9.6485, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 9.5476, 'learning_rate': 6.25e-05, 'epoch': 3.75}
+{'loss': 9.5005, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 9.402, 'learning_rate': 3.7500000000000003e-05, 'epoch': 6.25}
+{'loss': 9.3517, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 9.2933, 'learning_rate': 1.25e-05, 'epoch': 8.75}
+{'loss': 9.3241, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.5733, 'train_samples_per_second': 3.886, 'train_steps_per_second': 31.089, 'train_loss': 9.479730415344239, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/9/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/8/train.parquet']
+
+***** Evaluation results for day 9:*****
+
+ eval_/next-item/avg_precision@10 = 0.5411816835403442
+ eval_/next-item/avg_precision@20 = 0.5422421097755432
+ eval_/next-item/ndcg@10 = 0.5653958916664124
+ eval_/next-item/ndcg@20 = 0.5692929625511169
+ eval_/next-item/recall@10 = 0.6388888955116272
+ eval_/next-item/recall@20 = 0.654321014881134
+
+***** Launch training for day 9: *****
+{'loss': 9.1764, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 9.0852, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 9.0161, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 8.8944, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 8.8917, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 8.8026, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 8.8217, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.5447, 'train_samples_per_second': 3.93, 'train_steps_per_second': 27.508, 'train_loss': 8.955440194266183, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/10/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/9/train.parquet']
+
+***** Evaluation results for day 10:*****
+
+ eval_/next-item/avg_precision@10 = 0.469765841960907
+ eval_/next-item/avg_precision@20 = 0.47172677516937256
+ eval_/next-item/ndcg@10 = 0.49558350443840027
+ eval_/next-item/ndcg@20 = 0.5021489262580872
+ eval_/next-item/recall@10 = 0.5702478885650635
+ eval_/next-item/recall@20 = 0.5950412750244141
+
+***** Launch training for day 10: *****
+{'loss': 8.9016, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 8.8159, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 8.7397, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 8.631, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 8.5889, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 8.5977, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.0891, 'train_samples_per_second': 4.787, 'train_steps_per_second': 28.72, 'train_loss': 8.71246109008789, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/11/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/10/train.parquet']
+
+***** Evaluation results for day 11:*****
+
+ eval_/next-item/avg_precision@10 = 0.44240570068359375
+ eval_/next-item/avg_precision@20 = 0.44758903980255127
+ eval_/next-item/ndcg@10 = 0.4704652726650238
+ eval_/next-item/ndcg@20 = 0.49227485060691833
+ eval_/next-item/recall@10 = 0.5536912679672241
+ eval_/next-item/recall@20 = 0.6409395933151245
+
+***** Launch training for day 11: *****
+{'loss': 8.6677, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 8.5102, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 8.4511, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 8.3102, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 8.2907, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 8.1967, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 8.2232, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.3814, 'train_samples_per_second': 4.199, 'train_steps_per_second': 29.395, 'train_loss': 8.378551810128348, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/12/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/11/train.parquet']
+
+***** Evaluation results for day 12:*****
+
+ eval_/next-item/avg_precision@10 = 0.5160526037216187
+ eval_/next-item/avg_precision@20 = 0.5183931589126587
+ eval_/next-item/ndcg@10 = 0.5430288314819336
+ eval_/next-item/ndcg@20 = 0.5529001951217651
+ eval_/next-item/recall@10 = 0.6240875720977783
+ eval_/next-item/recall@20 = 0.6642335653305054
+
+***** Launch training for day 12: *****
+{'loss': 8.1389, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 8.0123, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 7.9503, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.802, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 7.7938, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 7.727, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.1496, 'train_samples_per_second': 4.652, 'train_steps_per_second': 27.912, 'train_loss': 7.904042943318685, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/13/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/12/train.parquet']
+
+***** Evaluation results for day 13:*****
+
+ eval_/next-item/avg_precision@10 = 0.17657722532749176
+ eval_/next-item/avg_precision@20 = 0.1777155101299286
+ eval_/next-item/ndcg@10 = 0.2180311679840088
+ eval_/next-item/ndcg@20 = 0.22198519110679626
+ eval_/next-item/recall@10 = 0.34517765045166016
+ eval_/next-item/recall@20 = 0.3604060709476471
+
+***** Launch training for day 13: *****
+{'loss': 8.7832, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 8.5716, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 8.4033, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 8.3601, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.6488, 'train_samples_per_second': 6.065, 'train_steps_per_second': 24.261, 'train_loss': 8.529534149169923, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/14/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/13/train.parquet']
+
+***** Evaluation results for day 14:*****
+
+ eval_/next-item/avg_precision@10 = 0.2230684459209442
+ eval_/next-item/avg_precision@20 = 0.22362031042575836
+ eval_/next-item/ndcg@10 = 0.27353307604789734
+ eval_/next-item/ndcg@20 = 0.27532273530960083
+ eval_/next-item/recall@10 = 0.430463582277298
+ eval_/next-item/recall@20 = 0.4370861053466797
+
+***** Launch training for day 14: *****
+{'loss': 8.2515, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 8.079, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.9533, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 7.8573, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.6528, 'train_samples_per_second': 6.05, 'train_steps_per_second': 24.202, 'train_loss': 8.035288238525391, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/15/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/14/train.parquet']
+
+***** Evaluation results for day 15:*****
+
+ eval_/next-item/avg_precision@10 = 0.12222221493721008
+ eval_/next-item/avg_precision@20 = 0.14226330816745758
+ eval_/next-item/ndcg@10 = 0.1619269698858261
+ eval_/next-item/ndcg@20 = 0.2309650182723999
+ eval_/next-item/recall@10 = 0.28431373834609985
+ eval_/next-item/recall@20 = 0.5490196347236633
+
+***** Launch training for day 15: *****
+{'loss': 7.9442, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 7.8809, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 7.7605, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.356, 'train_samples_per_second': 7.375, 'train_steps_per_second': 22.125, 'train_loss': 7.861869049072266, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/16/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/15/train.parquet']
+
+***** Evaluation results for day 16:*****
+
+ eval_/next-item/avg_precision@10 = 0.18690477311611176
+ eval_/next-item/avg_precision@20 = 0.18841992318630219
+ eval_/next-item/ndcg@10 = 0.27525702118873596
+ eval_/next-item/ndcg@20 = 0.2814469635486603
+ eval_/next-item/recall@10 = 0.5714285969734192
+ eval_/next-item/recall@20 = 0.5974025726318359
+
+***** Launch training for day 16: *****
+{'loss': 7.5765, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 7.4093, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.3065, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 7.2485, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.5814, 'train_samples_per_second': 6.324, 'train_steps_per_second': 25.295, 'train_loss': 7.385206604003907, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/17/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/16/train.parquet']
+
+***** Evaluation results for day 17:*****
+
+ eval_/next-item/avg_precision@10 = 0.19463540613651276
+ eval_/next-item/avg_precision@20 = 0.20351459085941315
+ eval_/next-item/ndcg@10 = 0.27480176091194153
+ eval_/next-item/ndcg@20 = 0.30840200185775757
+ eval_/next-item/recall@10 = 0.5338345766067505
+ eval_/next-item/recall@20 = 0.6691729426383972
+
+***** Launch training for day 17: *****
+{'loss': 7.265, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 7.1129, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 7.064, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3678, 'train_samples_per_second': 7.311, 'train_steps_per_second': 21.933, 'train_loss': 7.147288258870443, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/18/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/17/train.parquet']
+
+***** Evaluation results for day 18:*****
+
+ eval_/next-item/avg_precision@10 = 0.18431714177131653
+ eval_/next-item/avg_precision@20 = 0.19134345650672913
+ eval_/next-item/ndcg@10 = 0.2662171721458435
+ eval_/next-item/ndcg@20 = 0.2911608815193176
+ eval_/next-item/recall@10 = 0.5277777910232544
+ eval_/next-item/recall@20 = 0.625
+
+***** Launch training for day 18: *****
+{'loss': 6.9545, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 6.8275, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 6.7376, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3495, 'train_samples_per_second': 7.41, 'train_steps_per_second': 22.23, 'train_loss': 6.8398597717285154, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/19/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/18/train.parquet']
+
+***** Evaluation results for day 19:*****
+
+ eval_/next-item/avg_precision@10 = 0.2178436815738678
+ eval_/next-item/avg_precision@20 = 0.2272968292236328
+ eval_/next-item/ndcg@10 = 0.2824484407901764
+ eval_/next-item/ndcg@20 = 0.3176219165325165
+ eval_/next-item/recall@10 = 0.49152541160583496
+ eval_/next-item/recall@20 = 0.6271186470985413
+
+***** Launch training for day 19: *****
+{'loss': 6.7822, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 6.6346, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 6.5817, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3189, 'train_samples_per_second': 7.582, 'train_steps_per_second': 22.746, 'train_loss': 6.666182454427084, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/20/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/19/train.parquet']
+
+***** Evaluation results for day 20:*****
+
+ eval_/next-item/avg_precision@10 = 0.2653300166130066
+ eval_/next-item/avg_precision@20 = 0.28053218126296997
+ eval_/next-item/ndcg@10 = 0.34103846549987793
+ eval_/next-item/ndcg@20 = 0.39279887080192566
+ eval_/next-item/recall@10 = 0.5921052694320679
+ eval_/next-item/recall@20 = 0.7894737124443054
+
+***** Launch training for day 20: *****
+{'loss': 6.4322, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.3152, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0868, 'train_samples_per_second': 9.201, 'train_steps_per_second': 18.402, 'train_loss': 6.373711585998535, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/21/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/20/train.parquet']
+
+***** Evaluation results for day 21:*****
+
+ eval_/next-item/avg_precision@10 = 0.03703703731298447
+ eval_/next-item/avg_precision@20 = 0.05413105711340904
+ eval_/next-item/ndcg@10 = 0.07915715128183365
+ eval_/next-item/ndcg@20 = 0.13752372562885284
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.4444444477558136
+
+***** Launch training for day 21: *****
+{'loss': 7.4239, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6658, 'train_samples_per_second': 15.019, 'train_steps_per_second': 15.019, 'train_loss': 7.423854064941406, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/22/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/21/train.parquet']
+
+***** Evaluation results for day 22:*****
+
+ eval_/next-item/avg_precision@10 = 0.11734694242477417
+ eval_/next-item/avg_precision@20 = 0.13628491759300232
+ eval_/next-item/ndcg@10 = 0.14030450582504272
+ eval_/next-item/ndcg@20 = 0.21146641671657562
+ eval_/next-item/recall@10 = 0.2142857313156128
+ eval_/next-item/recall@20 = 0.5
+
+***** Launch training for day 22: *****
+{'loss': 7.5772, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6848, 'train_samples_per_second': 14.603, 'train_steps_per_second': 14.603, 'train_loss': 7.577212524414063, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/23/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/22/train.parquet']
+
+***** Evaluation results for day 23:*****
+
+ eval_/next-item/avg_precision@10 = 0.0628911554813385
+ eval_/next-item/avg_precision@20 = 0.06943413615226746
+ eval_/next-item/ndcg@10 = 0.10847124457359314
+ eval_/next-item/ndcg@20 = 0.13089697062969208
+ eval_/next-item/recall@10 = 0.2571428716182709
+ eval_/next-item/recall@20 = 0.34285715222358704
+
+***** Launch training for day 23: *****
+{'loss': 7.7649, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7054, 'train_samples_per_second': 14.177, 'train_steps_per_second': 14.177, 'train_loss': 7.764850616455078, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/24/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/23/train.parquet']
+
+***** Evaluation results for day 24:*****
+
+ eval_/next-item/avg_precision@10 = 0.07083334028720856
+ eval_/next-item/avg_precision@20 = 0.07732684910297394
+ eval_/next-item/ndcg@10 = 0.13676658272743225
+ eval_/next-item/ndcg@20 = 0.1566910743713379
+ eval_/next-item/recall@10 = 0.3571428656578064
+ eval_/next-item/recall@20 = 0.4285714626312256
+
+***** Launch training for day 24: *****
+{'loss': 8.0329, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6729, 'train_samples_per_second': 14.861, 'train_steps_per_second': 14.861, 'train_loss': 8.03293685913086, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/25/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/24/train.parquet']
+
+***** Evaluation results for day 25:*****
+
+ eval_/next-item/avg_precision@10 = 0.0062500000931322575
+ eval_/next-item/avg_precision@20 = 0.009926470927894115
+ eval_/next-item/ndcg@10 = 0.01806655153632164
+ eval_/next-item/ndcg@20 = 0.03305482864379883
+ eval_/next-item/recall@10 = 0.0625
+ eval_/next-item/recall@20 = 0.125
+
+***** Launch training for day 25: *****
+{'loss': 7.8558, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6608, 'train_samples_per_second': 15.132, 'train_steps_per_second': 15.132, 'train_loss': 7.855754089355469, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/26/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/25/train.parquet']
+
+***** Evaluation results for day 26:*****
+
+ eval_/next-item/avg_precision@10 = 0.14095237851142883
+ eval_/next-item/avg_precision@20 = 0.1492857187986374
+ eval_/next-item/ndcg@10 = 0.24657420814037323
+ eval_/next-item/ndcg@20 = 0.2735980451107025
+ eval_/next-item/recall@10 = 0.6000000238418579
+ eval_/next-item/recall@20 = 0.699999988079071
+
+***** Launch training for day 26: *****
+{'loss': 8.148, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8012, 'train_samples_per_second': 12.482, 'train_steps_per_second': 12.482, 'train_loss': 8.14800796508789, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/27/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/26/train.parquet']
+
+***** Evaluation results for day 27:*****
+
+ eval_/next-item/avg_precision@10 = 0.11484594643115997
+ eval_/next-item/avg_precision@20 = 0.11484594643115997
+ eval_/next-item/ndcg@10 = 0.1568627506494522
+ eval_/next-item/ndcg@20 = 0.1568627506494522
+ eval_/next-item/recall@10 = 0.29411765933036804
+ eval_/next-item/recall@20 = 0.29411765933036804
+
+***** Launch training for day 27: *****
+{'loss': 8.6771, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.735, 'train_samples_per_second': 13.606, 'train_steps_per_second': 13.606, 'train_loss': 8.677101135253906, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/28/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/27/train.parquet']
+
+***** Evaluation results for day 28:*****
+
+ eval_/next-item/avg_precision@10 = 0.08888889849185944
+ eval_/next-item/avg_precision@20 = 0.09865321218967438
+ eval_/next-item/ndcg@10 = 0.1174573004245758
+ eval_/next-item/ndcg@20 = 0.1517474204301834
+ eval_/next-item/recall@10 = 0.20000001788139343
+ eval_/next-item/recall@20 = 0.3333333432674408
+
+***** Launch training for day 28: *****
+{'loss': 7.852, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7302, 'train_samples_per_second': 13.695, 'train_steps_per_second': 13.695, 'train_loss': 7.852037811279297, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/29/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/28/train.parquet']
+
+***** Evaluation results for day 29:*****
+
+ eval_/next-item/avg_precision@10 = 0.10992064327001572
+ eval_/next-item/avg_precision@20 = 0.10992064327001572
+ eval_/next-item/ndcg@10 = 0.21476395428180695
+ eval_/next-item/ndcg@20 = 0.21476395428180695
+ eval_/next-item/recall@10 = 0.5714285969734192
+ eval_/next-item/recall@20 = 0.5714285969734192
+
+***** Launch training for day 29: *****
+{'loss': 8.2412, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.727, 'train_samples_per_second': 13.755, 'train_steps_per_second': 13.755, 'train_loss': 8.241170501708984, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/30/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/29/train.parquet']
+
+***** Evaluation results for day 30:*****
+
+ eval_/next-item/avg_precision@10 = 0.04329004883766174
+ eval_/next-item/avg_precision@20 = 0.04329004883766174
+ eval_/next-item/ndcg@10 = 0.09506797790527344
+ eval_/next-item/ndcg@20 = 0.09506797790527344
+ eval_/next-item/recall@10 = 0.27272728085517883
+ eval_/next-item/recall@20 = 0.27272728085517883
+
+***** Launch training for day 30: *****
+{'loss': 8.6011, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7096, 'train_samples_per_second': 14.092, 'train_steps_per_second': 14.092, 'train_loss': 8.601089477539062, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/31/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/30/train.parquet']
+
+***** Evaluation results for day 31:*****
+
+ eval_/next-item/avg_precision@10 = 0.09967716038227081
+ eval_/next-item/avg_precision@20 = 0.10234793275594711
+ eval_/next-item/ndcg@10 = 0.15149348974227905
+ eval_/next-item/ndcg@20 = 0.16045862436294556
+ eval_/next-item/recall@10 = 0.32203391194343567
+ eval_/next-item/recall@20 = 0.35593220591545105
+
+***** Launch training for day 31: *****
+{'loss': 8.6733, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 8.5603, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1073, 'train_samples_per_second': 9.031, 'train_steps_per_second': 18.063, 'train_loss': 8.616817092895507, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/32/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/31/train.parquet']
+
+***** Evaluation results for day 32:*****
+
+ eval_/next-item/avg_precision@10 = 0.0521739162504673
+ eval_/next-item/avg_precision@20 = 0.05886287987232208
+ eval_/next-item/ndcg@10 = 0.07168314605951309
+ eval_/next-item/ndcg@20 = 0.09452223777770996
+ eval_/next-item/recall@10 = 0.1304347813129425
+ eval_/next-item/recall@20 = 0.21739131212234497
+
+***** Launch training for day 32: *****
+{'loss': 8.2947, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7159, 'train_samples_per_second': 13.969, 'train_steps_per_second': 13.969, 'train_loss': 8.294735717773438, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/33/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/32/train.parquet']
+
+***** Evaluation results for day 33:*****
+
+ eval_/next-item/avg_precision@10 = 0.0
+ eval_/next-item/avg_precision@20 = 0.008333333767950535
+ eval_/next-item/ndcg@10 = 0.0
+ eval_/next-item/ndcg@20 = 0.03125
+ eval_/next-item/recall@10 = 0.0
+ eval_/next-item/recall@20 = 0.125
+
+***** Launch training for day 33: *****
+{'loss': 8.0778, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6502, 'train_samples_per_second': 15.38, 'train_steps_per_second': 15.38, 'train_loss': 8.077751922607423, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/34/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/33/train.parquet']
+
+***** Evaluation results for day 34:*****
+
+ eval_/next-item/avg_precision@10 = 0.0714285746216774
+ eval_/next-item/avg_precision@20 = 0.0714285746216774
+ eval_/next-item/ndcg@10 = 0.09013282507658005
+ eval_/next-item/ndcg@20 = 0.09013282507658005
+ eval_/next-item/recall@10 = 0.1428571492433548
+ eval_/next-item/recall@20 = 0.1428571492433548
+
+***** Launch training for day 34: *****
+{'loss': 8.1647, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6758, 'train_samples_per_second': 14.797, 'train_steps_per_second': 14.797, 'train_loss': 8.16473388671875, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/35/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/34/train.parquet']
+
+***** Evaluation results for day 35:*****
+
+ eval_/next-item/avg_precision@10 = 0.046875
+ eval_/next-item/avg_precision@20 = 0.05312500149011612
+ eval_/next-item/ndcg@10 = 0.09326767921447754
+ eval_/next-item/ndcg@20 = 0.12172646820545197
+ eval_/next-item/recall@10 = 0.25
+ eval_/next-item/recall@20 = 0.375
+
+***** Launch training for day 35: *****
+{'loss': 8.5048, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6939, 'train_samples_per_second': 14.411, 'train_steps_per_second': 14.411, 'train_loss': 8.504776763916016, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/36/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/35/train.parquet']
+
+***** Evaluation results for day 36:*****
+
+ eval_/next-item/avg_precision@10 = 0.05434782803058624
+ eval_/next-item/avg_precision@20 = 0.058695655316114426
+ eval_/next-item/ndcg@10 = 0.06220332905650139
+ eval_/next-item/ndcg@20 = 0.0820007473230362
+ eval_/next-item/recall@10 = 0.08695652335882187
+ eval_/next-item/recall@20 = 0.17391304671764374
+
+***** Launch training for day 36: *****
+{'loss': 8.3039, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7076, 'train_samples_per_second': 14.132, 'train_steps_per_second': 14.132, 'train_loss': 8.303879547119141, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/37/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/36/train.parquet']
+
+***** Evaluation results for day 37:*****
+
+ eval_/next-item/avg_precision@10 = 0.13630953431129456
+ eval_/next-item/avg_precision@20 = 0.1406954973936081
+ eval_/next-item/ndcg@10 = 0.19886735081672668
+ eval_/next-item/ndcg@20 = 0.218148872256279
+ eval_/next-item/recall@10 = 0.4166666865348816
+ eval_/next-item/recall@20 = 0.5
+
+***** Launch training for day 37: *****
+{'loss': 8.2056, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6982, 'train_samples_per_second': 14.323, 'train_steps_per_second': 14.323, 'train_loss': 8.20562744140625, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/38/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/37/train.parquet']
+
+***** Evaluation results for day 38:*****
+
+ eval_/next-item/avg_precision@10 = 0.3053571581840515
+ eval_/next-item/avg_precision@20 = 0.3053571581840515
+ eval_/next-item/ndcg@10 = 0.37615638971328735
+ eval_/next-item/ndcg@20 = 0.37615638971328735
+ eval_/next-item/recall@10 = 0.625
+ eval_/next-item/recall@20 = 0.625
+
+***** Launch training for day 38: *****
+{'loss': 8.0998, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7798, 'train_samples_per_second': 12.823, 'train_steps_per_second': 12.823, 'train_loss': 8.099799346923827, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/39/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/38/train.parquet']
+
+***** Evaluation results for day 39:*****
+
+ eval_/next-item/avg_precision@10 = 0.02500000037252903
+ eval_/next-item/avg_precision@20 = 0.02500000037252903
+ eval_/next-item/ndcg@10 = 0.06309297680854797
+ eval_/next-item/ndcg@20 = 0.06309297680854797
+ eval_/next-item/recall@10 = 0.20000000298023224
+ eval_/next-item/recall@20 = 0.20000000298023224
+
+***** Launch training for day 39: *****
+{'loss': 8.0924, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6514, 'train_samples_per_second': 15.351, 'train_steps_per_second': 15.351, 'train_loss': 8.092366027832032, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/40/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/39/train.parquet']
+
+***** Evaluation results for day 40:*****
+
+ eval_/next-item/avg_precision@10 = 0.1428571492433548
+ eval_/next-item/avg_precision@20 = 0.1642475426197052
+ eval_/next-item/ndcg@10 = 0.1428571492433548
+ eval_/next-item/ndcg@20 = 0.21696507930755615
+ eval_/next-item/recall@10 = 0.1428571492433548
+ eval_/next-item/recall@20 = 0.4285714626312256
+
+***** Launch training for day 40: *****
+{'loss': 7.9112, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6481, 'train_samples_per_second': 15.43, 'train_steps_per_second': 15.43, 'train_loss': 7.911190795898437, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/41/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/40/train.parquet']
+
+***** Evaluation results for day 41:*****
+
+ eval_/next-item/avg_precision@10 = 0.02857143059372902
+ eval_/next-item/avg_precision@20 = 0.02857143059372902
+ eval_/next-item/ndcg@10 = 0.05526468902826309
+ eval_/next-item/ndcg@20 = 0.05526468902826309
+ eval_/next-item/recall@10 = 0.1428571492433548
+ eval_/next-item/recall@20 = 0.1428571492433548
+
+***** Launch training for day 41: *****
+{'loss': 7.6427, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6511, 'train_samples_per_second': 15.359, 'train_steps_per_second': 15.359, 'train_loss': 7.642682647705078, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/42/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/41/train.parquet']
+
+***** Evaluation results for day 42:*****
+
+ eval_/next-item/avg_precision@10 = 0.25
+ eval_/next-item/avg_precision@20 = 0.25
+ eval_/next-item/ndcg@10 = 0.28613531589508057
+ eval_/next-item/ndcg@20 = 0.28613531589508057
+ eval_/next-item/recall@10 = 0.4000000059604645
+ eval_/next-item/recall@20 = 0.4000000059604645
+
+***** Launch training for day 42: *****
+{'loss': 8.1325, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6724, 'train_samples_per_second': 14.872, 'train_steps_per_second': 14.872, 'train_loss': 8.132450103759766, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/43/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/42/train.parquet']
+
+***** Evaluation results for day 43:*****
+
+ eval_/next-item/avg_precision@10 = 0.22857144474983215
+ eval_/next-item/avg_precision@20 = 0.22857144474983215
+ eval_/next-item/ndcg@10 = 0.2666666805744171
+ eval_/next-item/ndcg@20 = 0.2666666805744171
+ eval_/next-item/recall@10 = 0.4000000059604645
+ eval_/next-item/recall@20 = 0.4000000059604645
+
+***** Launch training for day 43: *****
+{'loss': 8.5453, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6703, 'train_samples_per_second': 14.918, 'train_steps_per_second': 14.918, 'train_loss': 8.54530029296875, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/44/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/43/train.parquet']
+
+***** Evaluation results for day 44:*****
+
+ eval_/next-item/avg_precision@10 = 0.1666666716337204
+ eval_/next-item/avg_precision@20 = 0.1666666716337204
+ eval_/next-item/ndcg@10 = 0.1666666716337204
+ eval_/next-item/ndcg@20 = 0.1666666716337204
+ eval_/next-item/recall@10 = 0.1666666716337204
+ eval_/next-item/recall@20 = 0.1666666716337204
+
+***** Launch training for day 44: *****
+{'loss': 8.6365, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6718, 'train_samples_per_second': 14.885, 'train_steps_per_second': 14.885, 'train_loss': 8.636492919921874, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/45/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/44/train.parquet']
+
+***** Evaluation results for day 45:*****
+
+ eval_/next-item/avg_precision@10 = 0.0714285746216774
+ eval_/next-item/avg_precision@20 = 0.07742258161306381
+ eval_/next-item/ndcg@10 = 0.08078069984912872
+ eval_/next-item/ndcg@20 = 0.10012329369783401
+ eval_/next-item/recall@10 = 0.1071428656578064
+ eval_/next-item/recall@20 = 0.1785714328289032
+
+***** Launch training for day 45: *****
+{'loss': 8.1673, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6693, 'train_samples_per_second': 14.941, 'train_steps_per_second': 14.941, 'train_loss': 8.167267608642579, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/46/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/45/train.parquet']
+
+***** Evaluation results for day 46:*****
+
+ eval_/next-item/avg_precision@10 = 0.10132275521755219
+ eval_/next-item/avg_precision@20 = 0.10701275616884232
+ eval_/next-item/ndcg@10 = 0.12467139959335327
+ eval_/next-item/ndcg@20 = 0.14365476369857788
+ eval_/next-item/recall@10 = 0.1984127163887024
+ eval_/next-item/recall@20 = 0.2698412835597992
+
+***** Launch training for day 46: *****
+{'loss': 8.3175, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 8.2887, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 8.1396, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.9099, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 7.9972, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 7.9577, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.2573, 'train_samples_per_second': 4.43, 'train_steps_per_second': 26.581, 'train_loss': 8.10177485148112, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/47/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/46/train.parquet']
+
+***** Evaluation results for day 47:*****
+
+ eval_/next-item/avg_precision@10 = 0.08642592281103134
+ eval_/next-item/avg_precision@20 = 0.09322807192802429
+ eval_/next-item/ndcg@10 = 0.10974777489900589
+ eval_/next-item/ndcg@20 = 0.1348632276058197
+ eval_/next-item/recall@10 = 0.18666666746139526
+ eval_/next-item/recall@20 = 0.2866666615009308
+
+***** Launch training for day 47: *****
+{'loss': 8.1664, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 8.1801, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.9707, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 8.0485, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.7906, 'train_samples_per_second': 5.585, 'train_steps_per_second': 22.339, 'train_loss': 8.09140567779541, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/48/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/47/train.parquet']
+
+***** Evaluation results for day 48:*****
+
+ eval_/next-item/avg_precision@10 = 0.10264954715967178
+ eval_/next-item/avg_precision@20 = 0.10872608423233032
+ eval_/next-item/ndcg@10 = 0.12013807147741318
+ eval_/next-item/ndcg@20 = 0.1447260081768036
+ eval_/next-item/recall@10 = 0.18027210235595703
+ eval_/next-item/recall@20 = 0.27551019191741943
+
+***** Launch training for day 48: *****
+{'loss': 7.707, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 7.6125, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 7.607, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 7.4216, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 7.5092, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 7.3195, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 7.4426, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.2912, 'train_samples_per_second': 4.365, 'train_steps_per_second': 30.552, 'train_loss': 7.5170539855957035, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/49/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/48/train.parquet']
+
+***** Evaluation results for day 49:*****
+
+ eval_/next-item/avg_precision@10 = 0.1102832481265068
+ eval_/next-item/avg_precision@20 = 0.1167919710278511
+ eval_/next-item/ndcg@10 = 0.131388857960701
+ eval_/next-item/ndcg@20 = 0.15527702867984772
+ eval_/next-item/recall@10 = 0.1982758641242981
+ eval_/next-item/recall@20 = 0.2931034564971924
+
+***** Launch training for day 49: *****
+{'loss': 7.5398, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 7.4151, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 7.5723, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3672, 'train_samples_per_second': 7.314, 'train_steps_per_second': 21.943, 'train_loss': 7.509080251057942, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/50/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/49/train.parquet']
+
+***** Evaluation results for day 50:*****
+
+ eval_/next-item/avg_precision@10 = 0.08336721360683441
+ eval_/next-item/avg_precision@20 = 0.08800540864467621
+ eval_/next-item/ndcg@10 = 0.10104250907897949
+ eval_/next-item/ndcg@20 = 0.11697521060705185
+ eval_/next-item/recall@10 = 0.15853658318519592
+ eval_/next-item/recall@20 = 0.2195121943950653
+
+***** Launch training for day 50: *****
+{'loss': 7.4145, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.3365, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0679, 'train_samples_per_second': 9.364, 'train_steps_per_second': 18.728, 'train_loss': 7.3754924774169925, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/51/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/50/train.parquet']
+
+***** Evaluation results for day 51:*****
+
+ eval_/next-item/avg_precision@10 = 0.08596643060445786
+ eval_/next-item/avg_precision@20 = 0.09067928791046143
+ eval_/next-item/ndcg@10 = 0.10915820300579071
+ eval_/next-item/ndcg@20 = 0.12716862559318542
+ eval_/next-item/recall@10 = 0.1875
+ eval_/next-item/recall@20 = 0.2604166865348816
+
+***** Launch training for day 51: *****
+{'loss': 7.3111, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.2505, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0975, 'train_samples_per_second': 9.112, 'train_steps_per_second': 18.224, 'train_loss': 7.28083610534668, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/52/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/51/train.parquet']
+
+***** Evaluation results for day 52:*****
+
+ eval_/next-item/avg_precision@10 = 0.06029871851205826
+ eval_/next-item/avg_precision@20 = 0.06720750033855438
+ eval_/next-item/ndcg@10 = 0.07326214015483856
+ eval_/next-item/ndcg@20 = 0.09758920222520828
+ eval_/next-item/recall@10 = 0.11811023950576782
+ eval_/next-item/recall@20 = 0.21259842813014984
+
+***** Launch training for day 52: *****
+{'loss': 7.4011, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 7.3526, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 7.4002, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3802, 'train_samples_per_second': 7.245, 'train_steps_per_second': 21.736, 'train_loss': 7.3846181233723955, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/53/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/52/train.parquet']
+
+***** Evaluation results for day 53:*****
+
+ eval_/next-item/avg_precision@10 = 0.13523392379283905
+ eval_/next-item/avg_precision@20 = 0.14038462936878204
+ eval_/next-item/ndcg@10 = 0.14466914534568787
+ eval_/next-item/ndcg@20 = 0.16275328397750854
+ eval_/next-item/recall@10 = 0.17543859779834747
+ eval_/next-item/recall@20 = 0.24561403691768646
+
+***** Launch training for day 53: *****
+{'loss': 7.3288, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.2641, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1857, 'train_samples_per_second': 8.434, 'train_steps_per_second': 16.867, 'train_loss': 7.296425628662109, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/54/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/53/train.parquet']
+
+***** Evaluation results for day 54:*****
+
+ eval_/next-item/avg_precision@10 = 0.09074074029922485
+ eval_/next-item/avg_precision@20 = 0.09197530895471573
+ eval_/next-item/ndcg@10 = 0.12130200862884521
+ eval_/next-item/ndcg@20 = 0.12593163549900055
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.24074074625968933
+
+***** Launch training for day 54: *****
+{'loss': 7.5076, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.4157, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0819, 'train_samples_per_second': 9.243, 'train_steps_per_second': 18.486, 'train_loss': 7.461637496948242, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/55/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/54/train.parquet']
+
+***** Evaluation results for day 55:*****
+
+ eval_/next-item/avg_precision@10 = 0.12065163254737854
+ eval_/next-item/avg_precision@20 = 0.1258525252342224
+ eval_/next-item/ndcg@10 = 0.14671027660369873
+ eval_/next-item/ndcg@20 = 0.16547055542469025
+ eval_/next-item/recall@10 = 0.23157896101474762
+ eval_/next-item/recall@20 = 0.3052631616592407
+
+***** Launch training for day 55: *****
+{'loss': 6.9792, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.9056, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1135, 'train_samples_per_second': 8.98, 'train_steps_per_second': 17.961, 'train_loss': 6.942383575439453, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/56/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/55/train.parquet']
+
+***** Evaluation results for day 56:*****
+
+ eval_/next-item/avg_precision@10 = 0.07942215353250504
+ eval_/next-item/avg_precision@20 = 0.08533769100904465
+ eval_/next-item/ndcg@10 = 0.09757322818040848
+ eval_/next-item/ndcg@20 = 0.11747971177101135
+ eval_/next-item/recall@10 = 0.15753424167633057
+ eval_/next-item/recall@20 = 0.232876718044281
+
+***** Launch training for day 56: *****
+{'loss': 6.7497, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 6.6473, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 6.7448, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.416, 'train_samples_per_second': 7.062, 'train_steps_per_second': 21.187, 'train_loss': 6.713929748535156, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/57/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/56/train.parquet']
+
+***** Evaluation results for day 57:*****
+
+ eval_/next-item/avg_precision@10 = 0.05823181942105293
+ eval_/next-item/avg_precision@20 = 0.05939461290836334
+ eval_/next-item/ndcg@10 = 0.07627274841070175
+ eval_/next-item/ndcg@20 = 0.08156740665435791
+ eval_/next-item/recall@10 = 0.13953489065170288
+ eval_/next-item/recall@20 = 0.1627907007932663
+
+***** Launch training for day 57: *****
+{'loss': 6.711, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7055, 'train_samples_per_second': 14.175, 'train_steps_per_second': 14.175, 'train_loss': 6.711012268066407, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/58/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/57/train.parquet']
+
+***** Evaluation results for day 58:*****
+
+ eval_/next-item/avg_precision@10 = 0.10049019753932953
+ eval_/next-item/avg_precision@20 = 0.10485348105430603
+ eval_/next-item/ndcg@10 = 0.11908068507909775
+ eval_/next-item/ndcg@20 = 0.13433384895324707
+ eval_/next-item/recall@10 = 0.1764705926179886
+ eval_/next-item/recall@20 = 0.23529411852359772
+
+***** Launch training for day 58: *****
+{'loss': 6.7341, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.815, 'train_samples_per_second': 12.269, 'train_steps_per_second': 12.269, 'train_loss': 6.734091949462891, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/59/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/58/train.parquet']
+
+***** Evaluation results for day 59:*****
+
+ eval_/next-item/avg_precision@10 = 0.10122355073690414
+ eval_/next-item/avg_precision@20 = 0.10665629804134369
+ eval_/next-item/ndcg@10 = 0.12126056104898453
+ eval_/next-item/ndcg@20 = 0.14063332974910736
+ eval_/next-item/recall@10 = 0.18560606241226196
+ eval_/next-item/recall@20 = 0.2613636553287506
+
+***** Launch training for day 59: *****
+{'loss': 6.8532, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 6.8419, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 6.8141, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.6033, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 6.7194, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 6.6649, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.2775, 'train_samples_per_second': 4.391, 'train_steps_per_second': 26.345, 'train_loss': 6.749481709798177, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/60/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/59/train.parquet']
+
+***** Evaluation results for day 60:*****
+
+ eval_/next-item/avg_precision@10 = 0.08185464143753052
+ eval_/next-item/avg_precision@20 = 0.08532427996397018
+ eval_/next-item/ndcg@10 = 0.09672247618436813
+ eval_/next-item/ndcg@20 = 0.10980650782585144
+ eval_/next-item/recall@10 = 0.1473684310913086
+ eval_/next-item/recall@20 = 0.20000000298023224
+
+***** Launch training for day 60: *****
+{'loss': 6.1731, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.1347, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1973, 'train_samples_per_second': 8.352, 'train_steps_per_second': 16.704, 'train_loss': 6.153907012939453, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/61/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/60/train.parquet']
+
+***** Evaluation results for day 61:*****
+
+ eval_/next-item/avg_precision@10 = 0.12336377054452896
+ eval_/next-item/avg_precision@20 = 0.1276138573884964
+ eval_/next-item/ndcg@10 = 0.1385050266981125
+ eval_/next-item/ndcg@20 = 0.15293140709400177
+ eval_/next-item/recall@10 = 0.19178082048892975
+ eval_/next-item/recall@20 = 0.24657534062862396
+
+***** Launch training for day 61: *****
+{'loss': 6.5549, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.4891, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1891, 'train_samples_per_second': 8.41, 'train_steps_per_second': 16.819, 'train_loss': 6.521964645385742, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/62/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/61/train.parquet']
+
+***** Evaluation results for day 62:*****
+
+ eval_/next-item/avg_precision@10 = 0.09556878358125687
+ eval_/next-item/avg_precision@20 = 0.10427088290452957
+ eval_/next-item/ndcg@10 = 0.1216195821762085
+ eval_/next-item/ndcg@20 = 0.15095442533493042
+ eval_/next-item/recall@10 = 0.20370370149612427
+ eval_/next-item/recall@20 = 0.31481480598449707
+
+***** Launch training for day 62: *****
+{'loss': 6.8975, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.8263, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1786, 'train_samples_per_second': 8.484, 'train_steps_per_second': 16.969, 'train_loss': 6.861889266967774, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/63/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/62/train.parquet']
+
+***** Evaluation results for day 63:*****
+
+ eval_/next-item/avg_precision@10 = 0.017575187608599663
+ eval_/next-item/avg_precision@20 = 0.021099623292684555
+ eval_/next-item/ndcg@10 = 0.03743430972099304
+ eval_/next-item/ndcg@20 = 0.05060822144150734
+ eval_/next-item/recall@10 = 0.10526315867900848
+ eval_/next-item/recall@20 = 0.15789473056793213
+
+***** Launch training for day 63: *****
+{'loss': 6.3088, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7378, 'train_samples_per_second': 13.554, 'train_steps_per_second': 13.554, 'train_loss': 6.308782958984375, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/64/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/63/train.parquet']
+
+***** Evaluation results for day 64:*****
+
+ eval_/next-item/avg_precision@10 = 0.10170067101716995
+ eval_/next-item/avg_precision@20 = 0.10913832485675812
+ eval_/next-item/ndcg@10 = 0.11772049218416214
+ eval_/next-item/ndcg@20 = 0.1460452675819397
+ eval_/next-item/recall@10 = 0.17142857611179352
+ eval_/next-item/recall@20 = 0.2857142984867096
+
+***** Launch training for day 64: *****
+{'loss': 6.1241, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7372, 'train_samples_per_second': 13.564, 'train_steps_per_second': 13.564, 'train_loss': 6.124107742309571, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/65/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/64/train.parquet']
+
+***** Evaluation results for day 65:*****
+
+ eval_/next-item/avg_precision@10 = 0.07934782654047012
+ eval_/next-item/avg_precision@20 = 0.08423913270235062
+ eval_/next-item/ndcg@10 = 0.10144554078578949
+ eval_/next-item/ndcg@20 = 0.12198122590780258
+ eval_/next-item/recall@10 = 0.17391304671764374
+ eval_/next-item/recall@20 = 0.260869562625885
+
+***** Launch training for day 65: *****
+{'loss': 6.4878, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.733, 'train_samples_per_second': 13.642, 'train_steps_per_second': 13.642, 'train_loss': 6.487781524658203, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/66/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/65/train.parquet']
+
+***** Evaluation results for day 66:*****
+
+ eval_/next-item/avg_precision@10 = 0.05312500149011612
+ eval_/next-item/avg_precision@20 = 0.056767940521240234
+ eval_/next-item/ndcg@10 = 0.06660102307796478
+ eval_/next-item/ndcg@20 = 0.07856567949056625
+ eval_/next-item/recall@10 = 0.1071428656578064
+ eval_/next-item/recall@20 = 0.1517857164144516
+
+***** Launch training for day 66: *****
+{'loss': 6.828, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 6.6998, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 6.8581, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.4658, 'train_samples_per_second': 6.822, 'train_steps_per_second': 20.466, 'train_loss': 6.79530029296875, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/67/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/66/train.parquet']
+
+***** Evaluation results for day 67:*****
+
+ eval_/next-item/avg_precision@10 = 0.0803682878613472
+ eval_/next-item/avg_precision@20 = 0.08265938609838486
+ eval_/next-item/ndcg@10 = 0.09546540677547455
+ eval_/next-item/ndcg@20 = 0.10393750667572021
+ eval_/next-item/recall@10 = 0.14606741070747375
+ eval_/next-item/recall@20 = 0.17977528274059296
+
+***** Launch training for day 67: *****
+{'loss': 6.4804, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.4036, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2204, 'train_samples_per_second': 8.194, 'train_steps_per_second': 16.389, 'train_loss': 6.4420005798339846, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/68/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/67/train.parquet']
+
+***** Evaluation results for day 68:*****
+
+ eval_/next-item/avg_precision@10 = 0.15347222983837128
+ eval_/next-item/avg_precision@20 = 0.15347222983837128
+ eval_/next-item/ndcg@10 = 0.1814296543598175
+ eval_/next-item/ndcg@20 = 0.1814296543598175
+ eval_/next-item/recall@10 = 0.267857164144516
+ eval_/next-item/recall@20 = 0.267857164144516
+
+***** Launch training for day 68: *****
+{'loss': 6.6864, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.5766, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1715, 'train_samples_per_second': 8.536, 'train_steps_per_second': 17.072, 'train_loss': 6.631490325927734, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/69/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/68/train.parquet']
+
+***** Evaluation results for day 69:*****
+
+ eval_/next-item/avg_precision@10 = 0.055870022624731064
+ eval_/next-item/avg_precision@20 = 0.06187107041478157
+ eval_/next-item/ndcg@10 = 0.07837971299886703
+ eval_/next-item/ndcg@20 = 0.10154891759157181
+ eval_/next-item/recall@10 = 0.15094339847564697
+ eval_/next-item/recall@20 = 0.24528302252292633
+
+***** Launch training for day 69: *****
+{'loss': 7.3396, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.2448, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1775, 'train_samples_per_second': 8.493, 'train_steps_per_second': 16.986, 'train_loss': 7.2921913146972654, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/70/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/69/train.parquet']
+
+***** Evaluation results for day 70:*****
+
+ eval_/next-item/avg_precision@10 = 0.11624149978160858
+ eval_/next-item/avg_precision@20 = 0.12128055095672607
+ eval_/next-item/ndcg@10 = 0.1357162892818451
+ eval_/next-item/ndcg@20 = 0.15680105984210968
+ eval_/next-item/recall@10 = 0.196428582072258
+ eval_/next-item/recall@20 = 0.2857142984867096
+
+***** Launch training for day 70: *****
+{'loss': 6.6427, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.5806, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.177, 'train_samples_per_second': 8.496, 'train_steps_per_second': 16.992, 'train_loss': 6.611659240722656, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/71/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/70/train.parquet']
+
+***** Evaluation results for day 71:*****
+
+ eval_/next-item/avg_precision@10 = 0.14435027539730072
+ eval_/next-item/avg_precision@20 = 0.1526302695274353
+ eval_/next-item/ndcg@10 = 0.17122188210487366
+ eval_/next-item/ndcg@20 = 0.20403611660003662
+ eval_/next-item/recall@10 = 0.2542372941970825
+ eval_/next-item/recall@20 = 0.38983049988746643
+
+***** Launch training for day 71: *****
+{'loss': 6.3086, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.2329, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1697, 'train_samples_per_second': 8.549, 'train_steps_per_second': 17.099, 'train_loss': 6.270751953125, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/72/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/71/train.parquet']
+
+***** Evaluation results for day 72:*****
+
+ eval_/next-item/avg_precision@10 = 0.05974842980504036
+ eval_/next-item/avg_precision@20 = 0.06396328657865524
+ eval_/next-item/ndcg@10 = 0.07755377143621445
+ eval_/next-item/ndcg@20 = 0.0922141745686531
+ eval_/next-item/recall@10 = 0.1320754736661911
+ eval_/next-item/recall@20 = 0.18867924809455872
+
+***** Launch training for day 72: *****
+{'loss': 6.6253, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.5573, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1068, 'train_samples_per_second': 9.035, 'train_steps_per_second': 18.071, 'train_loss': 6.591331100463867, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/73/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/72/train.parquet']
+
+***** Evaluation results for day 73:*****
+
+ eval_/next-item/avg_precision@10 = 0.0900297611951828
+ eval_/next-item/avg_precision@20 = 0.09599965065717697
+ eval_/next-item/ndcg@10 = 0.11530805379152298
+ eval_/next-item/ndcg@20 = 0.1376270353794098
+ eval_/next-item/recall@10 = 0.196428582072258
+ eval_/next-item/recall@20 = 0.2857142984867096
+
+***** Launch training for day 73: *****
+{'loss': 6.3717, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.3046, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1221, 'train_samples_per_second': 8.912, 'train_steps_per_second': 17.823, 'train_loss': 6.338179206848144, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/74/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/73/train.parquet']
+
+***** Evaluation results for day 74:*****
+
+ eval_/next-item/avg_precision@10 = 0.059204794466495514
+ eval_/next-item/avg_precision@20 = 0.06822699308395386
+ eval_/next-item/ndcg@10 = 0.0822722315788269
+ eval_/next-item/ndcg@20 = 0.11636637896299362
+ eval_/next-item/recall@10 = 0.1568627506494522
+ eval_/next-item/recall@20 = 0.29411765933036804
+
+***** Launch training for day 74: *****
+{'loss': 5.7326, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7823, 'train_samples_per_second': 12.782, 'train_steps_per_second': 12.782, 'train_loss': 5.732602310180664, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/75/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/74/train.parquet']
+
+***** Evaluation results for day 75:*****
+
+ eval_/next-item/avg_precision@10 = 0.05630631372332573
+ eval_/next-item/avg_precision@20 = 0.05789613351225853
+ eval_/next-item/ndcg@10 = 0.08205081522464752
+ eval_/next-item/ndcg@20 = 0.08853224664926529
+ eval_/next-item/recall@10 = 0.1621621698141098
+ eval_/next-item/recall@20 = 0.18918919563293457
+
+***** Launch training for day 75: *****
+{'loss': 5.9349, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7626, 'train_samples_per_second': 13.113, 'train_steps_per_second': 13.113, 'train_loss': 5.934902572631836, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/76/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/75/train.parquet']
+
+***** Evaluation results for day 76:*****
+
+ eval_/next-item/avg_precision@10 = 0.11320754885673523
+ eval_/next-item/avg_precision@20 = 0.12372784316539764
+ eval_/next-item/ndcg@10 = 0.1181483045220375
+ eval_/next-item/ndcg@20 = 0.1564083695411682
+ eval_/next-item/recall@10 = 0.1320754736661911
+ eval_/next-item/recall@20 = 0.28301888704299927
+
+***** Launch training for day 76: *****
+{'loss': 6.4383, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.4395, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2858, 'train_samples_per_second': 7.777, 'train_steps_per_second': 15.555, 'train_loss': 6.438879776000976, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/77/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/76/train.parquet']
+
+***** Evaluation results for day 77:*****
+
+ eval_/next-item/avg_precision@10 = 0.09166667610406876
+ eval_/next-item/avg_precision@20 = 0.10391157120466232
+ eval_/next-item/ndcg@10 = 0.11178259551525116
+ eval_/next-item/ndcg@20 = 0.15685102343559265
+ eval_/next-item/recall@10 = 0.1785714328289032
+ eval_/next-item/recall@20 = 0.3571428656578064
+
+***** Launch training for day 77: *****
+{'loss': 5.8102, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8423, 'train_samples_per_second': 11.873, 'train_steps_per_second': 11.873, 'train_loss': 5.810203933715821, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/78/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/77/train.parquet']
+
+***** Evaluation results for day 78:*****
+
+ eval_/next-item/avg_precision@10 = 0.2182539850473404
+ eval_/next-item/avg_precision@20 = 0.22251464426517487
+ eval_/next-item/ndcg@10 = 0.23438894748687744
+ eval_/next-item/ndcg@20 = 0.26050958037376404
+ eval_/next-item/recall@10 = 0.2857142984867096
+ eval_/next-item/recall@20 = 0.392857164144516
+
+***** Launch training for day 78: *****
+{'loss': 5.7096, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7518, 'train_samples_per_second': 13.301, 'train_steps_per_second': 13.301, 'train_loss': 5.709584426879883, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/79/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/78/train.parquet']
+
+***** Evaluation results for day 79:*****
+
+ eval_/next-item/avg_precision@10 = 0.06896551698446274
+ eval_/next-item/avg_precision@20 = 0.07853510975837708
+ eval_/next-item/ndcg@10 = 0.08702479302883148
+ eval_/next-item/ndcg@20 = 0.1219647228717804
+ eval_/next-item/recall@10 = 0.13793103396892548
+ eval_/next-item/recall@20 = 0.27586206793785095
+
+***** Launch training for day 79: *****
+{'loss': 6.365, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.697, 'train_samples_per_second': 14.347, 'train_steps_per_second': 14.347, 'train_loss': 6.364986801147461, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/80/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/79/train.parquet']
+
+***** Evaluation results for day 80:*****
+
+ eval_/next-item/avg_precision@10 = 0.14750957489013672
+ eval_/next-item/avg_precision@20 = 0.1574644148349762
+ eval_/next-item/ndcg@10 = 0.1605944037437439
+ eval_/next-item/ndcg@20 = 0.19600144028663635
+ eval_/next-item/recall@10 = 0.20689654350280762
+ eval_/next-item/recall@20 = 0.3448275923728943
+
+***** Launch training for day 80: *****
+{'loss': 5.7727, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.724, 'train_samples_per_second': 13.813, 'train_steps_per_second': 13.813, 'train_loss': 5.772724914550781, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/81/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/80/train.parquet']
+
+***** Evaluation results for day 81:*****
+
+ eval_/next-item/avg_precision@10 = 0.14080460369586945
+ eval_/next-item/avg_precision@20 = 0.14870131015777588
+ eval_/next-item/ndcg@10 = 0.1572967767715454
+ eval_/next-item/ndcg@20 = 0.18436230719089508
+ eval_/next-item/recall@10 = 0.20689654350280762
+ eval_/next-item/recall@20 = 0.3103448152542114
+
+***** Launch training for day 81: *****
+{'loss': 5.846, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.676, 'train_samples_per_second': 14.793, 'train_steps_per_second': 14.793, 'train_loss': 5.8459922790527346, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/82/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/81/train.parquet']
+
+***** Evaluation results for day 82:*****
+
+ eval_/next-item/avg_precision@10 = 0.06253006309270859
+ eval_/next-item/avg_precision@20 = 0.07870404422283173
+ eval_/next-item/ndcg@10 = 0.08954042196273804
+ eval_/next-item/ndcg@20 = 0.1452610045671463
+ eval_/next-item/recall@10 = 0.1818181872367859
+ eval_/next-item/recall@20 = 0.39393940567970276
+
+***** Launch training for day 82: *****
+{'loss': 5.7989, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7383, 'train_samples_per_second': 13.545, 'train_steps_per_second': 13.545, 'train_loss': 5.798920440673828, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/83/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/82/train.parquet']
+
+***** Evaluation results for day 83:*****
+
+ eval_/next-item/avg_precision@10 = 0.07480695098638535
+ eval_/next-item/avg_precision@20 = 0.08691590279340744
+ eval_/next-item/ndcg@10 = 0.08864130079746246
+ eval_/next-item/ndcg@20 = 0.13077089190483093
+ eval_/next-item/recall@10 = 0.13513514399528503
+ eval_/next-item/recall@20 = 0.29729729890823364
+
+***** Launch training for day 83: *****
+{'loss': 5.6916, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.777, 'train_samples_per_second': 12.87, 'train_steps_per_second': 12.87, 'train_loss': 5.691562271118164, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/84/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/83/train.parquet']
+
+***** Evaluation results for day 84:*****
+
+ eval_/next-item/avg_precision@10 = 0.08716215938329697
+ eval_/next-item/avg_precision@20 = 0.09346847236156464
+ eval_/next-item/ndcg@10 = 0.10449700802564621
+ eval_/next-item/ndcg@20 = 0.12586122751235962
+ eval_/next-item/recall@10 = 0.1621621698141098
+ eval_/next-item/recall@20 = 0.2432432472705841
+
+***** Launch training for day 84: *****
+{'loss': 5.6591, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.864, 'train_samples_per_second': 11.575, 'train_steps_per_second': 11.575, 'train_loss': 5.659074401855468, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/85/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/84/train.parquet']
+
+***** Evaluation results for day 85:*****
+
+ eval_/next-item/avg_precision@10 = 0.05051098018884659
+ eval_/next-item/avg_precision@20 = 0.05735550820827484
+ eval_/next-item/ndcg@10 = 0.06709180772304535
+ eval_/next-item/ndcg@20 = 0.08927971124649048
+ eval_/next-item/recall@10 = 0.12328767031431198
+ eval_/next-item/recall@20 = 0.2054794430732727
+
+***** Launch training for day 85: *****
+{'loss': 6.1837, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.1161, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1877, 'train_samples_per_second': 8.419, 'train_steps_per_second': 16.839, 'train_loss': 6.1499065399169925, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/86/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/85/train.parquet']
+
+***** Evaluation results for day 86:*****
+
+ eval_/next-item/avg_precision@10 = 0.07973356544971466
+ eval_/next-item/avg_precision@20 = 0.08807463943958282
+ eval_/next-item/ndcg@10 = 0.09796997159719467
+ eval_/next-item/ndcg@20 = 0.12620809674263
+ eval_/next-item/recall@10 = 0.1607142984867096
+ eval_/next-item/recall@20 = 0.267857164144516
+
+***** Launch training for day 86: *****
+{'loss': 5.598, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.5625, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2273, 'train_samples_per_second': 8.148, 'train_steps_per_second': 16.295, 'train_loss': 5.58029727935791, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/87/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/86/train.parquet']
+
+***** Evaluation results for day 87:*****
+
+ eval_/next-item/avg_precision@10 = 0.07231775671243668
+ eval_/next-item/avg_precision@20 = 0.07658730447292328
+ eval_/next-item/ndcg@10 = 0.10223492234945297
+ eval_/next-item/ndcg@20 = 0.1198715940117836
+ eval_/next-item/recall@10 = 0.20370370149612427
+ eval_/next-item/recall@20 = 0.2777777910232544
+
+***** Launch training for day 87: *****
+{'loss': 6.0941, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.9919, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2304, 'train_samples_per_second': 8.127, 'train_steps_per_second': 16.254, 'train_loss': 6.042962265014649, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/88/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/87/train.parquet']
+
+***** Evaluation results for day 88:*****
+
+ eval_/next-item/avg_precision@10 = 0.1268339902162552
+ eval_/next-item/avg_precision@20 = 0.13311883807182312
+ eval_/next-item/ndcg@10 = 0.1541023701429367
+ eval_/next-item/ndcg@20 = 0.17999841272830963
+ eval_/next-item/recall@10 = 0.2432432472705841
+ eval_/next-item/recall@20 = 0.3513513505458832
+
+***** Launch training for day 88: *****
+{'loss': 5.6522, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7141, 'train_samples_per_second': 14.004, 'train_steps_per_second': 14.004, 'train_loss': 5.652159881591797, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/89/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/88/train.parquet']
+
+***** Evaluation results for day 89:*****
+
+ eval_/next-item/avg_precision@10 = 0.0957823172211647
+ eval_/next-item/avg_precision@20 = 0.09768708050251007
+ eval_/next-item/ndcg@10 = 0.1527235060930252
+ eval_/next-item/ndcg@20 = 0.1598663628101349
+ eval_/next-item/recall@10 = 0.34285715222358704
+ eval_/next-item/recall@20 = 0.37142857909202576
+
+***** Launch training for day 89: *****
+{'loss': 5.4323, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7181, 'train_samples_per_second': 13.926, 'train_steps_per_second': 13.926, 'train_loss': 5.432291412353516, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/90/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/89/train.parquet']
+
+***** Evaluation results for day 90:*****
+
+ eval_/next-item/avg_precision@10 = 0.06914966553449631
+ eval_/next-item/avg_precision@20 = 0.07073696702718735
+ eval_/next-item/ndcg@10 = 0.11310159415006638
+ eval_/next-item/ndcg@20 = 0.11982756853103638
+ eval_/next-item/recall@10 = 0.2571428716182709
+ eval_/next-item/recall@20 = 0.2857142984867096
+
+***** Launch training for day 90: *****
+{'loss': 5.1131, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7137, 'train_samples_per_second': 14.011, 'train_steps_per_second': 14.011, 'train_loss': 5.11312255859375, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/91/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/90/train.parquet']
+
+***** Evaluation results for day 91:*****
+
+ eval_/next-item/avg_precision@10 = 0.06924118846654892
+ eval_/next-item/avg_precision@20 = 0.07198509573936462
+ eval_/next-item/ndcg@10 = 0.10428771376609802
+ eval_/next-item/ndcg@20 = 0.11580774188041687
+ eval_/next-item/recall@10 = 0.2195121943950653
+ eval_/next-item/recall@20 = 0.2682926654815674
+
+***** Launch training for day 91: *****
+{'loss': 5.4428, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7183, 'train_samples_per_second': 13.922, 'train_steps_per_second': 13.922, 'train_loss': 5.44282341003418, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/92/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/91/train.parquet']
+
+***** Evaluation results for day 92:*****
+
+ eval_/next-item/avg_precision@10 = 0.08292283117771149
+ eval_/next-item/avg_precision@20 = 0.08464696258306503
+ eval_/next-item/ndcg@10 = 0.12678198516368866
+ eval_/next-item/ndcg@20 = 0.1346326768398285
+ eval_/next-item/recall@10 = 0.27586206793785095
+ eval_/next-item/recall@20 = 0.3103448152542114
+
+***** Launch training for day 92: *****
+{'loss': 5.6411, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7129, 'train_samples_per_second': 14.028, 'train_steps_per_second': 14.028, 'train_loss': 5.641102600097656, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/93/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/92/train.parquet']
+
+***** Evaluation results for day 93:*****
+
+ eval_/next-item/avg_precision@10 = 0.05006265640258789
+ eval_/next-item/avg_precision@20 = 0.05137844756245613
+ eval_/next-item/ndcg@10 = 0.08756683766841888
+ eval_/next-item/ndcg@20 = 0.0935581624507904
+ eval_/next-item/recall@10 = 0.21052631735801697
+ eval_/next-item/recall@20 = 0.2368421107530594
+
+***** Launch training for day 93: *****
+{'loss': 5.5179, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7138, 'train_samples_per_second': 14.01, 'train_steps_per_second': 14.01, 'train_loss': 5.5178688049316404, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/94/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/93/train.parquet']
+
+***** Evaluation results for day 94:*****
+
+ eval_/next-item/avg_precision@10 = 0.14450880885124207
+ eval_/next-item/avg_precision@20 = 0.14902260899543762
+ eval_/next-item/ndcg@10 = 0.19294221699237823
+ eval_/next-item/ndcg@20 = 0.2120395004749298
+ eval_/next-item/recall@10 = 0.3513513505458832
+ eval_/next-item/recall@20 = 0.4324324429035187
+
+***** Launch training for day 94: *****
+{'loss': 5.5378, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7485, 'train_samples_per_second': 13.359, 'train_steps_per_second': 13.359, 'train_loss': 5.537821197509766, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/95/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/94/train.parquet']
+
+***** Evaluation results for day 95:*****
+
+ eval_/next-item/avg_precision@10 = 0.06405343115329742
+ eval_/next-item/avg_precision@20 = 0.07102818042039871
+ eval_/next-item/ndcg@10 = 0.10654138773679733
+ eval_/next-item/ndcg@20 = 0.13543471693992615
+ eval_/next-item/recall@10 = 0.24390242993831635
+ eval_/next-item/recall@20 = 0.3658536374568939
+
+***** Launch training for day 95: *****
+{'loss': 5.126, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7601, 'train_samples_per_second': 13.157, 'train_steps_per_second': 13.157, 'train_loss': 5.12596435546875, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/96/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/95/train.parquet']
+
+***** Evaluation results for day 96:*****
+
+ eval_/next-item/avg_precision@10 = 0.04851995036005974
+ eval_/next-item/avg_precision@20 = 0.05730907991528511
+ eval_/next-item/ndcg@10 = 0.08730262517929077
+ eval_/next-item/ndcg@20 = 0.13132226467132568
+ eval_/next-item/recall@10 = 0.21621622145175934
+ eval_/next-item/recall@20 = 0.4054054021835327
+
+***** Launch training for day 96: *****
+{'loss': 5.4664, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7422, 'train_samples_per_second': 13.474, 'train_steps_per_second': 13.474, 'train_loss': 5.466353988647461, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/97/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/96/train.parquet']
+
+***** Evaluation results for day 97:*****
+
+ eval_/next-item/avg_precision@10 = 0.041507937014102936
+ eval_/next-item/avg_precision@20 = 0.049924787133932114
+ eval_/next-item/ndcg@10 = 0.06681077182292938
+ eval_/next-item/ndcg@20 = 0.09949257224798203
+ eval_/next-item/recall@10 = 0.15555556118488312
+ eval_/next-item/recall@20 = 0.2888889014720917
+
+***** Launch training for day 97: *****
+{'loss': 5.5005, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7182, 'train_samples_per_second': 13.923, 'train_steps_per_second': 13.923, 'train_loss': 5.500518035888672, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/98/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/97/train.parquet']
+
+***** Evaluation results for day 98:*****
+
+ eval_/next-item/avg_precision@10 = 0.07276785373687744
+ eval_/next-item/avg_precision@20 = 0.0761878713965416
+ eval_/next-item/ndcg@10 = 0.09376894682645798
+ eval_/next-item/ndcg@20 = 0.10708555579185486
+ eval_/next-item/recall@10 = 0.1607142984867096
+ eval_/next-item/recall@20 = 0.2142857313156128
+
+***** Launch training for day 98: *****
+{'loss': 6.3555, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.2957, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1672, 'train_samples_per_second': 8.568, 'train_steps_per_second': 17.136, 'train_loss': 6.3256183624267575, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/99/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/98/train.parquet']
+
+***** Evaluation results for day 99:*****
+
+ eval_/next-item/avg_precision@10 = 0.0863095223903656
+ eval_/next-item/avg_precision@20 = 0.09356484562158585
+ eval_/next-item/ndcg@10 = 0.10508643090724945
+ eval_/next-item/ndcg@20 = 0.13687314093112946
+ eval_/next-item/recall@10 = 0.1666666716337204
+ eval_/next-item/recall@20 = 0.29629629850387573
+
+***** Launch training for day 99: *****
+{'loss': 5.3424, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.3229, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1661, 'train_samples_per_second': 8.576, 'train_steps_per_second': 17.151, 'train_loss': 5.332627487182617, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/100/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/99/train.parquet']
+
+***** Evaluation results for day 100:*****
+
+ eval_/next-item/avg_precision@10 = 0.04051020368933678
+ eval_/next-item/avg_precision@20 = 0.045799072831869125
+ eval_/next-item/ndcg@10 = 0.07097457349300385
+ eval_/next-item/ndcg@20 = 0.09181562066078186
+ eval_/next-item/recall@10 = 0.17142857611179352
+ eval_/next-item/recall@20 = 0.2571428716182709
+
+***** Launch training for day 100: *****
+{'loss': 4.587, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7174, 'train_samples_per_second': 13.938, 'train_steps_per_second': 13.938, 'train_loss': 4.587006759643555, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/101/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/100/train.parquet']
+
+***** Evaluation results for day 101:*****
+
+ eval_/next-item/avg_precision@10 = 0.060952380299568176
+ eval_/next-item/avg_precision@20 = 0.060952380299568176
+ eval_/next-item/ndcg@10 = 0.08323580026626587
+ eval_/next-item/ndcg@20 = 0.08323580026626587
+ eval_/next-item/recall@10 = 0.15555556118488312
+ eval_/next-item/recall@20 = 0.15555556118488312
+
+***** Launch training for day 101: *****
+{'loss': 4.6569, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8214, 'train_samples_per_second': 12.175, 'train_steps_per_second': 12.175, 'train_loss': 4.656949996948242, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/102/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/101/train.parquet']
+
+***** Evaluation results for day 102:*****
+
+ eval_/next-item/avg_precision@10 = 0.03857142850756645
+ eval_/next-item/avg_precision@20 = 0.04379667714238167
+ eval_/next-item/ndcg@10 = 0.0630536675453186
+ eval_/next-item/ndcg@20 = 0.0838293507695198
+ eval_/next-item/recall@10 = 0.1428571492433548
+ eval_/next-item/recall@20 = 0.22857142984867096
+
+***** Launch training for day 102: *****
+{'loss': 5.1795, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7531, 'train_samples_per_second': 13.278, 'train_steps_per_second': 13.278, 'train_loss': 5.179463958740234, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/103/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/102/train.parquet']
+
+***** Evaluation results for day 103:*****
+
+ eval_/next-item/avg_precision@10 = 0.07979407906532288
+ eval_/next-item/avg_precision@20 = 0.08539341390132904
+ eval_/next-item/ndcg@10 = 0.09875144064426422
+ eval_/next-item/ndcg@20 = 0.11924928426742554
+ eval_/next-item/recall@10 = 0.1621621698141098
+ eval_/next-item/recall@20 = 0.2432432472705841
+
+***** Launch training for day 103: *****
+{'loss': 4.8302, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.765, 'train_samples_per_second': 13.071, 'train_steps_per_second': 13.071, 'train_loss': 4.830205917358398, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/104/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/103/train.parquet']
+
+***** Evaluation results for day 104:*****
+
+ eval_/next-item/avg_precision@10 = 0.09706348925828934
+ eval_/next-item/avg_precision@20 = 0.10230133682489395
+ eval_/next-item/ndcg@10 = 0.12136849761009216
+ eval_/next-item/ndcg@20 = 0.14269481599330902
+ eval_/next-item/recall@10 = 0.20000000298023224
+ eval_/next-item/recall@20 = 0.2888889014720917
+
+***** Launch training for day 104: *****
+{'loss': 5.0285, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7309, 'train_samples_per_second': 13.681, 'train_steps_per_second': 13.681, 'train_loss': 5.028466415405274, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/105/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/104/train.parquet']
+
+***** Evaluation results for day 105:*****
+
+ eval_/next-item/avg_precision@10 = 0.0738348513841629
+ eval_/next-item/avg_precision@20 = 0.0789080336689949
+ eval_/next-item/ndcg@10 = 0.12238018214702606
+ eval_/next-item/ndcg@20 = 0.14286012947559357
+ eval_/next-item/recall@10 = 0.27659574151039124
+ eval_/next-item/recall@20 = 0.3617021143436432
+
+***** Launch training for day 105: *****
+{'loss': 5.3289, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7296, 'train_samples_per_second': 13.707, 'train_steps_per_second': 13.707, 'train_loss': 5.328900527954102, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/106/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/105/train.parquet']
+
+***** Evaluation results for day 106:*****
+
+ eval_/next-item/avg_precision@10 = 0.06079364940524101
+ eval_/next-item/avg_precision@20 = 0.0685872808098793
+ eval_/next-item/ndcg@10 = 0.09297216683626175
+ eval_/next-item/ndcg@20 = 0.12116368860006332
+ eval_/next-item/recall@10 = 0.20000000298023224
+ eval_/next-item/recall@20 = 0.31111112236976624
+
+***** Launch training for day 106: *****
+{'loss': 5.0931, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.73, 'train_samples_per_second': 13.699, 'train_steps_per_second': 13.699, 'train_loss': 5.093053817749023, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/107/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/106/train.parquet']
+
+***** Evaluation results for day 107:*****
+
+ eval_/next-item/avg_precision@10 = 0.05989418178796768
+ eval_/next-item/avg_precision@20 = 0.06237095966935158
+ eval_/next-item/ndcg@10 = 0.09194567054510117
+ eval_/next-item/ndcg@20 = 0.10241656750440598
+ eval_/next-item/recall@10 = 0.20000000298023224
+ eval_/next-item/recall@20 = 0.24444444477558136
+
+***** Launch training for day 107: *****
+{'loss': 5.4258, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7395, 'train_samples_per_second': 13.523, 'train_steps_per_second': 13.523, 'train_loss': 5.425815200805664, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/108/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/107/train.parquet']
+
+***** Evaluation results for day 108:*****
+
+ eval_/next-item/avg_precision@10 = 0.09741496294736862
+ eval_/next-item/avg_precision@20 = 0.10201814025640488
+ eval_/next-item/ndcg@10 = 0.11367443948984146
+ eval_/next-item/ndcg@20 = 0.13363122940063477
+ eval_/next-item/recall@10 = 0.17142857611179352
+ eval_/next-item/recall@20 = 0.2571428716182709
+
+***** Launch training for day 108: *****
+{'loss': 5.4429, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7379, 'train_samples_per_second': 13.553, 'train_steps_per_second': 13.553, 'train_loss': 5.442900466918945, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/109/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/108/train.parquet']
+
+***** Evaluation results for day 109:*****
+
+ eval_/next-item/avg_precision@10 = 0.056275222450494766
+ eval_/next-item/avg_precision@20 = 0.05976743623614311
+ eval_/next-item/ndcg@10 = 0.08608141541481018
+ eval_/next-item/ndcg@20 = 0.09887754917144775
+ eval_/next-item/recall@10 = 0.18644067645072937
+ eval_/next-item/recall@20 = 0.23728813230991364
+
+***** Launch training for day 109: *****
+{'loss': 5.7018, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.6579, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1962, 'train_samples_per_second': 8.36, 'train_steps_per_second': 16.72, 'train_loss': 5.679841423034668, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/110/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/109/train.parquet']
+
+***** Evaluation results for day 110:*****
+
+ eval_/next-item/avg_precision@10 = 0.07228727638721466
+ eval_/next-item/avg_precision@20 = 0.0760875716805458
+ eval_/next-item/ndcg@10 = 0.09397947043180466
+ eval_/next-item/ndcg@20 = 0.10685743391513824
+ eval_/next-item/recall@10 = 0.16393440961837769
+ eval_/next-item/recall@20 = 0.21311473846435547
+
+***** Launch training for day 110: *****
+{'loss': 5.6813, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.6392, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.221, 'train_samples_per_second': 8.19, 'train_steps_per_second': 16.38, 'train_loss': 5.660221290588379, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/111/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/110/train.parquet']
+
+***** Evaluation results for day 111:*****
+
+ eval_/next-item/avg_precision@10 = 0.09335021674633026
+ eval_/next-item/avg_precision@20 = 0.09906628727912903
+ eval_/next-item/ndcg@10 = 0.12438347935676575
+ eval_/next-item/ndcg@20 = 0.14586803317070007
+ eval_/next-item/recall@10 = 0.22772276401519775
+ eval_/next-item/recall@20 = 0.3118811845779419
+
+***** Launch training for day 111: *****
+{'loss': 5.0062, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 4.9519, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 4.8947, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 4.874, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 4.848, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.0244, 'train_samples_per_second': 4.94, 'train_steps_per_second': 24.698, 'train_loss': 4.914966354370117, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/112/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/111/train.parquet']
+
+***** Evaluation results for day 112:*****
+
+ eval_/next-item/avg_precision@10 = 0.07240646332502365
+ eval_/next-item/avg_precision@20 = 0.08311783522367477
+ eval_/next-item/ndcg@10 = 0.08717315644025803
+ eval_/next-item/ndcg@20 = 0.13170038163661957
+ eval_/next-item/recall@10 = 0.133928582072258
+ eval_/next-item/recall@20 = 0.3214285969734192
+
+***** Launch training for day 112: *****
+{'loss': 4.7569, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 4.6897, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 4.8231, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.4902, 'train_samples_per_second': 6.711, 'train_steps_per_second': 20.132, 'train_loss': 4.756577936808268, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/113/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/112/train.parquet']
+
+***** Evaluation results for day 113:*****
+
+ eval_/next-item/avg_precision@10 = 0.06524122506380081
+ eval_/next-item/avg_precision@20 = 0.08348061889410019
+ eval_/next-item/ndcg@10 = 0.08726812899112701
+ eval_/next-item/ndcg@20 = 0.16253039240837097
+ eval_/next-item/recall@10 = 0.15789473056793213
+ eval_/next-item/recall@20 = 0.4736842215061188
+
+***** Launch training for day 113: *****
+{'loss': 4.6957, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.6438, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2627, 'train_samples_per_second': 7.919, 'train_steps_per_second': 15.839, 'train_loss': 4.669741630554199, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/114/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/113/train.parquet']
+
+***** Evaluation results for day 114:*****
+
+ eval_/next-item/avg_precision@10 = 0.07019774615764618
+ eval_/next-item/avg_precision@20 = 0.08139244467020035
+ eval_/next-item/ndcg@10 = 0.09400104731321335
+ eval_/next-item/ndcg@20 = 0.13621173799037933
+ eval_/next-item/recall@10 = 0.16949152946472168
+ eval_/next-item/recall@20 = 0.33898305892944336
+
+***** Launch training for day 114: *****
+{'loss': 4.8111, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.7384, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1951, 'train_samples_per_second': 8.368, 'train_steps_per_second': 16.736, 'train_loss': 4.774782943725586, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/115/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/114/train.parquet']
+
+***** Evaluation results for day 115:*****
+
+ eval_/next-item/avg_precision@10 = 0.1349206268787384
+ eval_/next-item/avg_precision@20 = 0.14666995406150818
+ eval_/next-item/ndcg@10 = 0.1516738086938858
+ eval_/next-item/ndcg@20 = 0.20162087678909302
+ eval_/next-item/recall@10 = 0.20370370149612427
+ eval_/next-item/recall@20 = 0.40740740299224854
+
+***** Launch training for day 115: *****
+{'loss': 5.1453, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.1492, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2341, 'train_samples_per_second': 8.103, 'train_steps_per_second': 16.206, 'train_loss': 5.147242736816406, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/116/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/115/train.parquet']
+
+***** Evaluation results for day 116:*****
+
+ eval_/next-item/avg_precision@10 = 0.028395062312483788
+ eval_/next-item/avg_precision@20 = 0.039440494030714035
+ eval_/next-item/ndcg@10 = 0.050339847803115845
+ eval_/next-item/ndcg@20 = 0.0936981663107872
+ eval_/next-item/recall@10 = 0.1111111119389534
+ eval_/next-item/recall@20 = 0.2888889014720917
+
+***** Launch training for day 116: *****
+{'loss': 4.3046, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8688, 'train_samples_per_second': 11.511, 'train_steps_per_second': 11.511, 'train_loss': 4.304587173461914, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/117/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/116/train.parquet']
+
+***** Evaluation results for day 117:*****
+
+ eval_/next-item/avg_precision@10 = 0.06550558656454086
+ eval_/next-item/avg_precision@20 = 0.0744343250989914
+ eval_/next-item/ndcg@10 = 0.08486708998680115
+ eval_/next-item/ndcg@20 = 0.12065467238426208
+ eval_/next-item/recall@10 = 0.14814814925193787
+ eval_/next-item/recall@20 = 0.29629629850387573
+
+***** Launch training for day 117: *****
+{'loss': 4.648, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.5945, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1779, 'train_samples_per_second': 8.49, 'train_steps_per_second': 16.98, 'train_loss': 4.6212409973144535, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/118/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/117/train.parquet']
+
+***** Evaluation results for day 118:*****
+
+ eval_/next-item/avg_precision@10 = 0.017789756879210472
+ eval_/next-item/avg_precision@20 = 0.03257160261273384
+ eval_/next-item/ndcg@10 = 0.030946804210543633
+ eval_/next-item/ndcg@20 = 0.08391590416431427
+ eval_/next-item/recall@10 = 0.07547169923782349
+ eval_/next-item/recall@20 = 0.28301888704299927
+
+***** Launch training for day 118: *****
+{'loss': 5.1716, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.1757, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1219, 'train_samples_per_second': 8.914, 'train_steps_per_second': 17.827, 'train_loss': 5.173659133911133, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/119/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/118/train.parquet']
+
+***** Evaluation results for day 119:*****
+
+ eval_/next-item/avg_precision@10 = 0.12012787163257599
+ eval_/next-item/avg_precision@20 = 0.130814328789711
+ eval_/next-item/ndcg@10 = 0.16026735305786133
+ eval_/next-item/ndcg@20 = 0.2013428509235382
+ eval_/next-item/recall@10 = 0.29629629850387573
+ eval_/next-item/recall@20 = 0.46296295523643494
+
+***** Launch training for day 119: *****
+{'loss': 5.3353, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.3251, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1511, 'train_samples_per_second': 8.688, 'train_steps_per_second': 17.375, 'train_loss': 5.330235862731934, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/120/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/119/train.parquet']
+
+***** Evaluation results for day 120:*****
+
+ eval_/next-item/avg_precision@10 = 0.07538126409053802
+ eval_/next-item/avg_precision@20 = 0.0869366005063057
+ eval_/next-item/ndcg@10 = 0.10372023284435272
+ eval_/next-item/ndcg@20 = 0.14424462616443634
+ eval_/next-item/recall@10 = 0.19607843458652496
+ eval_/next-item/recall@20 = 0.3529411852359772
+
+***** Launch training for day 120: *****
+{'loss': 4.5094, 'learning_rate': 5.500000000000001e-05, 'epoch': 5.0}
+{'loss': 4.5658, 'learning_rate': 1e-05, 'epoch': 10.0}
+{'train_runtime': 1.161, 'train_samples_per_second': 8.613, 'train_steps_per_second': 17.226, 'train_loss': 4.537578582763672, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/121/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/120/train.parquet']
+
+***** Evaluation results for day 121:*****
+
+ eval_/next-item/avg_precision@10 = 0.07798627763986588
+ eval_/next-item/avg_precision@20 = 0.08527868986129761
+ eval_/next-item/ndcg@10 = 0.10346368700265884
+ eval_/next-item/ndcg@20 = 0.13231110572814941
+ eval_/next-item/recall@10 = 0.18644067645072937
+ eval_/next-item/recall@20 = 0.3050847351551056
+
+***** Launch training for day 121: *****
+{'loss': 5.0949, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.0565, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3214, 'train_samples_per_second': 7.568, 'train_steps_per_second': 15.135, 'train_loss': 5.07570514678955, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/122/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/121/train.parquet']
+
+***** Evaluation results for day 122:*****
+
+ eval_/next-item/avg_precision@10 = 0.0942176878452301
+ eval_/next-item/avg_precision@20 = 0.10444656759500504
+ eval_/next-item/ndcg@10 = 0.11811526119709015
+ eval_/next-item/ndcg@20 = 0.15764540433883667
+ eval_/next-item/recall@10 = 0.196428582072258
+ eval_/next-item/recall@20 = 0.3571428656578064
+
+***** Launch training for day 122: *****
+{'loss': 4.8067, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.7663, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.232, 'train_samples_per_second': 8.117, 'train_steps_per_second': 16.233, 'train_loss': 4.786521530151367, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/123/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/122/train.parquet']
+
+***** Evaluation results for day 123:*****
+
+ eval_/next-item/avg_precision@10 = 0.0587797649204731
+ eval_/next-item/avg_precision@20 = 0.07272150367498398
+ eval_/next-item/ndcg@10 = 0.07024163752794266
+ eval_/next-item/ndcg@20 = 0.12326785922050476
+ eval_/next-item/recall@10 = 0.1071428656578064
+ eval_/next-item/recall@20 = 0.3214285969734192
+
+***** Launch training for day 123: *****
+{'loss': 5.1822, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.1065, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1575, 'train_samples_per_second': 8.639, 'train_steps_per_second': 17.278, 'train_loss': 5.144361114501953, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/124/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/123/train.parquet']
+
+***** Evaluation results for day 124:*****
+
+ eval_/next-item/avg_precision@10 = 0.05588235333561897
+ eval_/next-item/avg_precision@20 = 0.06606316566467285
+ eval_/next-item/ndcg@10 = 0.08768963813781738
+ eval_/next-item/ndcg@20 = 0.12647156417369843
+ eval_/next-item/recall@10 = 0.1764705926179886
+ eval_/next-item/recall@20 = 0.3333333432674408
+
+***** Launch training for day 124: *****
+{'loss': 5.1478, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.0259, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1044, 'train_samples_per_second': 9.055, 'train_steps_per_second': 18.11, 'train_loss': 5.086865234375, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/125/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/124/train.parquet']
+
+***** Evaluation results for day 125:*****
+
+ eval_/next-item/avg_precision@10 = 0.026974206790328026
+ eval_/next-item/avg_precision@20 = 0.04841846600174904
+ eval_/next-item/ndcg@10 = 0.04919027164578438
+ eval_/next-item/ndcg@20 = 0.12593385577201843
+ eval_/next-item/recall@10 = 0.125
+ eval_/next-item/recall@20 = 0.42500001192092896
+
+***** Launch training for day 125: *****
+{'loss': 3.9857, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6778, 'train_samples_per_second': 14.753, 'train_steps_per_second': 14.753, 'train_loss': 3.985707092285156, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/126/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/125/train.parquet']
+
+***** Evaluation results for day 126:*****
+
+ eval_/next-item/avg_precision@10 = 0.05780423805117607
+ eval_/next-item/avg_precision@20 = 0.07265565544366837
+ eval_/next-item/ndcg@10 = 0.0872022733092308
+ eval_/next-item/ndcg@20 = 0.14266978204250336
+ eval_/next-item/recall@10 = 0.17777778208255768
+ eval_/next-item/recall@20 = 0.4000000059604645
+
+***** Launch training for day 126: *****
+{'loss': 3.9031, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6819, 'train_samples_per_second': 14.664, 'train_steps_per_second': 14.664, 'train_loss': 3.9030693054199217, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/127/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/126/train.parquet']
+
+***** Evaluation results for day 127:*****
+
+ eval_/next-item/avg_precision@10 = 0.081784188747406
+ eval_/next-item/avg_precision@20 = 0.08997815102338791
+ eval_/next-item/ndcg@10 = 0.12021782994270325
+ eval_/next-item/ndcg@20 = 0.14965815842151642
+ eval_/next-item/recall@10 = 0.25
+ eval_/next-item/recall@20 = 0.36538463830947876
+
+***** Launch training for day 127: *****
+{'loss': 4.3067, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.1404, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0899, 'train_samples_per_second': 9.175, 'train_steps_per_second': 18.351, 'train_loss': 4.223542594909668, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/128/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/127/train.parquet']
+
+***** Evaluation results for day 128:*****
+
+ eval_/next-item/avg_precision@10 = 0.08375850319862366
+ eval_/next-item/avg_precision@20 = 0.09805452078580856
+ eval_/next-item/ndcg@10 = 0.10959985107183456
+ eval_/next-item/ndcg@20 = 0.1591554582118988
+ eval_/next-item/recall@10 = 0.190476194024086
+ eval_/next-item/recall@20 = 0.380952388048172
+
+***** Launch training for day 128: *****
+{'loss': 3.9776, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7145, 'train_samples_per_second': 13.995, 'train_steps_per_second': 13.995, 'train_loss': 3.9776134490966797, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/129/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/128/train.parquet']
+
+***** Evaluation results for day 129:*****
+
+ eval_/next-item/avg_precision@10 = 0.040740739554166794
+ eval_/next-item/avg_precision@20 = 0.05957904830574989
+ eval_/next-item/ndcg@10 = 0.0646025612950325
+ eval_/next-item/ndcg@20 = 0.13176922500133514
+ eval_/next-item/recall@10 = 0.1428571492433548
+ eval_/next-item/recall@20 = 0.4047619104385376
+
+***** Launch training for day 129: *****
+{'loss': 4.1012, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6829, 'train_samples_per_second': 14.643, 'train_steps_per_second': 14.643, 'train_loss': 4.10119857788086, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/130/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/129/train.parquet']
+
+***** Evaluation results for day 130:*****
+
+ eval_/next-item/avg_precision@10 = 0.1286008208990097
+ eval_/next-item/avg_precision@20 = 0.14575758576393127
+ eval_/next-item/ndcg@10 = 0.15530288219451904
+ eval_/next-item/ndcg@20 = 0.2168390154838562
+ eval_/next-item/recall@10 = 0.24074074625968933
+ eval_/next-item/recall@20 = 0.48148149251937866
+
+***** Launch training for day 130: *****
+{'loss': 4.191, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.1844, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0786, 'train_samples_per_second': 9.271, 'train_steps_per_second': 18.543, 'train_loss': 4.187704277038574, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/131/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/130/train.parquet']
+
+***** Evaluation results for day 131:*****
+
+ eval_/next-item/avg_precision@10 = 0.09751772880554199
+ eval_/next-item/avg_precision@20 = 0.1171763464808464
+ eval_/next-item/ndcg@10 = 0.11605095863342285
+ eval_/next-item/ndcg@20 = 0.18658161163330078
+ eval_/next-item/recall@10 = 0.1702127605676651
+ eval_/next-item/recall@20 = 0.44680848717689514
+
+***** Launch training for day 131: *****
+{'loss': 4.1383, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.684, 'train_samples_per_second': 14.619, 'train_steps_per_second': 14.619, 'train_loss': 4.138322830200195, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/132/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/131/train.parquet']
+
+***** Evaluation results for day 132:*****
+
+ eval_/next-item/avg_precision@10 = 0.13045808672904968
+ eval_/next-item/avg_precision@20 = 0.1516699194908142
+ eval_/next-item/ndcg@10 = 0.15759241580963135
+ eval_/next-item/ndcg@20 = 0.2307714968919754
+ eval_/next-item/recall@10 = 0.24561403691768646
+ eval_/next-item/recall@20 = 0.5263158082962036
+
+***** Launch training for day 132: *****
+{'loss': 4.2813, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.216, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0906, 'train_samples_per_second': 9.169, 'train_steps_per_second': 18.338, 'train_loss': 4.2486419677734375, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/133/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/132/train.parquet']
+
+***** Evaluation results for day 133:*****
+
+ eval_/next-item/avg_precision@10 = 0.06916195899248123
+ eval_/next-item/avg_precision@20 = 0.07929109036922455
+ eval_/next-item/ndcg@10 = 0.09948549419641495
+ eval_/next-item/ndcg@20 = 0.13471581041812897
+ eval_/next-item/recall@10 = 0.20338982343673706
+ eval_/next-item/recall@20 = 0.33898305892944336
+
+***** Launch training for day 133: *****
+{'loss': 4.3322, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.2752, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.166, 'train_samples_per_second': 8.576, 'train_steps_per_second': 17.152, 'train_loss': 4.303706932067871, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/134/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/133/train.parquet']
+
+***** Evaluation results for day 134:*****
+
+ eval_/next-item/avg_precision@10 = 0.07787331193685532
+ eval_/next-item/avg_precision@20 = 0.0959436297416687
+ eval_/next-item/ndcg@10 = 0.1106884554028511
+ eval_/next-item/ndcg@20 = 0.17326867580413818
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.46296295523643494
+
+***** Launch training for day 134: *****
+{'loss': 5.0036, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.9424, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2017, 'train_samples_per_second': 8.321, 'train_steps_per_second': 16.643, 'train_loss': 4.972989273071289, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/135/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/134/train.parquet']
+
+***** Evaluation results for day 135:*****
+
+ eval_/next-item/avg_precision@10 = 0.031582631170749664
+ eval_/next-item/avg_precision@20 = 0.04169562831521034
+ eval_/next-item/ndcg@10 = 0.060520488768815994
+ eval_/next-item/ndcg@20 = 0.0959409698843956
+ eval_/next-item/recall@10 = 0.1568627506494522
+ eval_/next-item/recall@20 = 0.29411765933036804
+
+***** Launch training for day 135: *****
+{'loss': 4.824, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.8414, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2613, 'train_samples_per_second': 7.928, 'train_steps_per_second': 15.857, 'train_loss': 4.832658004760742, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/136/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/135/train.parquet']
+
+***** Evaluation results for day 136:*****
+
+ eval_/next-item/avg_precision@10 = 0.048199769109487534
+ eval_/next-item/avg_precision@20 = 0.06363596022129059
+ eval_/next-item/ndcg@10 = 0.0664907917380333
+ eval_/next-item/ndcg@20 = 0.1222413182258606
+ eval_/next-item/recall@10 = 0.12195121496915817
+ eval_/next-item/recall@20 = 0.3414633870124817
+
+***** Launch training for day 136: *****
+{'loss': 4.4462, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.757, 'train_samples_per_second': 13.209, 'train_steps_per_second': 13.209, 'train_loss': 4.446186065673828, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/137/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/136/train.parquet']
+
+***** Evaluation results for day 137:*****
+
+ eval_/next-item/avg_precision@10 = 0.06277777254581451
+ eval_/next-item/avg_precision@20 = 0.07451033592224121
+ eval_/next-item/ndcg@10 = 0.07832276821136475
+ eval_/next-item/ndcg@20 = 0.12252584099769592
+ eval_/next-item/recall@10 = 0.13333334028720856
+ eval_/next-item/recall@20 = 0.31111112236976624
+
+***** Launch training for day 137: *****
+{'loss': 4.3969, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7507, 'train_samples_per_second': 13.32, 'train_steps_per_second': 13.32, 'train_loss': 4.3968505859375, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/138/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/137/train.parquet']
+
+***** Evaluation results for day 138:*****
+
+ eval_/next-item/avg_precision@10 = 0.030498865991830826
+ eval_/next-item/avg_precision@20 = 0.0422242172062397
+ eval_/next-item/ndcg@10 = 0.056509748101234436
+ eval_/next-item/ndcg@20 = 0.09844093024730682
+ eval_/next-item/recall@10 = 0.1428571343421936
+ eval_/next-item/recall@20 = 0.30612245202064514
+
+***** Launch training for day 138: *****
+{'loss': 4.1072, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7515, 'train_samples_per_second': 13.306, 'train_steps_per_second': 13.306, 'train_loss': 4.107168960571289, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/139/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/138/train.parquet']
+
+***** Evaluation results for day 139:*****
+
+ eval_/next-item/avg_precision@10 = 0.047167759388685226
+ eval_/next-item/avg_precision@20 = 0.0641489028930664
+ eval_/next-item/ndcg@10 = 0.06770060956478119
+ eval_/next-item/ndcg@20 = 0.12806302309036255
+ eval_/next-item/recall@10 = 0.13725490868091583
+ eval_/next-item/recall@20 = 0.37254902720451355
+
+***** Launch training for day 139: *****
+{'loss': 6.5436, 'learning_rate': 5.500000000000001e-05, 'epoch': 5.0}
+{'loss': 6.4167, 'learning_rate': 5e-06, 'epoch': 10.0}
+{'train_runtime': 1.0915, 'train_samples_per_second': 9.162, 'train_steps_per_second': 18.324, 'train_loss': 6.480143356323242, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/140/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/139/train.parquet']
+
+***** Evaluation results for day 140:*****
+
+ eval_/next-item/avg_precision@10 = 0.08611110597848892
+ eval_/next-item/avg_precision@20 = 0.10462962836027145
+ eval_/next-item/ndcg@10 = 0.11703301966190338
+ eval_/next-item/ndcg@20 = 0.17708595097064972
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.4444444477558136
+
+***** Launch training for day 140: *****
+{'loss': 4.6161, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7529, 'train_samples_per_second': 13.282, 'train_steps_per_second': 13.282, 'train_loss': 4.616119384765625, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/141/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/140/train.parquet']
+
+***** Evaluation results for day 141:*****
+
+ eval_/next-item/avg_precision@10 = 0.09444444626569748
+ eval_/next-item/avg_precision@20 = 0.10267380625009537
+ eval_/next-item/ndcg@10 = 0.12714533507823944
+ eval_/next-item/ndcg@20 = 0.15691770613193512
+ eval_/next-item/recall@10 = 0.23529411852359772
+ eval_/next-item/recall@20 = 0.3529411852359772
+
+***** Launch training for day 141: *****
+{'loss': 4.3613, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7421, 'train_samples_per_second': 13.476, 'train_steps_per_second': 13.476, 'train_loss': 4.36131706237793, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/142/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/141/train.parquet']
+
+***** Evaluation results for day 142:*****
+
+ eval_/next-item/avg_precision@10 = 0.04769214987754822
+ eval_/next-item/avg_precision@20 = 0.07034932076931
+ eval_/next-item/ndcg@10 = 0.07207613438367844
+ eval_/next-item/ndcg@20 = 0.15285970270633698
+ eval_/next-item/recall@10 = 0.15789473056793213
+ eval_/next-item/recall@20 = 0.4736842215061188
+
+***** Launch training for day 142: *****
+{'loss': 4.4312, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8994, 'train_samples_per_second': 11.118, 'train_steps_per_second': 11.118, 'train_loss': 4.431151962280273, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/143/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/142/train.parquet']
+
+***** Evaluation results for day 143:*****
+
+ eval_/next-item/avg_precision@10 = 0.06899350881576538
+ eval_/next-item/avg_precision@20 = 0.08437713235616684
+ eval_/next-item/ndcg@10 = 0.09068483114242554
+ eval_/next-item/ndcg@20 = 0.143896222114563
+ eval_/next-item/recall@10 = 0.15909090638160706
+ eval_/next-item/recall@20 = 0.3636363744735718
+
+***** Launch training for day 143: *****
+{'loss': 4.1352, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7792, 'train_samples_per_second': 12.834, 'train_steps_per_second': 12.834, 'train_loss': 4.135173797607422, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/144/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/143/train.parquet']
+
+***** Evaluation results for day 144:*****
+
+ eval_/next-item/avg_precision@10 = 0.023441733792424202
+ eval_/next-item/avg_precision@20 = 0.026998644694685936
+ eval_/next-item/ndcg@10 = 0.04590547829866409
+ eval_/next-item/ndcg@20 = 0.05846374109387398
+ eval_/next-item/recall@10 = 0.12195121496915817
+ eval_/next-item/recall@20 = 0.17073169350624084
+
+***** Launch training for day 144: *****
+{'loss': 4.2554, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.884, 'train_samples_per_second': 11.313, 'train_steps_per_second': 11.313, 'train_loss': 4.2553565979003904, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/145/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/144/train.parquet']
+
+***** Evaluation results for day 145:*****
+
+ eval_/next-item/avg_precision@10 = 0.05513039231300354
+ eval_/next-item/avg_precision@20 = 0.06693195551633835
+ eval_/next-item/ndcg@10 = 0.08373959362506866
+ eval_/next-item/ndcg@20 = 0.12519793212413788
+ eval_/next-item/recall@10 = 0.1785714328289032
+ eval_/next-item/recall@20 = 0.3392857313156128
+
+***** Launch training for day 145: *****
+{'loss': 5.0169, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.9531, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1587, 'train_samples_per_second': 8.631, 'train_steps_per_second': 17.261, 'train_loss': 4.985008811950683, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/146/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/145/train.parquet']
+
+***** Evaluation results for day 146:*****
+
+ eval_/next-item/avg_precision@10 = 0.06111111491918564
+ eval_/next-item/avg_precision@20 = 0.06575312465429306
+ eval_/next-item/ndcg@10 = 0.09682705253362656
+ eval_/next-item/ndcg@20 = 0.1123923808336258
+ eval_/next-item/recall@10 = 0.21568627655506134
+ eval_/next-item/recall@20 = 0.27450981736183167
+
+***** Launch training for day 146: *****
+{'loss': 5.5007, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.5708, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.325, 'train_samples_per_second': 7.547, 'train_steps_per_second': 15.094, 'train_loss': 5.535728836059571, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/147/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/146/train.parquet']
+
+***** Evaluation results for day 147:*****
+
+ eval_/next-item/avg_precision@10 = 0.10696649551391602
+ eval_/next-item/avg_precision@20 = 0.13111621141433716
+ eval_/next-item/ndcg@10 = 0.13369867205619812
+ eval_/next-item/ndcg@20 = 0.2193872332572937
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.5555555820465088
+
+***** Launch training for day 147: *****
+{'loss': 4.3069, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.81, 'train_samples_per_second': 12.346, 'train_steps_per_second': 12.346, 'train_loss': 4.306927490234375, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/148/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/147/train.parquet']
+
+***** Evaluation results for day 148:*****
+
+ eval_/next-item/avg_precision@10 = 0.05121883004903793
+ eval_/next-item/avg_precision@20 = 0.05475101247429848
+ eval_/next-item/ndcg@10 = 0.08710672706365585
+ eval_/next-item/ndcg@20 = 0.09945452958345413
+ eval_/next-item/recall@10 = 0.2142857164144516
+ eval_/next-item/recall@20 = 0.261904776096344
+
+***** Launch training for day 148: *****
+{'loss': 4.2878, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.755, 'train_samples_per_second': 13.246, 'train_steps_per_second': 13.246, 'train_loss': 4.287831497192383, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/149/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/148/train.parquet']
+
+***** Evaluation results for day 149:*****
+
+ eval_/next-item/avg_precision@10 = 0.047586873173713684
+ eval_/next-item/avg_precision@20 = 0.056605178862810135
+ eval_/next-item/ndcg@10 = 0.08653711527585983
+ eval_/next-item/ndcg@20 = 0.12469766288995743
+ eval_/next-item/recall@10 = 0.21621622145175934
+ eval_/next-item/recall@20 = 0.37837839126586914
+
+***** Launch training for day 149: *****
+{'loss': 4.4048, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7539, 'train_samples_per_second': 13.264, 'train_steps_per_second': 13.264, 'train_loss': 4.404795074462891, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/150/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/149/train.parquet']
+
+***** Evaluation results for day 150:*****
+
+ eval_/next-item/avg_precision@10 = 0.05002334341406822
+ eval_/next-item/avg_precision@20 = 0.05884162709116936
+ eval_/next-item/ndcg@10 = 0.07053446024656296
+ eval_/next-item/ndcg@20 = 0.10434025526046753
+ eval_/next-item/recall@10 = 0.13725490868091583
+ eval_/next-item/recall@20 = 0.27450981736183167
+
+***** Launch training for day 150: *****
+{'loss': 6.5753, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.6066, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1456, 'train_samples_per_second': 8.729, 'train_steps_per_second': 17.458, 'train_loss': 6.59095458984375, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/151/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/150/train.parquet']
+
+***** Evaluation results for day 151:*****
+
+ eval_/next-item/avg_precision@10 = 0.08024691790342331
+ eval_/next-item/avg_precision@20 = 0.09232578426599503
+ eval_/next-item/ndcg@10 = 0.09720363467931747
+ eval_/next-item/ndcg@20 = 0.1400000900030136
+ eval_/next-item/recall@10 = 0.14814814925193787
+ eval_/next-item/recall@20 = 0.31481480598449707
+
+***** Launch training for day 151: *****
+{'loss': 5.3581, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.3229, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0868, 'train_samples_per_second': 9.202, 'train_steps_per_second': 18.403, 'train_loss': 5.34050407409668, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/152/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/151/train.parquet']
+
+***** Evaluation results for day 152:*****
+
+ eval_/next-item/avg_precision@10 = 0.045557111501693726
+ eval_/next-item/avg_precision@20 = 0.05175679549574852
+ eval_/next-item/ndcg@10 = 0.08440681546926498
+ eval_/next-item/ndcg@20 = 0.1051950454711914
+ eval_/next-item/recall@10 = 0.21568627655506134
+ eval_/next-item/recall@20 = 0.29411765933036804
+
+***** Launch training for day 152: *****
+{'loss': 5.2559, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.2256, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0833, 'train_samples_per_second': 9.231, 'train_steps_per_second': 18.462, 'train_loss': 5.240718078613281, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/153/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/152/train.parquet']
+
+***** Evaluation results for day 153:*****
+
+ eval_/next-item/avg_precision@10 = 0.08528528362512589
+ eval_/next-item/avg_precision@20 = 0.08933934569358826
+ eval_/next-item/ndcg@10 = 0.10870417952537537
+ eval_/next-item/ndcg@20 = 0.12276466935873032
+ eval_/next-item/recall@10 = 0.18918919563293457
+ eval_/next-item/recall@20 = 0.2432432472705841
+
+***** Launch training for day 153: *****
+{'loss': 4.435, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8637, 'train_samples_per_second': 11.579, 'train_steps_per_second': 11.579, 'train_loss': 4.434966659545898, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/154/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/153/train.parquet']
+
+***** Evaluation results for day 154:*****
+
+ eval_/next-item/avg_precision@10 = 0.07861237972974777
+ eval_/next-item/avg_precision@20 = 0.08534432202577591
+ eval_/next-item/ndcg@10 = 0.1099187359213829
+ eval_/next-item/ndcg@20 = 0.13283544778823853
+ eval_/next-item/recall@10 = 0.2142857313156128
+ eval_/next-item/recall@20 = 0.30158731341362
+
+***** Launch training for day 154: *****
+{'loss': 4.7123, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 4.6461, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 4.8653, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.4452, 'train_samples_per_second': 6.919, 'train_steps_per_second': 20.758, 'train_loss': 4.7412361145019535, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/155/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/154/train.parquet']
+
+***** Evaluation results for day 155:*****
+
+ eval_/next-item/avg_precision@10 = 0.07354336231946945
+ eval_/next-item/avg_precision@20 = 0.07929989695549011
+ eval_/next-item/ndcg@10 = 0.10438444465398788
+ eval_/next-item/ndcg@20 = 0.12576347589492798
+ eval_/next-item/recall@10 = 0.2073170691728592
+ eval_/next-item/recall@20 = 0.2926829159259796
+
+***** Launch training for day 155: *****
+{'loss': 4.3686, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.3417, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1274, 'train_samples_per_second': 8.87, 'train_steps_per_second': 17.74, 'train_loss': 4.355192565917969, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/156/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/155/train.parquet']
+
+***** Evaluation results for day 156:*****
+
+ eval_/next-item/avg_precision@10 = 0.03962264582514763
+ eval_/next-item/avg_precision@20 = 0.04587886855006218
+ eval_/next-item/ndcg@10 = 0.06191222369670868
+ eval_/next-item/ndcg@20 = 0.09070573002099991
+ eval_/next-item/recall@10 = 0.15094339847564697
+ eval_/next-item/recall@20 = 0.24528302252292633
+
+***** Launch training for day 156: *****
+{'loss': 5.0059, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.9415, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1682, 'train_samples_per_second': 8.56, 'train_steps_per_second': 17.12, 'train_loss': 4.973686599731446, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/157/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/156/train.parquet']
+
+***** Evaluation results for day 157:*****
+
+ eval_/next-item/avg_precision@10 = 0.03097643330693245
+ eval_/next-item/avg_precision@20 = 0.041068535298109055
+ eval_/next-item/ndcg@10 = 0.04868647828698158
+ eval_/next-item/ndcg@20 = 0.083977110683918
+ eval_/next-item/recall@10 = 0.10606060922145844
+ eval_/next-item/recall@20 = 0.24242424964904785
+
+***** Launch training for day 157: *****
+{'loss': 4.9289, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.9005, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2615, 'train_samples_per_second': 7.927, 'train_steps_per_second': 15.854, 'train_loss': 4.914729499816895, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/158/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/157/train.parquet']
+
+***** Evaluation results for day 158:*****
+
+ eval_/next-item/avg_precision@10 = 0.025177305564284325
+ eval_/next-item/avg_precision@20 = 0.034107502549886703
+ eval_/next-item/ndcg@10 = 0.03937597945332527
+ eval_/next-item/ndcg@20 = 0.07176561653614044
+ eval_/next-item/recall@10 = 0.08510638028383255
+ eval_/next-item/recall@20 = 0.21276594698429108
+
+***** Launch training for day 158: *****
+{'loss': 4.2254, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8925, 'train_samples_per_second': 11.204, 'train_steps_per_second': 11.204, 'train_loss': 4.225395965576172, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/159/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/158/train.parquet']
+
+***** Evaluation results for day 159:*****
+
+ eval_/next-item/avg_precision@10 = 0.02884070575237274
+ eval_/next-item/avg_precision@20 = 0.039549268782138824
+ eval_/next-item/ndcg@10 = 0.051042016595602036
+ eval_/next-item/ndcg@20 = 0.08819673210382462
+ eval_/next-item/recall@10 = 0.125
+ eval_/next-item/recall@20 = 0.267857164144516
+
+***** Launch training for day 159: *****
+{'loss': 4.9462, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.8939, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.109, 'train_samples_per_second': 9.017, 'train_steps_per_second': 18.035, 'train_loss': 4.920053482055664, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/160/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/159/train.parquet']
+
+***** Evaluation results for day 160:*****
+
+ eval_/next-item/avg_precision@10 = 0.05073375627398491
+ eval_/next-item/avg_precision@20 = 0.05647731199860573
+ eval_/next-item/ndcg@10 = 0.07351026684045792
+ eval_/next-item/ndcg@20 = 0.09635583311319351
+ eval_/next-item/recall@10 = 0.15094339847564697
+ eval_/next-item/recall@20 = 0.24528302252292633
+
+***** Launch training for day 160: *****
+{'loss': 5.3226, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.1655, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1069, 'train_samples_per_second': 9.034, 'train_steps_per_second': 18.069, 'train_loss': 5.244036674499512, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/161/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/160/train.parquet']
+
+***** Evaluation results for day 161:*****
+
+ eval_/next-item/avg_precision@10 = 0.04331306740641594
+ eval_/next-item/avg_precision@20 = 0.053292617201805115
+ eval_/next-item/ndcg@10 = 0.07278317213058472
+ eval_/next-item/ndcg@20 = 0.11002325266599655
+ eval_/next-item/recall@10 = 0.1702127605676651
+ eval_/next-item/recall@20 = 0.3191489279270172
+
+***** Launch training for day 161: *****
+{'loss': 4.3468, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6821, 'train_samples_per_second': 14.66, 'train_steps_per_second': 14.66, 'train_loss': 4.346768188476562, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/162/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/161/train.parquet']
+
+***** Evaluation results for day 162:*****
+
+ eval_/next-item/avg_precision@10 = 0.03333333507180214
+ eval_/next-item/avg_precision@20 = 0.038835782557725906
+ eval_/next-item/ndcg@10 = 0.05230303108692169
+ eval_/next-item/ndcg@20 = 0.0739494040608406
+ eval_/next-item/recall@10 = 0.1111111119389534
+ eval_/next-item/recall@20 = 0.20000000298023224
+
+***** Launch training for day 162: *****
+{'loss': 4.4145, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6812, 'train_samples_per_second': 14.68, 'train_steps_per_second': 14.68, 'train_loss': 4.414529418945312, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/163/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/162/train.parquet']
+
+***** Evaluation results for day 163:*****
+
+ eval_/next-item/avg_precision@10 = 0.04148148372769356
+ eval_/next-item/avg_precision@20 = 0.04552144557237625
+ eval_/next-item/ndcg@10 = 0.058574434369802475
+ eval_/next-item/ndcg@20 = 0.07470840215682983
+ eval_/next-item/recall@10 = 0.1111111119389534
+ eval_/next-item/recall@20 = 0.17777778208255768
+
+***** Launch training for day 163: *****
+{'loss': 4.3387, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6979, 'train_samples_per_second': 14.328, 'train_steps_per_second': 14.328, 'train_loss': 4.338666152954102, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/164/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/163/train.parquet']
+
+***** Evaluation results for day 164:*****
+
+ eval_/next-item/avg_precision@10 = 0.012291908264160156
+ eval_/next-item/avg_precision@20 = 0.022106865420937538
+ eval_/next-item/ndcg@10 = 0.025976581498980522
+ eval_/next-item/ndcg@20 = 0.0625709816813469
+ eval_/next-item/recall@10 = 0.0731707289814949
+ eval_/next-item/recall@20 = 0.2195121943950653
+
+***** Launch training for day 164: *****
+{'loss': 4.444, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6832, 'train_samples_per_second': 14.636, 'train_steps_per_second': 14.636, 'train_loss': 4.44396858215332, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/165/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/164/train.parquet']
+
+***** Evaluation results for day 165:*****
+
+ eval_/next-item/avg_precision@10 = 0.013288288377225399
+ eval_/next-item/avg_precision@20 = 0.02097744680941105
+ eval_/next-item/ndcg@10 = 0.0286087803542614
+ eval_/next-item/ndcg@20 = 0.056156422942876816
+ eval_/next-item/recall@10 = 0.0810810849070549
+ eval_/next-item/recall@20 = 0.18918919563293457
+
+***** Launch training for day 165: *****
+{'loss': 4.4206, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7664, 'train_samples_per_second': 13.049, 'train_steps_per_second': 13.049, 'train_loss': 4.420609664916992, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/166/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/165/train.parquet']
+
+***** Evaluation results for day 166:*****
+
+ eval_/next-item/avg_precision@10 = 0.07579365372657776
+ eval_/next-item/avg_precision@20 = 0.07963782548904419
+ eval_/next-item/ndcg@10 = 0.09791740030050278
+ eval_/next-item/ndcg@20 = 0.1145569384098053
+ eval_/next-item/recall@10 = 0.1666666716337204
+ eval_/next-item/recall@20 = 0.2380952388048172
+
+***** Launch training for day 166: *****
+{'loss': 4.4869, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7807, 'train_samples_per_second': 12.809, 'train_steps_per_second': 12.809, 'train_loss': 4.486907958984375, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/167/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/166/train.parquet']
+
+***** Evaluation results for day 167:*****
+
+ eval_/next-item/avg_precision@10 = 0.04241741821169853
+ eval_/next-item/avg_precision@20 = 0.0439189188182354
+ eval_/next-item/ndcg@10 = 0.07050751149654388
+ eval_/next-item/ndcg@20 = 0.0768699124455452
+ eval_/next-item/recall@10 = 0.1621621698141098
+ eval_/next-item/recall@20 = 0.18918919563293457
+
+***** Launch training for day 167: *****
+{'loss': 4.1776, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6832, 'train_samples_per_second': 14.638, 'train_steps_per_second': 14.638, 'train_loss': 4.177593994140625, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/168/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/167/train.parquet']
+
+***** Evaluation results for day 168:*****
+
+ eval_/next-item/avg_precision@10 = 0.06006006523966789
+ eval_/next-item/avg_precision@20 = 0.06982635706663132
+ eval_/next-item/ndcg@10 = 0.08363089710474014
+ eval_/next-item/ndcg@20 = 0.12275863438844681
+ eval_/next-item/recall@10 = 0.1621621698141098
+ eval_/next-item/recall@20 = 0.3243243396282196
+
+***** Launch training for day 168: *****
+{'loss': 4.1322, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7154, 'train_samples_per_second': 13.979, 'train_steps_per_second': 13.979, 'train_loss': 4.132192993164063, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/169/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/168/train.parquet']
+
+***** Evaluation results for day 169:*****
+
+ eval_/next-item/avg_precision@10 = 0.061002183705568314
+ eval_/next-item/avg_precision@20 = 0.07000823318958282
+ eval_/next-item/ndcg@10 = 0.08081372827291489
+ eval_/next-item/ndcg@20 = 0.11484981328248978
+ eval_/next-item/recall@10 = 0.13725490868091583
+ eval_/next-item/recall@20 = 0.27450981736183167
+
+***** Launch training for day 169: *****
+{'loss': 4.0428, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.0702, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1095, 'train_samples_per_second': 9.013, 'train_steps_per_second': 18.026, 'train_loss': 4.05651626586914, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/170/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/169/train.parquet']
+
+***** Evaluation results for day 170:*****
+
+ eval_/next-item/avg_precision@10 = 0.051683828234672546
+ eval_/next-item/avg_precision@20 = 0.059988927096128464
+ eval_/next-item/ndcg@10 = 0.08183670043945312
+ eval_/next-item/ndcg@20 = 0.11464075744152069
+ eval_/next-item/recall@10 = 0.18918919563293457
+ eval_/next-item/recall@20 = 0.3243243396282196
+
+***** Launch training for day 170: *****
+{'loss': 4.0541, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6985, 'train_samples_per_second': 14.317, 'train_steps_per_second': 14.317, 'train_loss': 4.054085159301758, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/171/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/170/train.parquet']
+
+***** Evaluation results for day 171:*****
+
+ eval_/next-item/avg_precision@10 = 0.03378378599882126
+ eval_/next-item/avg_precision@20 = 0.043379589915275574
+ eval_/next-item/ndcg@10 = 0.051971882581710815
+ eval_/next-item/ndcg@20 = 0.09086865931749344
+ eval_/next-item/recall@10 = 0.10810811072587967
+ eval_/next-item/recall@20 = 0.27027028799057007
+
+***** Launch training for day 171: *****
+{'loss': 4.3745, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.699, 'train_samples_per_second': 14.306, 'train_steps_per_second': 14.306, 'train_loss': 4.374509048461914, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/172/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/171/train.parquet']
+
+***** Evaluation results for day 172:*****
+
+ eval_/next-item/avg_precision@10 = 0.0625
+ eval_/next-item/avg_precision@20 = 0.07467247545719147
+ eval_/next-item/ndcg@10 = 0.07153382152318954
+ eval_/next-item/ndcg@20 = 0.11577162891626358
+ eval_/next-item/recall@10 = 0.10000000149011612
+ eval_/next-item/recall@20 = 0.2750000059604645
+
+***** Launch training for day 172: *****
+{'loss': 4.0462, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6997, 'train_samples_per_second': 14.291, 'train_steps_per_second': 14.291, 'train_loss': 4.0461578369140625, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/173/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/172/train.parquet']
+
+***** Evaluation results for day 173:*****
+
+ eval_/next-item/avg_precision@10 = 0.02291666902601719
+ eval_/next-item/avg_precision@20 = 0.03449513390660286
+ eval_/next-item/ndcg@10 = 0.03576691448688507
+ eval_/next-item/ndcg@20 = 0.07934891432523727
+ eval_/next-item/recall@10 = 0.07500000298023224
+ eval_/next-item/recall@20 = 0.25
+
+***** Launch training for day 173: *****
+{'loss': 4.32, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6928, 'train_samples_per_second': 14.434, 'train_steps_per_second': 14.434, 'train_loss': 4.31998291015625, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/174/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/173/train.parquet']
+
+***** Evaluation results for day 174:*****
+
+ eval_/next-item/avg_precision@10 = 0.10982143133878708
+ eval_/next-item/avg_precision@20 = 0.12256404012441635
+ eval_/next-item/ndcg@10 = 0.11910025030374527
+ eval_/next-item/ndcg@20 = 0.1684483140707016
+ eval_/next-item/recall@10 = 0.15000000596046448
+ eval_/next-item/recall@20 = 0.3499999940395355
+
+***** Launch training for day 174: *****
+{'loss': 4.0046, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6973, 'train_samples_per_second': 14.34, 'train_steps_per_second': 14.34, 'train_loss': 4.004629516601563, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/175/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/174/train.parquet']
+
+***** Evaluation results for day 175:*****
+
+ eval_/next-item/avg_precision@10 = 0.02445652149617672
+ eval_/next-item/avg_precision@20 = 0.038991570472717285
+ eval_/next-item/ndcg@10 = 0.028597062453627586
+ eval_/next-item/ndcg@20 = 0.08279482275247574
+ eval_/next-item/recall@10 = 0.043478261679410934
+ eval_/next-item/recall@20 = 0.260869562625885
+
+***** Launch training for day 175: *****
+{'loss': 4.0891, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7113, 'train_samples_per_second': 14.059, 'train_steps_per_second': 14.059, 'train_loss': 4.089093017578125, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/176/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/175/train.parquet']
+
+***** Evaluation results for day 176:*****
+
+ eval_/next-item/avg_precision@10 = 0.06141304224729538
+ eval_/next-item/avg_precision@20 = 0.07294198870658875
+ eval_/next-item/ndcg@10 = 0.07662009447813034
+ eval_/next-item/ndcg@20 = 0.11991327255964279
+ eval_/next-item/recall@10 = 0.1304347813129425
+ eval_/next-item/recall@20 = 0.30434784293174744
+
+***** Launch training for day 176: *****
+{'loss': 3.3323, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6732, 'train_samples_per_second': 14.854, 'train_steps_per_second': 14.854, 'train_loss': 3.3323497772216797, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/177/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/176/train.parquet']
+
+***** Evaluation results for day 177:*****
+
+ eval_/next-item/avg_precision@10 = 0.10539413243532181
+ eval_/next-item/avg_precision@20 = 0.11799438297748566
+ eval_/next-item/ndcg@10 = 0.16508299112319946
+ eval_/next-item/ndcg@20 = 0.20895998179912567
+ eval_/next-item/recall@10 = 0.37288135290145874
+ eval_/next-item/recall@20 = 0.5423728823661804
+
+***** Launch training for day 177: *****
+{'loss': 4.0131, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 3.9516, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0753, 'train_samples_per_second': 9.3, 'train_steps_per_second': 18.6, 'train_loss': 3.9823617935180664, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/178/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/177/train.parquet']
+
+***** Evaluation results for day 178:*****
+
+ eval_/next-item/avg_precision@10 = 0.1100529134273529
+ eval_/next-item/avg_precision@20 = 0.11916008591651917
+ eval_/next-item/ndcg@10 = 0.1791369616985321
+ eval_/next-item/ndcg@20 = 0.21205681562423706
+ eval_/next-item/recall@10 = 0.40740740299224854
+ eval_/next-item/recall@20 = 0.5370370149612427
+
+***** Launch training for day 178: *****
+{'loss': 3.7748, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 3.7487, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0919, 'train_samples_per_second': 9.158, 'train_steps_per_second': 18.316, 'train_loss': 3.76175594329834, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/179/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/178/train.parquet']
+
+***** Evaluation results for day 179:*****
+
+ eval_/next-item/avg_precision@10 = 0.11600000411272049
+ eval_/next-item/avg_precision@20 = 0.11964372545480728
+ eval_/next-item/ndcg@10 = 0.17806151509284973
+ eval_/next-item/ndcg@20 = 0.19256962835788727
+ eval_/next-item/recall@10 = 0.3799999952316284
+ eval_/next-item/recall@20 = 0.4399999976158142
+
+***** Launch training for day 179: *****
+{'loss': 3.2367, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7094, 'train_samples_per_second': 14.096, 'train_steps_per_second': 14.096, 'train_loss': 3.2366905212402344, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/180/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/179/train.parquet']
+
+***** Evaluation results for day 180:*****
+
+ eval_/next-item/avg_precision@10 = 0.12730497121810913
+ eval_/next-item/avg_precision@20 = 0.12988631427288055
+ eval_/next-item/ndcg@10 = 0.21765699982643127
+ eval_/next-item/ndcg@20 = 0.22796474397182465
+ eval_/next-item/recall@10 = 0.5106382966041565
+ eval_/next-item/recall@20 = 0.5531914830207825
+
+***** Launch training for day 180: *****
+{'loss': 3.2544, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7196, 'train_samples_per_second': 13.897, 'train_steps_per_second': 13.897, 'train_loss': 3.2543895721435545, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/181/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/180/train.parquet']
+
+***** Evaluation results for day 181:*****
+
+ eval_/next-item/avg_precision@10 = 0.14339622855186462
+ eval_/next-item/avg_precision@20 = 0.14484761655330658
+ eval_/next-item/ndcg@10 = 0.22593393921852112
+ eval_/next-item/ndcg@20 = 0.23088958859443665
+ eval_/next-item/recall@10 = 0.49056604504585266
+ eval_/next-item/recall@20 = 0.5094339847564697
+
+***** Launch training for day 181: *****
+{'loss': 4.54, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.5304, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0959, 'train_samples_per_second': 9.125, 'train_steps_per_second': 18.251, 'train_loss': 4.535188484191894, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/182/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/181/train.parquet']
+
+***** Evaluation results for day 182:*****
+
+ eval_/next-item/avg_precision@10 = 0.12753623723983765
+ eval_/next-item/avg_precision@20 = 0.1348990648984909
+ eval_/next-item/ndcg@10 = 0.19057674705982208
+ eval_/next-item/ndcg@20 = 0.21784792840480804
+ eval_/next-item/recall@10 = 0.3913043439388275
+ eval_/next-item/recall@20 = 0.5
+
+***** Launch training for day 182: *****
+{'loss': 3.5725, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7912, 'train_samples_per_second': 12.639, 'train_steps_per_second': 12.639, 'train_loss': 3.5725120544433593, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/183/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/182/train.parquet']
+
+***** Evaluation results for day 183:*****
+
+ eval_/next-item/avg_precision@10 = 0.10595238953828812
+ eval_/next-item/avg_precision@20 = 0.10803572088479996
+ eval_/next-item/ndcg@10 = 0.1447494775056839
+ eval_/next-item/ndcg@20 = 0.15327930450439453
+ eval_/next-item/recall@10 = 0.267857164144516
+ eval_/next-item/recall@20 = 0.3035714328289032
+
+***** Launch training for day 183: *****
+{'loss': 4.5395, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.5222, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0707, 'train_samples_per_second': 9.34, 'train_steps_per_second': 18.68, 'train_loss': 4.5308879852294925, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/184/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/183/train.parquet']
+
+***** Evaluation results for day 184:*****
+
+ eval_/next-item/avg_precision@10 = 0.04876543581485748
+ eval_/next-item/avg_precision@20 = 0.055046096444129944
+ eval_/next-item/ndcg@10 = 0.08968570828437805
+ eval_/next-item/ndcg@20 = 0.11290285736322403
+ eval_/next-item/recall@10 = 0.2222222238779068
+ eval_/next-item/recall@20 = 0.31481480598449707
+
+***** Launch training for day 184: *****
+{'loss': 4.8399, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.815, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0779, 'train_samples_per_second': 9.277, 'train_steps_per_second': 18.555, 'train_loss': 4.827483749389648, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/185/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/184/train.parquet']
+
+***** Evaluation results for day 185:*****
+
+ eval_/next-item/avg_precision@10 = 0.10294117033481598
+ eval_/next-item/avg_precision@20 = 0.10514705628156662
+ eval_/next-item/ndcg@10 = 0.14655880630016327
+ eval_/next-item/ndcg@20 = 0.15582001209259033
+ eval_/next-item/recall@10 = 0.27450981736183167
+ eval_/next-item/recall@20 = 0.3137255012989044
+
+***** Launch training for day 185: *****
+{'loss': 3.8222, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6631, 'train_samples_per_second': 15.08, 'train_steps_per_second': 15.08, 'train_loss': 3.8221904754638674, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/186/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/185/train.parquet']
+
+***** Evaluation results for day 186:*****
+
+ eval_/next-item/avg_precision@10 = 0.1040540561079979
+ eval_/next-item/avg_precision@20 = 0.10540541261434555
+ eval_/next-item/ndcg@10 = 0.16315264999866486
+ eval_/next-item/ndcg@20 = 0.16930589079856873
+ eval_/next-item/recall@10 = 0.3513513505458832
+ eval_/next-item/recall@20 = 0.37837839126586914
+
+***** Launch training for day 186: *****
+{'loss': 2.8689, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6681, 'train_samples_per_second': 14.969, 'train_steps_per_second': 14.969, 'train_loss': 2.868949317932129, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/187/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/186/train.parquet']
+
+***** Evaluation results for day 187:*****
+
+ eval_/next-item/avg_precision@10 = 0.10360360890626907
+ eval_/next-item/avg_precision@20 = 0.10727833956480026
+ eval_/next-item/ndcg@10 = 0.14285072684288025
+ eval_/next-item/ndcg@20 = 0.1564079225063324
+ eval_/next-item/recall@10 = 0.27027028799057007
+ eval_/next-item/recall@20 = 0.3243243396282196
+
+***** Launch training for day 187: *****
+{'loss': 3.1085, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6668, 'train_samples_per_second': 14.997, 'train_steps_per_second': 14.997, 'train_loss': 3.108465576171875, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/188/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/187/train.parquet']
+
+***** Evaluation results for day 188:*****
+
+ eval_/next-item/avg_precision@10 = 0.10809523612260818
+ eval_/next-item/avg_precision@20 = 0.11346939206123352
+ eval_/next-item/ndcg@10 = 0.1640472412109375
+ eval_/next-item/ndcg@20 = 0.18500801920890808
+ eval_/next-item/recall@10 = 0.34285715222358704
+ eval_/next-item/recall@20 = 0.4285714328289032
+
+***** Launch training for day 188: *****
+{'loss': 3.2189, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6919, 'train_samples_per_second': 14.452, 'train_steps_per_second': 14.452, 'train_loss': 3.2188884735107424, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/189/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/188/train.parquet']
+
+***** Evaluation results for day 189:*****
+
+ eval_/next-item/avg_precision@10 = 0.08385416865348816
+ eval_/next-item/avg_precision@20 = 0.09573376178741455
+ eval_/next-item/ndcg@10 = 0.1354467123746872
+ eval_/next-item/ndcg@20 = 0.1814524531364441
+ eval_/next-item/recall@10 = 0.28125
+ eval_/next-item/recall@20 = 0.46875
+
+***** Launch training for day 189: *****
+{'loss': 3.3064, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8384, 'train_samples_per_second': 11.928, 'train_steps_per_second': 11.928, 'train_loss': 3.306352996826172, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/190/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/189/train.parquet']
+
+***** Evaluation results for day 190:*****
+
+ eval_/next-item/avg_precision@10 = 0.12041666358709335
+ eval_/next-item/avg_precision@20 = 0.13077236711978912
+ eval_/next-item/ndcg@10 = 0.16395044326782227
+ eval_/next-item/ndcg@20 = 0.20587794482707977
+ eval_/next-item/recall@10 = 0.30000001192092896
+ eval_/next-item/recall@20 = 0.4749999940395355
+
+***** Launch training for day 190: *****
+{'loss': 3.3477, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8021, 'train_samples_per_second': 12.467, 'train_steps_per_second': 12.467, 'train_loss': 3.3477283477783204, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/191/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/190/train.parquet']
+
+***** Evaluation results for day 191:*****
+
+ eval_/next-item/avg_precision@10 = 0.06380952149629593
+ eval_/next-item/avg_precision@20 = 0.07122449576854706
+ eval_/next-item/ndcg@10 = 0.10062604397535324
+ eval_/next-item/ndcg@20 = 0.128899946808815
+ eval_/next-item/recall@10 = 0.20000000298023224
+ eval_/next-item/recall@20 = 0.3142857253551483
+
+***** Launch training for day 191: *****
+{'loss': 3.0915, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7235, 'train_samples_per_second': 13.822, 'train_steps_per_second': 13.822, 'train_loss': 3.0915176391601564, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/192/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/191/train.parquet']
+
+***** Evaluation results for day 192:*****
+
+ eval_/next-item/avg_precision@10 = 0.10450451076030731
+ eval_/next-item/avg_precision@20 = 0.1100020557641983
+ eval_/next-item/ndcg@10 = 0.17079466581344604
+ eval_/next-item/ndcg@20 = 0.19109909236431122
+ eval_/next-item/recall@10 = 0.37837839126586914
+ eval_/next-item/recall@20 = 0.45945948362350464
+
+***** Launch training for day 192: *****
+{'loss': 3.6114, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.692, 'train_samples_per_second': 14.451, 'train_steps_per_second': 14.451, 'train_loss': 3.611375427246094, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/193/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/192/train.parquet']
+
+***** Evaluation results for day 193:*****
+
+ eval_/next-item/avg_precision@10 = 0.10576923191547394
+ eval_/next-item/avg_precision@20 = 0.11371069401502609
+ eval_/next-item/ndcg@10 = 0.14584730565547943
+ eval_/next-item/ndcg@20 = 0.1749502718448639
+ eval_/next-item/recall@10 = 0.26923078298568726
+ eval_/next-item/recall@20 = 0.38461539149284363
+
+***** Launch training for day 193: *****
+{'loss': 3.3978, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6654, 'train_samples_per_second': 15.028, 'train_steps_per_second': 15.028, 'train_loss': 3.397848892211914, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/194/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/193/train.parquet']
+
+***** Evaluation results for day 194:*****
+
+ eval_/next-item/avg_precision@10 = 0.1157657653093338
+ eval_/next-item/avg_precision@20 = 0.12002458423376083
+ eval_/next-item/ndcg@10 = 0.16699683666229248
+ eval_/next-item/ndcg@20 = 0.1812925934791565
+ eval_/next-item/recall@10 = 0.3243243396282196
+ eval_/next-item/recall@20 = 0.37837839126586914
+
+***** Launch training for day 194: *****
+{'loss': 3.2285, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7126, 'train_samples_per_second': 14.033, 'train_steps_per_second': 14.033, 'train_loss': 3.228524398803711, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/195/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/194/train.parquet']
+
+***** Evaluation results for day 195:*****
+
+ eval_/next-item/avg_precision@10 = 0.0648648664355278
+ eval_/next-item/avg_precision@20 = 0.06929964572191238
+ eval_/next-item/ndcg@10 = 0.11846661567687988
+ eval_/next-item/ndcg@20 = 0.13745495676994324
+ eval_/next-item/recall@10 = 0.27027028799057007
+ eval_/next-item/recall@20 = 0.3513513505458832
+
+***** Launch training for day 195: *****
+{'loss': 3.036, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6779, 'train_samples_per_second': 14.752, 'train_steps_per_second': 14.752, 'train_loss': 3.036000061035156, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/196/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/195/train.parquet']
+
+***** Evaluation results for day 196:*****
+
+ eval_/next-item/avg_precision@10 = 0.1778455227613449
+ eval_/next-item/avg_precision@20 = 0.18094268441200256
+ eval_/next-item/ndcg@10 = 0.22382481396198273
+ eval_/next-item/ndcg@20 = 0.23580938577651978
+ eval_/next-item/recall@10 = 0.3658536374568939
+ eval_/next-item/recall@20 = 0.4146341383457184
+
+***** Launch training for day 196: *****
+{'loss': 3.1493, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7976, 'train_samples_per_second': 12.538, 'train_steps_per_second': 12.538, 'train_loss': 3.149347496032715, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/197/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/196/train.parquet']
+
+***** Evaluation results for day 197:*****
+
+ eval_/next-item/avg_precision@10 = 0.13093607127666473
+ eval_/next-item/avg_precision@20 = 0.13246285915374756
+ eval_/next-item/ndcg@10 = 0.18131405115127563
+ eval_/next-item/ndcg@20 = 0.18776871263980865
+ eval_/next-item/recall@10 = 0.34246575832366943
+ eval_/next-item/recall@20 = 0.36986300349235535
+
+***** Launch training for day 197: *****
+{'loss': 3.665, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 3.6317, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.1354, 'train_samples_per_second': 8.808, 'train_steps_per_second': 17.615, 'train_loss': 3.6483314514160154, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/198/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/197/train.parquet']
+
+***** Evaluation results for day 198:*****
+
+ eval_/next-item/avg_precision@10 = 0.1527027040719986
+ eval_/next-item/avg_precision@20 = 0.16021020710468292
+ eval_/next-item/ndcg@10 = 0.20661213994026184
+ eval_/next-item/ndcg@20 = 0.2384001761674881
+ eval_/next-item/recall@10 = 0.37837839126586914
+ eval_/next-item/recall@20 = 0.5135135054588318
+
+***** Launch training for day 198: *****
+{'loss': 2.948, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7065, 'train_samples_per_second': 14.154, 'train_steps_per_second': 14.154, 'train_loss': 2.948013496398926, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/199/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/198/train.parquet']
+
+***** Evaluation results for day 199:*****
+
+ eval_/next-item/avg_precision@10 = 0.0736808255314827
+ eval_/next-item/avg_precision@20 = 0.07653368264436722
+ eval_/next-item/ndcg@10 = 0.12728169560432434
+ eval_/next-item/ndcg@20 = 0.13979734480381012
+ eval_/next-item/recall@10 = 0.29729729890823364
+ eval_/next-item/recall@20 = 0.3513513505458832
+
+***** Launch training for day 199: *****
+{'loss': 2.6273, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7097, 'train_samples_per_second': 14.091, 'train_steps_per_second': 14.091, 'train_loss': 2.6273172378540037, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/200/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/199/train.parquet']
+
+***** Evaluation results for day 200:*****
+
+ eval_/next-item/avg_precision@10 = 0.10057471692562103
+ eval_/next-item/avg_precision@20 = 0.10887563228607178
+ eval_/next-item/ndcg@10 = 0.13527445495128632
+ eval_/next-item/ndcg@20 = 0.1685505360364914
+ eval_/next-item/recall@10 = 0.24137930572032928
+ eval_/next-item/recall@20 = 0.37931033968925476
+
+***** Launch training for day 200: *****
+{'loss': 2.5131, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.672, 'train_samples_per_second': 14.88, 'train_steps_per_second': 14.88, 'train_loss': 2.513110542297363, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/201/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/200/train.parquet']
+
+***** Evaluation results for day 201:*****
+
+ eval_/next-item/avg_precision@10 = 0.11724138259887695
+ eval_/next-item/avg_precision@20 = 0.12011494487524033
+ eval_/next-item/ndcg@10 = 0.1643444299697876
+ eval_/next-item/ndcg@20 = 0.17366299033164978
+ eval_/next-item/recall@10 = 0.3103448152542114
+ eval_/next-item/recall@20 = 0.3448275923728943
+
+***** Launch training for day 201: *****
+{'loss': 2.8734, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6643, 'train_samples_per_second': 15.053, 'train_steps_per_second': 15.053, 'train_loss': 2.873403549194336, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/202/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/201/train.parquet']
+
+***** Evaluation results for day 202:*****
+
+ eval_/next-item/avg_precision@10 = 0.14222222566604614
+ eval_/next-item/avg_precision@20 = 0.14734072983264923
+ eval_/next-item/ndcg@10 = 0.21068841218948364
+ eval_/next-item/ndcg@20 = 0.22816048562526703
+ eval_/next-item/recall@10 = 0.42222222685813904
+ eval_/next-item/recall@20 = 0.4888888895511627
+
+***** Launch training for day 202: *****
+{'loss': 2.9562, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6857, 'train_samples_per_second': 14.583, 'train_steps_per_second': 14.583, 'train_loss': 2.956166458129883, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/203/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/202/train.parquet']
+
+***** Evaluation results for day 203:*****
+
+ eval_/next-item/avg_precision@10 = 0.08133848756551743
+ eval_/next-item/avg_precision@20 = 0.09207241982221603
+ eval_/next-item/ndcg@10 = 0.1335916966199875
+ eval_/next-item/ndcg@20 = 0.17452871799468994
+ eval_/next-item/recall@10 = 0.29729729890823364
+ eval_/next-item/recall@20 = 0.45945948362350464
+
+***** Launch training for day 203: *****
+{'loss': 3.0743, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8744, 'train_samples_per_second': 11.436, 'train_steps_per_second': 11.436, 'train_loss': 3.074296569824219, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/204/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/203/train.parquet']
+
+***** Evaluation results for day 204:*****
+
+ eval_/next-item/avg_precision@10 = 0.08494152873754501
+ eval_/next-item/avg_precision@20 = 0.0899122804403305
+ eval_/next-item/ndcg@10 = 0.14642032980918884
+ eval_/next-item/ndcg@20 = 0.16571813821792603
+ eval_/next-item/recall@10 = 0.34210526943206787
+ eval_/next-item/recall@20 = 0.42105263471603394
+
+***** Launch training for day 204: *****
+{'loss': 2.9406, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7438, 'train_samples_per_second': 13.444, 'train_steps_per_second': 13.444, 'train_loss': 2.9406179428100585, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/205/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/204/train.parquet']
+
+***** Evaluation results for day 205:*****
+
+ eval_/next-item/avg_precision@10 = 0.09234234690666199
+ eval_/next-item/avg_precision@20 = 0.09511617571115494
+ eval_/next-item/ndcg@10 = 0.14904692769050598
+ eval_/next-item/ndcg@20 = 0.16145363450050354
+ eval_/next-item/recall@10 = 0.3243243396282196
+ eval_/next-item/recall@20 = 0.37837839126586914
+
+***** Launch training for day 205: *****
+{'loss': 2.8932, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7432, 'train_samples_per_second': 13.456, 'train_steps_per_second': 13.456, 'train_loss': 2.893227958679199, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/206/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/205/train.parquet']
+
+***** Evaluation results for day 206:*****
+
+ eval_/next-item/avg_precision@10 = 0.0652380958199501
+ eval_/next-item/avg_precision@20 = 0.06886621564626694
+ eval_/next-item/ndcg@10 = 0.09082521498203278
+ eval_/next-item/ndcg@20 = 0.10486426949501038
+ eval_/next-item/recall@10 = 0.17142857611179352
+ eval_/next-item/recall@20 = 0.22857142984867096
+
+***** Launch training for day 206: *****
+{'loss': 2.9427, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.81, 'train_samples_per_second': 12.346, 'train_steps_per_second': 12.346, 'train_loss': 2.9426660537719727, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/207/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/206/train.parquet']
+
+***** Evaluation results for day 207:*****
+
+ eval_/next-item/avg_precision@10 = 0.09761904925107956
+ eval_/next-item/avg_precision@20 = 0.10370156168937683
+ eval_/next-item/ndcg@10 = 0.13669463992118835
+ eval_/next-item/ndcg@20 = 0.1585308015346527
+ eval_/next-item/recall@10 = 0.2571428716182709
+ eval_/next-item/recall@20 = 0.34285715222358704
+
+***** Launch training for day 207: *****
+{'loss': 2.9477, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7436, 'train_samples_per_second': 13.448, 'train_steps_per_second': 13.448, 'train_loss': 2.9476600646972657, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/208/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/207/train.parquet']
+
+***** Evaluation results for day 208:*****
+
+ eval_/next-item/avg_precision@10 = 0.10571429133415222
+ eval_/next-item/avg_precision@20 = 0.10571429133415222
+ eval_/next-item/ndcg@10 = 0.1563117653131485
+ eval_/next-item/ndcg@20 = 0.1563117653131485
+ eval_/next-item/recall@10 = 0.3142857253551483
+ eval_/next-item/recall@20 = 0.3142857253551483
+
+***** Launch training for day 208: *****
+{'loss': 2.7918, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7448, 'train_samples_per_second': 13.426, 'train_steps_per_second': 13.426, 'train_loss': 2.791843032836914, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/209/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/208/train.parquet']
+
+***** Evaluation results for day 209:*****
+
+ eval_/next-item/avg_precision@10 = 0.13571429252624512
+ eval_/next-item/avg_precision@20 = 0.1397959291934967
+ eval_/next-item/ndcg@10 = 0.193837508559227
+ eval_/next-item/ndcg@20 = 0.20846368372440338
+ eval_/next-item/recall@10 = 0.37142857909202576
+ eval_/next-item/recall@20 = 0.4285714328289032
+
+***** Launch training for day 209: *****
+{'loss': 2.6733, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7068, 'train_samples_per_second': 14.148, 'train_steps_per_second': 14.148, 'train_loss': 2.673342704772949, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/210/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/209/train.parquet']
+
+***** Evaluation results for day 210:*****
+
+ eval_/next-item/avg_precision@10 = 0.1044117733836174
+ eval_/next-item/avg_precision@20 = 0.10595976561307907
+ eval_/next-item/ndcg@10 = 0.17122304439544678
+ eval_/next-item/ndcg@20 = 0.17802827060222626
+ eval_/next-item/recall@10 = 0.38235294818878174
+ eval_/next-item/recall@20 = 0.4117647111415863
+
+***** Launch training for day 210: *****
+{'loss': 2.7943, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6653, 'train_samples_per_second': 15.031, 'train_steps_per_second': 15.031, 'train_loss': 2.7943292617797852, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/211/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/210/train.parquet']
+
+***** Evaluation results for day 211:*****
+
+ eval_/next-item/avg_precision@10 = 0.07060185819864273
+ eval_/next-item/avg_precision@20 = 0.0729166641831398
+ eval_/next-item/ndcg@10 = 0.11388271301984787
+ eval_/next-item/ndcg@20 = 0.12138932198286057
+ eval_/next-item/recall@10 = 0.25
+ eval_/next-item/recall@20 = 0.2777777910232544
+
+***** Launch training for day 211: *****
+{'loss': 2.86, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7409, 'train_samples_per_second': 13.496, 'train_steps_per_second': 13.496, 'train_loss': 2.8599809646606444, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/212/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/211/train.parquet']
+
+***** Evaluation results for day 212:*****
+
+ eval_/next-item/avg_precision@10 = 0.15166667103767395
+ eval_/next-item/avg_precision@20 = 0.15930303931236267
+ eval_/next-item/ndcg@10 = 0.23230990767478943
+ eval_/next-item/ndcg@20 = 0.2616812586784363
+ eval_/next-item/recall@10 = 0.47999998927116394
+ eval_/next-item/recall@20 = 0.5999999642372131
+
+***** Launch training for day 212: *****
+{'loss': 2.4565, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.7127, 'train_samples_per_second': 14.031, 'train_steps_per_second': 14.031, 'train_loss': 2.4564531326293944, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/213/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/212/train.parquet']
+
+***** Evaluation results for day 213:*****
+
+ eval_/next-item/avg_precision@10 = 0.14053671061992645
+ eval_/next-item/avg_precision@20 = 0.14462164044380188
+ eval_/next-item/ndcg@10 = 0.21331366896629333
+ eval_/next-item/ndcg@20 = 0.2296733260154724
+ eval_/next-item/recall@10 = 0.4406779706478119
+ eval_/next-item/recall@20 = 0.508474588394165
+
+***** Launch training for day 213: *****
+{'loss': 3.1298, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 3.112, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0679, 'train_samples_per_second': 9.364, 'train_steps_per_second': 18.728, 'train_loss': 3.1208980560302733, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/214/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/213/train.parquet']
+
+***** Evaluation results for day 214:*****
+
+ eval_/next-item/avg_precision@10 = 0.1380208432674408
+ eval_/next-item/avg_precision@20 = 0.1429641842842102
+ eval_/next-item/ndcg@10 = 0.1808401197195053
+ eval_/next-item/ndcg@20 = 0.20254191756248474
+ eval_/next-item/recall@10 = 0.3125
+ eval_/next-item/recall@20 = 0.40625
+
+***** Launch training for day 214: *****
+{'loss': 3.0265, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6668, 'train_samples_per_second': 14.998, 'train_steps_per_second': 14.998, 'train_loss': 3.02648868560791, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/215/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/214/train.parquet']
+
+***** Evaluation results for day 215:*****
+
+ eval_/next-item/avg_precision@10 = 0.17892158031463623
+ eval_/next-item/avg_precision@20 = 0.18781788647174835
+ eval_/next-item/ndcg@10 = 0.22625106573104858
+ eval_/next-item/ndcg@20 = 0.2618054449558258
+ eval_/next-item/recall@10 = 0.3235294222831726
+ eval_/next-item/recall@20 = 0.47058823704719543
+
+***** Launch training for day 215: *****
+{'loss': 3.0595, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6668, 'train_samples_per_second': 14.997, 'train_steps_per_second': 14.997, 'train_loss': 3.0594968795776367, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/216/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/215/train.parquet']
+
+***** Evaluation results for day 216:*****
+
+ eval_/next-item/avg_precision@10 = 0.1510416716337204
+ eval_/next-item/avg_precision@20 = 0.1563628762960434
+ eval_/next-item/ndcg@10 = 0.20673424005508423
+ eval_/next-item/ndcg@20 = 0.22895309329032898
+ eval_/next-item/recall@10 = 0.375
+ eval_/next-item/recall@20 = 0.46875
+
+***** Launch training for day 216: *****
+{'loss': 2.4202, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6688, 'train_samples_per_second': 14.952, 'train_steps_per_second': 14.952, 'train_loss': 2.4202136993408203, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/217/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/216/train.parquet']
+
+***** Evaluation results for day 217:*****
+
+ eval_/next-item/avg_precision@10 = 0.15165166556835175
+ eval_/next-item/avg_precision@20 = 0.15845100581645966
+ eval_/next-item/ndcg@10 = 0.20129626989364624
+ eval_/next-item/ndcg@20 = 0.22778905928134918
+ eval_/next-item/recall@10 = 0.3513513505458832
+ eval_/next-item/recall@20 = 0.45945948362350464
+
+***** Launch training for day 217: *****
+{'loss': 3.0755, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6624, 'train_samples_per_second': 15.097, 'train_steps_per_second': 15.097, 'train_loss': 3.075514030456543, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/218/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/217/train.parquet']
+
+***** Evaluation results for day 218:*****
+
+ eval_/next-item/avg_precision@10 = 0.12837839126586914
+ eval_/next-item/avg_precision@20 = 0.1330798864364624
+ eval_/next-item/ndcg@10 = 0.17777319252490997
+ eval_/next-item/ndcg@20 = 0.1971202790737152
+ eval_/next-item/recall@10 = 0.3243243396282196
+ eval_/next-item/recall@20 = 0.4054054021835327
+
+***** Launch training for day 218: *****
+{'loss': 2.6629, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6727, 'train_samples_per_second': 14.866, 'train_steps_per_second': 14.866, 'train_loss': 2.662899208068848, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/219/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/218/train.parquet']
+
+***** Evaluation results for day 219:*****
+
+ eval_/next-item/avg_precision@10 = 0.12837837636470795
+ eval_/next-item/avg_precision@20 = 0.13458137214183807
+ eval_/next-item/ndcg@10 = 0.2164059281349182
+ eval_/next-item/ndcg@20 = 0.24211539328098297
+ eval_/next-item/recall@10 = 0.45945948362350464
+ eval_/next-item/recall@20 = 0.5675675868988037
+
+***** Launch training for day 219: *****
+{'loss': 2.3494, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6713, 'train_samples_per_second': 14.897, 'train_steps_per_second': 14.897, 'train_loss': 2.349429702758789, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/220/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/219/train.parquet']
+
+***** Evaluation results for day 220:*****
+
+ eval_/next-item/avg_precision@10 = 0.12654320895671844
+ eval_/next-item/avg_precision@20 = 0.128492534160614
+ eval_/next-item/ndcg@10 = 0.17719677090644836
+ eval_/next-item/ndcg@20 = 0.1857663244009018
+ eval_/next-item/recall@10 = 0.3333333432674408
+ eval_/next-item/recall@20 = 0.37037038803100586
+
+***** Launch training for day 220: *****
+{'loss': 2.9763, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6661, 'train_samples_per_second': 15.014, 'train_steps_per_second': 15.014, 'train_loss': 2.9762969970703126, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/221/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/220/train.parquet']
+
+***** Evaluation results for day 221:*****
+
+ eval_/next-item/avg_precision@10 = 0.0803571492433548
+ eval_/next-item/avg_precision@20 = 0.08461780846118927
+ eval_/next-item/ndcg@10 = 0.12224855273962021
+ eval_/next-item/ndcg@20 = 0.1394406259059906
+ eval_/next-item/recall@10 = 0.25
+ eval_/next-item/recall@20 = 0.3214285969734192
+
+***** Launch training for day 221: *****
+{'loss': 2.115, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6583, 'train_samples_per_second': 15.192, 'train_steps_per_second': 15.192, 'train_loss': 2.1150211334228515, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/222/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/221/train.parquet']
+
+***** Evaluation results for day 222:*****
+
+ eval_/next-item/avg_precision@10 = 0.1666666716337204
+ eval_/next-item/avg_precision@20 = 0.17061924934387207
+ eval_/next-item/ndcg@10 = 0.21080391108989716
+ eval_/next-item/ndcg@20 = 0.2229318618774414
+ eval_/next-item/recall@10 = 0.3478260934352875
+ eval_/next-item/recall@20 = 0.3913043439388275
+
+***** Launch training for day 222: *****
+{'loss': 2.8457, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.663, 'train_samples_per_second': 15.082, 'train_steps_per_second': 15.082, 'train_loss': 2.8456953048706053, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/223/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/222/train.parquet']
+
+***** Evaluation results for day 223:*****
+
+ eval_/next-item/avg_precision@10 = 0.1775641143321991
+ eval_/next-item/avg_precision@20 = 0.1867726892232895
+ eval_/next-item/ndcg@10 = 0.21962764859199524
+ eval_/next-item/ndcg@20 = 0.256652295589447
+ eval_/next-item/recall@10 = 0.3461538553237915
+ eval_/next-item/recall@20 = 0.5
+
+***** Launch training for day 223: *****
+{'loss': 3.1062, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6683, 'train_samples_per_second': 14.963, 'train_steps_per_second': 14.963, 'train_loss': 3.1062236785888673, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/224/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/223/train.parquet']
+
+***** Evaluation results for day 224:*****
+
+ eval_/next-item/avg_precision@10 = 0.2246377021074295
+ eval_/next-item/avg_precision@20 = 0.22753624618053436
+ eval_/next-item/ndcg@10 = 0.28899702429771423
+ eval_/next-item/ndcg@20 = 0.29986658692359924
+ eval_/next-item/recall@10 = 0.47826087474823
+ eval_/next-item/recall@20 = 0.52173912525177
+
+***** Launch training for day 224: *****
+{'loss': 3.059, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6647, 'train_samples_per_second': 15.044, 'train_steps_per_second': 15.044, 'train_loss': 3.058981704711914, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/225/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/224/train.parquet']
+
+***** Evaluation results for day 225:*****
+
+ eval_/next-item/avg_precision@10 = 0.2652661204338074
+ eval_/next-item/avg_precision@20 = 0.27016809582710266
+ eval_/next-item/ndcg@10 = 0.3301750421524048
+ eval_/next-item/ndcg@20 = 0.34607142210006714
+ eval_/next-item/recall@10 = 0.529411792755127
+ eval_/next-item/recall@20 = 0.5882353186607361
+
+***** Launch training for day 225: *****
+{'loss': 2.2943, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6618, 'train_samples_per_second': 15.111, 'train_steps_per_second': 15.111, 'train_loss': 2.294255256652832, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/226/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/225/train.parquet']
+
+***** Evaluation results for day 226:*****
+
+ eval_/next-item/avg_precision@10 = 0.08666666597127914
+ eval_/next-item/avg_precision@20 = 0.09527193009853363
+ eval_/next-item/ndcg@10 = 0.11445412039756775
+ eval_/next-item/ndcg@20 = 0.15170888602733612
+ eval_/next-item/recall@10 = 0.19999998807907104
+ eval_/next-item/recall@20 = 0.35999998450279236
+
+***** Launch training for day 226: *****
+{'loss': 2.8541, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6645, 'train_samples_per_second': 15.049, 'train_steps_per_second': 15.049, 'train_loss': 2.854081726074219, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/227/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/226/train.parquet']
+
+***** Evaluation results for day 227:*****
+
+ eval_/next-item/avg_precision@10 = 0.18983332812786102
+ eval_/next-item/avg_precision@20 = 0.19108332693576813
+ eval_/next-item/ndcg@10 = 0.24698497354984283
+ eval_/next-item/ndcg@20 = 0.2518779933452606
+ eval_/next-item/recall@10 = 0.41999998688697815
+ eval_/next-item/recall@20 = 0.4399999976158142
+
+***** Launch training for day 227: *****
+{'loss': 2.3164, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6644, 'train_samples_per_second': 15.051, 'train_steps_per_second': 15.051, 'train_loss': 2.3163825988769533, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/228/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/227/train.parquet']
+
+***** Evaluation results for day 228:*****
+
+ eval_/next-item/avg_precision@10 = 0.1617284119129181
+ eval_/next-item/avg_precision@20 = 0.16469137370586395
+ eval_/next-item/ndcg@10 = 0.2159452885389328
+ eval_/next-item/ndcg@20 = 0.22705639898777008
+ eval_/next-item/recall@10 = 0.3777777850627899
+ eval_/next-item/recall@20 = 0.42222222685813904
+
+***** Launch training for day 228: *****
+{'loss': 2.4678, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.6758, 'train_samples_per_second': 14.796, 'train_steps_per_second': 14.796, 'train_loss': 2.467777442932129, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/229/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/228/train.parquet']
+
+***** Evaluation results for day 229:*****
+
+ eval_/next-item/avg_precision@10 = 0.3741071820259094
+ eval_/next-item/avg_precision@20 = 0.3776041865348816
+ eval_/next-item/ndcg@10 = 0.4153171181678772
+ eval_/next-item/ndcg@20 = 0.43304142355918884
+ eval_/next-item/recall@10 = 0.535714328289032
+ eval_/next-item/recall@20 = 0.6071428656578064
+
+***** Launch training for day 229: *****
+{'loss': 2.5387, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 2.5148, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.0911, 'train_samples_per_second': 9.165, 'train_steps_per_second': 18.33, 'train_loss': 2.526731014251709, 'epoch': 10.0}
+eval_paths ['./datasets/preproc_sessions_by_day5/230/valid.parquet']
+train_paths ['./datasets/preproc_sessions_by_day5/229/train.parquet']
+
+***** Evaluation results for day 230:*****
+
+ eval_/next-item/avg_precision@10 = 0.4197317957878113
+ eval_/next-item/avg_precision@20 = 0.4197317957878113
+ eval_/next-item/ndcg@10 = 0.4436101019382477
+ eval_/next-item/ndcg@20 = 0.4436101019382477
+ eval_/next-item/recall@10 = 0.517241358757019
+ eval_/next-item/recall@20 = 0.517241358757019
+ indexed_by_time_eval_/next-item/avg_precision@10 = 0.10689864212253217
+ indexed_by_time_eval_/next-item/avg_precision@20 = 0.1138111746619714
+ indexed_by_time_eval_/next-item/ndcg@10 = 0.1406343518817871
+ indexed_by_time_eval_/next-item/ndcg@20 = 0.166444546538959
+ indexed_by_time_eval_/next-item/recall@10 = 0.24881296357066096
+ indexed_by_time_eval_/next-item/recall@20 = 0.3516712667921041

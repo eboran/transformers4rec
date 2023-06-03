@@ -1,0 +1,14 @@
+max_sequence_length: 1000
+session_id ValueCount(min=0, max=1000)
+item_id-list_seq ValueCount(min=2, max=1000)
+rating-list_seq ValueCount(min=2, max=1000)
+genome_relevance-list_seq ValueCount(min=2, max=1000)
+_genres-list_seq ValueCount(min=2, max=1000)
+genome_tag-list_seq ValueCount(min=2, max=1000)
+tag-list_seq ValueCount(min=2, max=1000)
+et_dayofday-list_seq ValueCount(min=2, max=1000)
+et_dayofweek-list_seq ValueCount(min=2, max=1000)
+et_year-list_seq ValueCount(min=2, max=1000)
+et_dayofweek_sin-list_seq ValueCount(min=2, max=1000)
+
+***** Launch training for day 3: *****
