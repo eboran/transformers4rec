@@ -1,0 +1,1025 @@
+max_sequence_length: 20
+session_id ValueCount(min=0, max=0)
+click_article_id ValueCount(min=2, max=20)
+click_region ValueCount(min=1, max=28)
+
+***** Launch training for day 1: *****
+{'loss': 12.8476, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 12.7664, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3224, 'train_samples_per_second': 7.562, 'train_steps_per_second': 15.124, 'train_loss': 12.806983184814452, 'epoch': 10.0}
+
+***** Evaluation results for day 2:*****
+
+ eval_/next-item/avg_precision@10 = 0.0
+ eval_/next-item/avg_precision@20 = 0.0
+ eval_/next-item/ndcg@10 = 0.0
+ eval_/next-item/ndcg@20 = 0.0
+ eval_/next-item/recall@10 = 0.0
+ eval_/next-item/recall@20 = 0.0
+
+***** Launch training for day 2: *****
+{'loss': 12.7222, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 12.6454, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2906, 'train_samples_per_second': 7.748, 'train_steps_per_second': 15.497, 'train_loss': 12.683780288696289, 'epoch': 10.0}
+
+***** Evaluation results for day 3:*****
+
+ eval_/next-item/avg_precision@10 = 0.061403509229421616
+ eval_/next-item/avg_precision@20 = 0.061403509229421616
+ eval_/next-item/ndcg@10 = 0.07748260349035263
+ eval_/next-item/ndcg@20 = 0.07748260349035263
+ eval_/next-item/recall@10 = 0.12280701845884323
+ eval_/next-item/recall@20 = 0.12280701845884323
+
+***** Launch training for day 3: *****
+{'loss': 12.6088, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.9155, 'train_samples_per_second': 10.923, 'train_steps_per_second': 10.923, 'train_loss': 12.608834075927735, 'epoch': 10.0}
+
+***** Evaluation results for day 4:*****
+
+ eval_/next-item/avg_precision@10 = 0.049180325120687485
+ eval_/next-item/avg_precision@20 = 0.05416306480765343
+ eval_/next-item/ndcg@10 = 0.049180325120687485
+ eval_/next-item/ndcg@20 = 0.07166530191898346
+ eval_/next-item/recall@10 = 0.049180325120687485
+ eval_/next-item/recall@20 = 0.14754097163677216
+
+***** Launch training for day 4: *****
+{'loss': 12.5229, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.9018, 'train_samples_per_second': 11.088, 'train_steps_per_second': 11.088, 'train_loss': 12.522943878173828, 'epoch': 10.0}
+
+***** Evaluation results for day 5:*****
+
+ eval_/next-item/avg_precision@10 = 0.13461539149284363
+ eval_/next-item/avg_precision@20 = 0.13717949390411377
+ eval_/next-item/ndcg@10 = 0.13461539149284363
+ eval_/next-item/ndcg@20 = 0.14423076808452606
+ eval_/next-item/recall@10 = 0.13461539149284363
+ eval_/next-item/recall@20 = 0.17307692766189575
+
+***** Launch training for day 5: *****
+{'loss': 12.4303, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8243, 'train_samples_per_second': 12.131, 'train_steps_per_second': 12.131, 'train_loss': 12.430283355712891, 'epoch': 10.0}
+
+***** Evaluation results for day 6:*****
+
+ eval_/next-item/avg_precision@10 = 0.11971830576658249
+ eval_/next-item/avg_precision@20 = 0.12652580440044403
+ eval_/next-item/ndcg@10 = 0.11971830576658249
+ eval_/next-item/ndcg@20 = 0.1447857916355133
+ eval_/next-item/recall@10 = 0.11971830576658249
+ eval_/next-item/recall@20 = 0.21830984950065613
+
+***** Launch training for day 6: *****
+{'loss': 12.3902, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 0.8806, 'train_samples_per_second': 11.356, 'train_steps_per_second': 11.356, 'train_loss': 12.390247344970703, 'epoch': 10.0}
+
+***** Evaluation results for day 7:*****
+
+ eval_/next-item/avg_precision@10 = 0.1014084443449974
+ eval_/next-item/avg_precision@20 = 0.11310942471027374
+ eval_/next-item/ndcg@10 = 0.1014084443449974
+ eval_/next-item/ndcg@20 = 0.14136077463626862
+ eval_/next-item/recall@10 = 0.1014084443449974
+ eval_/next-item/recall@20 = 0.2535211145877838
+
+***** Launch training for day 7: *****
+{'loss': 12.2371, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 12.1405, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.3968, 'train_samples_per_second': 7.159, 'train_steps_per_second': 14.319, 'train_loss': 12.188798522949218, 'epoch': 10.0}
+
+***** Evaluation results for day 8:*****
+
+ eval_/next-item/avg_precision@10 = 0.1664000004529953
+ eval_/next-item/avg_precision@20 = 0.1664000004529953
+ eval_/next-item/ndcg@10 = 0.1802261769771576
+ eval_/next-item/ndcg@20 = 0.1802261769771576
+ eval_/next-item/recall@10 = 0.219200000166893
+ eval_/next-item/recall@20 = 0.219200000166893
+
+***** Launch training for day 8: *****
+{'loss': 12.1073, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 11.9883, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 11.8875, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 11.849, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.0096, 'train_samples_per_second': 4.976, 'train_steps_per_second': 19.904, 'train_loss': 11.95799446105957, 'epoch': 10.0}
+
+***** Evaluation results for day 9:*****
+
+ eval_/next-item/avg_precision@10 = 0.15907078981399536
+ eval_/next-item/avg_precision@20 = 0.15907078981399536
+ eval_/next-item/ndcg@10 = 0.1749686449766159
+ eval_/next-item/ndcg@20 = 0.1749686449766159
+ eval_/next-item/recall@10 = 0.22234512865543365
+ eval_/next-item/recall@20 = 0.22234512865543365
+
+***** Launch training for day 9: *****
+{'loss': 11.8317, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 11.7004, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 11.6188, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 11.5511, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 11.5145, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.3854, 'train_samples_per_second': 4.192, 'train_steps_per_second': 20.961, 'train_loss': 11.643310852050782, 'epoch': 10.0}
+
+***** Evaluation results for day 10:*****
+
+ eval_/next-item/avg_precision@10 = 0.17223027348518372
+ eval_/next-item/avg_precision@20 = 0.17575806379318237
+ eval_/next-item/ndcg@10 = 0.20366764068603516
+ eval_/next-item/ndcg@20 = 0.21644936501979828
+ eval_/next-item/recall@10 = 0.29758453369140625
+ eval_/next-item/recall@20 = 0.3478260636329651
+
+***** Launch training for day 10: *****
+{'loss': 11.5713, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 11.4108, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 11.3226, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 11.2553, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 11.2178, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 11.181, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.5961, 'train_samples_per_second': 3.852, 'train_steps_per_second': 23.112, 'train_loss': 11.326460901896159, 'epoch': 10.0}
+
+***** Evaluation results for day 11:*****
+
+ eval_/next-item/avg_precision@10 = 0.1553255319595337
+ eval_/next-item/avg_precision@20 = 0.1653071641921997
+ eval_/next-item/ndcg@10 = 0.22542379796504974
+ eval_/next-item/ndcg@20 = 0.25956329703330994
+ eval_/next-item/recall@10 = 0.42913001775741577
+ eval_/next-item/recall@20 = 0.5591397881507874
+
+***** Launch training for day 11: *****
+{'loss': 11.2381, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 11.136, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 11.0207, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 10.9482, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 10.9108, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 10.8736, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.6129, 'train_samples_per_second': 3.827, 'train_steps_per_second': 22.963, 'train_loss': 11.02122942606608, 'epoch': 10.0}
+
+***** Evaluation results for day 12:*****
+
+ eval_/next-item/avg_precision@10 = 0.16507460176944733
+ eval_/next-item/avg_precision@20 = 0.16736102104187012
+ eval_/next-item/ndcg@10 = 0.23611430823802948
+ eval_/next-item/ndcg@20 = 0.2440485805273056
+ eval_/next-item/recall@10 = 0.471038281917572
+ eval_/next-item/recall@20 = 0.5016393661499023
+
+***** Launch training for day 12: *****
+{'loss': 10.9583, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 10.8311, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 10.7228, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 10.6611, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 10.647, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.2819, 'train_samples_per_second': 4.382, 'train_steps_per_second': 21.912, 'train_loss': 10.764058227539062, 'epoch': 10.0}
+
+***** Evaluation results for day 13:*****
+
+ eval_/next-item/avg_precision@10 = 0.14314435422420502
+ eval_/next-item/avg_precision@20 = 0.1533805876970291
+ eval_/next-item/ndcg@10 = 0.19953256845474243
+ eval_/next-item/ndcg@20 = 0.23449188470840454
+ eval_/next-item/recall@10 = 0.38315218687057495
+ eval_/next-item/recall@20 = 0.5163043737411499
+
+***** Launch training for day 13: *****
+{'loss': 10.6817, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 10.542, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 10.4257, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 10.3134, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 10.3117, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 10.2361, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.766, 'train_samples_per_second': 3.615, 'train_steps_per_second': 21.692, 'train_loss': 10.418425877888998, 'epoch': 10.0}
+
+***** Evaluation results for day 14:*****
+
+ eval_/next-item/avg_precision@10 = 0.1528521627187729
+ eval_/next-item/avg_precision@20 = 0.15796886384487152
+ eval_/next-item/ndcg@10 = 0.22213388979434967
+ eval_/next-item/ndcg@20 = 0.2409568876028061
+ eval_/next-item/recall@10 = 0.4456630051136017
+ eval_/next-item/recall@20 = 0.5204386711120605
+
+***** Launch training for day 14: *****
+{'loss': 10.2718, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 10.1156, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 10.0524, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 9.9517, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 9.8852, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 9.8718, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.572, 'train_samples_per_second': 3.888, 'train_steps_per_second': 23.328, 'train_loss': 10.024744288126628, 'epoch': 10.0}
+
+***** Evaluation results for day 15:*****
+
+ eval_/next-item/avg_precision@10 = 0.14836479723453522
+ eval_/next-item/avg_precision@20 = 0.16248129308223724
+ eval_/next-item/ndcg@10 = 0.2064855396747589
+ eval_/next-item/ndcg@20 = 0.25489726662635803
+ eval_/next-item/recall@10 = 0.390783429145813
+ eval_/next-item/recall@20 = 0.5760368704795837
+
+***** Launch training for day 15: *****
+{'loss': 9.9521, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 9.8364, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 9.7138, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 9.6226, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 9.5735, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 9.5469, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.8164, 'train_samples_per_second': 3.551, 'train_steps_per_second': 21.304, 'train_loss': 9.707573954264323, 'epoch': 10.0}
+
+***** Evaluation results for day 16:*****
+
+ eval_/next-item/avg_precision@10 = 0.14684617519378662
+ eval_/next-item/avg_precision@20 = 0.15623435378074646
+ eval_/next-item/ndcg@10 = 0.2106204628944397
+ eval_/next-item/ndcg@20 = 0.2425413876771927
+ eval_/next-item/recall@10 = 0.413965106010437
+ eval_/next-item/recall@20 = 0.5353283882141113
+
+***** Launch training for day 16: *****
+{'loss': 9.6759, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 9.513, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 9.3886, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 9.331, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 9.2541, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 9.1714, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 9.1916, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.9729, 'train_samples_per_second': 3.364, 'train_steps_per_second': 23.546, 'train_loss': 9.360811288016183, 'epoch': 10.0}
+
+***** Evaluation results for day 17:*****
+
+ eval_/next-item/avg_precision@10 = 0.1791444569826126
+ eval_/next-item/avg_precision@20 = 0.1846127212047577
+ eval_/next-item/ndcg@10 = 0.23284076154232025
+ eval_/next-item/ndcg@20 = 0.2544781267642975
+ eval_/next-item/recall@10 = 0.4103730618953705
+ eval_/next-item/recall@20 = 0.49954503774642944
+
+***** Launch training for day 17: *****
+{'loss': 9.2254, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 9.0627, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 8.9964, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 8.8732, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 8.8437, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 8.8041, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.7558, 'train_samples_per_second': 3.629, 'train_steps_per_second': 21.772, 'train_loss': 8.967587534586588, 'epoch': 10.0}
+
+***** Evaluation results for day 18:*****
+
+ eval_/next-item/avg_precision@10 = 0.1659189611673355
+ eval_/next-item/avg_precision@20 = 0.18191063404083252
+ eval_/next-item/ndcg@10 = 0.21354784071445465
+ eval_/next-item/ndcg@20 = 0.27272599935531616
+ eval_/next-item/recall@10 = 0.3694852888584137
+ eval_/next-item/recall@20 = 0.6056985259056091
+
+***** Launch training for day 18: *****
+{'loss': 8.9548, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 8.8214, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 8.7014, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 8.5951, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 8.519, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 8.521, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.8595, 'train_samples_per_second': 3.497, 'train_steps_per_second': 20.983, 'train_loss': 8.685466893513997, 'epoch': 10.0}
+
+***** Evaluation results for day 19:*****
+
+ eval_/next-item/avg_precision@10 = 0.161065474152565
+ eval_/next-item/avg_precision@20 = 0.17596270143985748
+ eval_/next-item/ndcg@10 = 0.19861578941345215
+ eval_/next-item/ndcg@20 = 0.2489272803068161
+ eval_/next-item/recall@10 = 0.31892332434654236
+ eval_/next-item/recall@20 = 0.509787917137146
+
+***** Launch training for day 19: *****
+{'loss': 8.6959, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 8.5089, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 8.3747, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 8.2947, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 8.1789, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 8.1196, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 8.136, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 3.0532, 'train_samples_per_second': 3.275, 'train_steps_per_second': 22.927, 'train_loss': 8.329812513078963, 'epoch': 10.0}
+
+***** Evaluation results for day 20:*****
+
+ eval_/next-item/avg_precision@10 = 0.08854777365922928
+ eval_/next-item/avg_precision@20 = 0.10385429114103317
+ eval_/next-item/ndcg@10 = 0.1334753930568695
+ eval_/next-item/ndcg@20 = 0.19256079196929932
+ eval_/next-item/recall@10 = 0.28253424167633057
+ eval_/next-item/recall@20 = 0.5234017968177795
+
+***** Launch training for day 20: *****
+{'loss': 8.2496, 'learning_rate': 9e-05, 'epoch': 1.0}
+{'loss': 8.0306, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 7.8411, 'learning_rate': 7e-05, 'epoch': 3.0}
+{'loss': 7.6881, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 7.5931, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 7.4944, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 7.4171, 'learning_rate': 3e-05, 'epoch': 7.0}
+{'loss': 7.3512, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 7.3173, 'learning_rate': 1e-05, 'epoch': 9.0}
+{'loss': 7.2792, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 3.9706, 'train_samples_per_second': 2.518, 'train_steps_per_second': 25.185, 'train_loss': 7.626156539916992, 'epoch': 10.0}
+
+***** Evaluation results for day 21:*****
+
+ eval_/next-item/avg_precision@10 = 0.15549404919147491
+ eval_/next-item/avg_precision@20 = 0.1799771636724472
+ eval_/next-item/ndcg@10 = 0.2018563449382782
+ eval_/next-item/ndcg@20 = 0.28941142559051514
+ eval_/next-item/recall@10 = 0.35893917083740234
+ eval_/next-item/recall@20 = 0.7014174461364746
+
+***** Launch training for day 21: *****
+{'loss': 7.1877, 'learning_rate': 9.166666666666667e-05, 'epoch': 0.83}
+{'loss': 7.0317, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 6.8699, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 6.7414, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 6.6191, 'learning_rate': 5.833333333333334e-05, 'epoch': 4.17}
+{'loss': 6.5343, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 6.4332, 'learning_rate': 4.166666666666667e-05, 'epoch': 5.83}
+{'loss': 6.3722, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 6.3277, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 6.2522, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 6.2269, 'learning_rate': 8.333333333333334e-06, 'epoch': 9.17}
+{'loss': 6.2611, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 4.7724, 'train_samples_per_second': 2.095, 'train_steps_per_second': 25.145, 'train_loss': 6.571448675791422, 'epoch': 10.0}
+
+***** Evaluation results for day 22:*****
+
+ eval_/next-item/avg_precision@10 = 0.21998360753059387
+ eval_/next-item/avg_precision@20 = 0.23108668625354767
+ eval_/next-item/ndcg@10 = 0.28877267241477966
+ eval_/next-item/ndcg@20 = 0.32982680201530457
+ eval_/next-item/recall@10 = 0.5269151329994202
+ eval_/next-item/recall@20 = 0.6904761791229248
+
+***** Launch training for day 22: *****
+{'loss': 6.4752, 'learning_rate': 9.090909090909092e-05, 'epoch': 0.91}
+{'loss': 6.3953, 'learning_rate': 8.181818181818183e-05, 'epoch': 1.82}
+{'loss': 6.2868, 'learning_rate': 7.272727272727273e-05, 'epoch': 2.73}
+{'loss': 6.1538, 'learning_rate': 6.363636363636364e-05, 'epoch': 3.64}
+{'loss': 6.0498, 'learning_rate': 5.4545454545454546e-05, 'epoch': 4.55}
+{'loss': 5.9266, 'learning_rate': 4.545454545454546e-05, 'epoch': 5.45}
+{'loss': 5.9327, 'learning_rate': 3.6363636363636364e-05, 'epoch': 6.36}
+{'loss': 5.8901, 'learning_rate': 2.7272727272727273e-05, 'epoch': 7.27}
+{'loss': 5.8233, 'learning_rate': 1.8181818181818182e-05, 'epoch': 8.18}
+{'loss': 5.7548, 'learning_rate': 9.090909090909091e-06, 'epoch': 9.09}
+{'loss': 5.7749, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 4.5659, 'train_samples_per_second': 2.19, 'train_steps_per_second': 24.092, 'train_loss': 6.04210468639027, 'epoch': 10.0}
+
+***** Evaluation results for day 23:*****
+
+ eval_/next-item/avg_precision@10 = 0.1682339310646057
+ eval_/next-item/avg_precision@20 = 0.17639444768428802
+ eval_/next-item/ndcg@10 = 0.2266039103269577
+ eval_/next-item/ndcg@20 = 0.2599073052406311
+ eval_/next-item/recall@10 = 0.42420876026153564
+ eval_/next-item/recall@20 = 0.5419211387634277
+
+***** Launch training for day 23: *****
+{'loss': 6.2169, 'learning_rate': 9e-05, 'epoch': 1.0}
+{'loss': 6.0702, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 5.9236, 'learning_rate': 7e-05, 'epoch': 3.0}
+{'loss': 5.8342, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 5.7334, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.6521, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 5.5777, 'learning_rate': 3e-05, 'epoch': 7.0}
+{'loss': 5.5471, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 5.536, 'learning_rate': 1e-05, 'epoch': 9.0}
+{'loss': 5.498, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 4.0198, 'train_samples_per_second': 2.488, 'train_steps_per_second': 24.877, 'train_loss': 5.758917541503906, 'epoch': 10.0}
+
+***** Evaluation results for day 24:*****
+
+ eval_/next-item/avg_precision@10 = 0.15972144901752472
+ eval_/next-item/avg_precision@20 = 0.17472483217716217
+ eval_/next-item/ndcg@10 = 0.21218514442443848
+ eval_/next-item/ndcg@20 = 0.26760533452033997
+ eval_/next-item/recall@10 = 0.384675532579422
+ eval_/next-item/recall@20 = 0.6051602959632874
+
+***** Launch training for day 24: *****
+{'loss': 5.8366, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 5.7252, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 5.6549, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 5.5611, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 5.549, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 5.4449, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 5.5033, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 3.0922, 'train_samples_per_second': 3.234, 'train_steps_per_second': 22.638, 'train_loss': 5.6107371738978795, 'epoch': 10.0}
+
+***** Evaluation results for day 25:*****
+
+ eval_/next-item/avg_precision@10 = 0.16747920215129852
+ eval_/next-item/avg_precision@20 = 0.17391368746757507
+ eval_/next-item/ndcg@10 = 0.2385786771774292
+ eval_/next-item/ndcg@20 = 0.2630299925804138
+ eval_/next-item/recall@10 = 0.47857144474983215
+ eval_/next-item/recall@20 = 0.5773809552192688
+
+***** Launch training for day 25: *****
+{'loss': 5.6173, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 5.5149, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 5.4424, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 5.3963, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 5.3648, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.322, 'train_samples_per_second': 4.307, 'train_steps_per_second': 21.533, 'train_loss': 5.467142410278321, 'epoch': 10.0}
+
+***** Evaluation results for day 26:*****
+
+ eval_/next-item/avg_precision@10 = 0.16492992639541626
+ eval_/next-item/avg_precision@20 = 0.17363812029361725
+ eval_/next-item/ndcg@10 = 0.23309598863124847
+ eval_/next-item/ndcg@20 = 0.26448747515678406
+ eval_/next-item/recall@10 = 0.4617021083831787
+ eval_/next-item/recall@20 = 0.585106372833252
+
+***** Launch training for day 26: *****
+{'loss': 5.3762, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 5.3112, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 5.2586, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.6333, 'train_samples_per_second': 6.122, 'train_steps_per_second': 18.367, 'train_loss': 5.3153128306070965, 'epoch': 10.0}
+
+***** Evaluation results for day 27:*****
+
+ eval_/next-item/avg_precision@10 = 0.1713312417268753
+ eval_/next-item/avg_precision@20 = 0.17473478615283966
+ eval_/next-item/ndcg@10 = 0.24566374719142914
+ eval_/next-item/ndcg@20 = 0.2587015926837921
+ eval_/next-item/recall@10 = 0.49433964490890503
+ eval_/next-item/recall@20 = 0.5471698045730591
+
+***** Launch training for day 27: *****
+{'loss': 5.6383, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.5451, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2848, 'train_samples_per_second': 7.783, 'train_steps_per_second': 15.566, 'train_loss': 5.591698265075683, 'epoch': 10.0}
+
+***** Evaluation results for day 28:*****
+
+ eval_/next-item/avg_precision@10 = 0.1924452781677246
+ eval_/next-item/avg_precision@20 = 0.19572435319423676
+ eval_/next-item/ndcg@10 = 0.26980456709861755
+ eval_/next-item/ndcg@20 = 0.28255608677864075
+ eval_/next-item/recall@10 = 0.5308057069778442
+ eval_/next-item/recall@20 = 0.5829384326934814
+
+***** Launch training for day 28: *****
+{'loss': 5.0273, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 4.9876, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.234, 'train_samples_per_second': 8.104, 'train_steps_per_second': 16.208, 'train_loss': 5.007463645935059, 'epoch': 10.0}
+
+***** Evaluation results for day 29:*****
+
+ eval_/next-item/avg_precision@10 = 0.16255837678909302
+ eval_/next-item/avg_precision@20 = 0.1687193363904953
+ eval_/next-item/ndcg@10 = 0.22396478056907654
+ eval_/next-item/ndcg@20 = 0.2486622929573059
+ eval_/next-item/recall@10 = 0.4274510145187378
+ eval_/next-item/recall@20 = 0.529411792755127
+
+***** Launch training for day 29: *****
+{'loss': 5.4232, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.3411, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.2105, 'train_samples_per_second': 8.261, 'train_steps_per_second': 16.522, 'train_loss': 5.382156753540039, 'epoch': 10.0}
+
+***** Evaluation results for day 30:*****
+
+ eval_/next-item/avg_precision@10 = 0.1790708750486374
+ eval_/next-item/avg_precision@20 = 0.18411953747272491
+ eval_/next-item/ndcg@10 = 0.23556266725063324
+ eval_/next-item/ndcg@20 = 0.2561308741569519
+ eval_/next-item/recall@10 = 0.421182245016098
+ eval_/next-item/recall@20 = 0.5073891282081604
+
+***** Launch training for day 30: *****
+{'loss': 5.3393, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 5.2341, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 5.204, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 1.5072, 'train_samples_per_second': 6.635, 'train_steps_per_second': 19.904, 'train_loss': 5.259137344360352, 'epoch': 10.0}
+
+***** Evaluation results for day 31:*****
+
+ eval_/next-item/avg_precision@10 = 0.15130436420440674
+ eval_/next-item/avg_precision@20 = 0.15682443976402283
+ eval_/next-item/ndcg@10 = 0.20776547491550446
+ eval_/next-item/ndcg@20 = 0.2302149385213852
+ eval_/next-item/recall@10 = 0.3951434791088104
+ eval_/next-item/recall@20 = 0.48896247148513794
+
+***** Launch training for day 31: *****
+{'loss': 5.6737, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 5.5469, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 5.4458, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 5.4011, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 5.3748, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 2.3826, 'train_samples_per_second': 4.197, 'train_steps_per_second': 20.985, 'train_loss': 5.4884547424316406, 'epoch': 10.0}
+
+***** Evaluation results for day 32:*****
+
+ eval_/next-item/avg_precision@10 = 0.12683717906475067
+ eval_/next-item/avg_precision@20 = 0.13286063075065613
+ eval_/next-item/ndcg@10 = 0.16967585682868958
+ eval_/next-item/ndcg@20 = 0.1919851452112198
+ eval_/next-item/recall@10 = 0.31016042828559875
+ eval_/next-item/recall@20 = 0.39906418323516846
+
+***** Launch training for day 32: *****
+{'loss': 6.3257, 'learning_rate': 8.75e-05, 'epoch': 1.25}
+{'loss': 6.1611, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 6.0768, 'learning_rate': 6.25e-05, 'epoch': 3.75}
+{'loss': 6.0141, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.9233, 'learning_rate': 3.7500000000000003e-05, 'epoch': 6.25}
+{'loss': 5.8995, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 5.8393, 'learning_rate': 1.25e-05, 'epoch': 8.75}
+{'loss': 5.8295, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 3.4534, 'train_samples_per_second': 2.896, 'train_steps_per_second': 23.165, 'train_loss': 6.008657836914063, 'epoch': 10.0}
+
+***** Evaluation results for day 33:*****
+
+ eval_/next-item/avg_precision@10 = 0.09704982489347458
+ eval_/next-item/avg_precision@20 = 0.1080993115901947
+ eval_/next-item/ndcg@10 = 0.1279923915863037
+ eval_/next-item/ndcg@20 = 0.17394031584262848
+ eval_/next-item/recall@10 = 0.22739820182323456
+ eval_/next-item/recall@20 = 0.4216701090335846
+
+***** Launch training for day 33: *****
+{'loss': 6.5477, 'learning_rate': 9.375e-05, 'epoch': 0.62}
+{'loss': 6.4774, 'learning_rate': 8.75e-05, 'epoch': 1.25}
+{'loss': 6.3023, 'learning_rate': 8.125000000000001e-05, 'epoch': 1.88}
+{'loss': 6.1731, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 6.1217, 'learning_rate': 6.875e-05, 'epoch': 3.12}
+{'loss': 6.0215, 'learning_rate': 6.25e-05, 'epoch': 3.75}
+{'loss': 5.9101, 'learning_rate': 5.6250000000000005e-05, 'epoch': 4.38}
+{'loss': 5.8583, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.8229, 'learning_rate': 4.375e-05, 'epoch': 5.62}
+{'loss': 5.73, 'learning_rate': 3.7500000000000003e-05, 'epoch': 6.25}
+{'loss': 5.7328, 'learning_rate': 3.125e-05, 'epoch': 6.88}
+{'loss': 5.6327, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 5.6444, 'learning_rate': 1.8750000000000002e-05, 'epoch': 8.12}
+{'loss': 5.6516, 'learning_rate': 1.25e-05, 'epoch': 8.75}
+{'loss': 5.5842, 'learning_rate': 6.25e-06, 'epoch': 9.38}
+{'loss': 5.6439, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 6.1334, 'train_samples_per_second': 1.63, 'train_steps_per_second': 26.087, 'train_loss': 5.928407549858093, 'epoch': 10.0}
+
+***** Evaluation results for day 34:*****
+
+ eval_/next-item/avg_precision@10 = 0.0994412750005722
+ eval_/next-item/avg_precision@20 = 0.10063868761062622
+ eval_/next-item/ndcg@10 = 0.17827819287776947
+ eval_/next-item/ndcg@20 = 0.18284934759140015
+ eval_/next-item/recall@10 = 0.4607061743736267
+ eval_/next-item/recall@20 = 0.4792141318321228
+
+***** Launch training for day 34: *****
+{'loss': 5.9055, 'learning_rate': 9.473684210526316e-05, 'epoch': 0.53}
+{'loss': 5.9086, 'learning_rate': 8.947368421052632e-05, 'epoch': 1.05}
+{'loss': 5.6412, 'learning_rate': 8.421052631578948e-05, 'epoch': 1.58}
+{'loss': 5.7749, 'learning_rate': 7.894736842105263e-05, 'epoch': 2.11}
+{'loss': 5.4501, 'learning_rate': 7.368421052631579e-05, 'epoch': 2.63}
+{'loss': 5.6289, 'learning_rate': 6.842105263157895e-05, 'epoch': 3.16}
+{'loss': 5.4126, 'learning_rate': 6.31578947368421e-05, 'epoch': 3.68}
+{'loss': 5.3094, 'learning_rate': 5.789473684210527e-05, 'epoch': 4.21}
+{'loss': 5.2451, 'learning_rate': 5.2631578947368424e-05, 'epoch': 4.74}
+{'loss': 5.3856, 'learning_rate': 4.736842105263158e-05, 'epoch': 5.26}
+{'loss': 5.1048, 'learning_rate': 4.210526315789474e-05, 'epoch': 5.79}
+{'loss': 5.2504, 'learning_rate': 3.6842105263157895e-05, 'epoch': 6.32}
+{'loss': 5.0747, 'learning_rate': 3.157894736842105e-05, 'epoch': 6.84}
+{'loss': 5.0852, 'learning_rate': 2.6315789473684212e-05, 'epoch': 7.37}
+{'loss': 5.1012, 'learning_rate': 2.105263157894737e-05, 'epoch': 7.89}
+{'loss': 5.0972, 'learning_rate': 1.5789473684210526e-05, 'epoch': 8.42}
+{'loss': 4.9971, 'learning_rate': 1.0526315789473684e-05, 'epoch': 8.95}
+{'loss': 5.1332, 'learning_rate': 5.263157894736842e-06, 'epoch': 9.47}
+{'loss': 5.052, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 7.523, 'train_samples_per_second': 1.329, 'train_steps_per_second': 25.256, 'train_loss': 5.345136762920179, 'epoch': 10.0}
+
+***** Evaluation results for day 35:*****
+
+ eval_/next-item/avg_precision@10 = 0.1623953878879547
+ eval_/next-item/avg_precision@20 = 0.16636593639850616
+ eval_/next-item/ndcg@10 = 0.2016766220331192
+ eval_/next-item/ndcg@20 = 0.21565687656402588
+ eval_/next-item/recall@10 = 0.3222410976886749
+ eval_/next-item/recall@20 = 0.376570463180542
+
+***** Launch training for day 35: *****
+{'loss': 5.7785, 'learning_rate': 9.375e-05, 'epoch': 0.62}
+{'loss': 5.7054, 'learning_rate': 8.75e-05, 'epoch': 1.25}
+{'loss': 5.5733, 'learning_rate': 8.125000000000001e-05, 'epoch': 1.88}
+{'loss': 5.5188, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 5.3419, 'learning_rate': 6.875e-05, 'epoch': 3.12}
+{'loss': 5.3031, 'learning_rate': 6.25e-05, 'epoch': 3.75}
+{'loss': 5.2424, 'learning_rate': 5.6250000000000005e-05, 'epoch': 4.38}
+{'loss': 5.1393, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 5.1589, 'learning_rate': 4.375e-05, 'epoch': 5.62}
+{'loss': 4.9608, 'learning_rate': 3.7500000000000003e-05, 'epoch': 6.25}
+{'loss': 5.1099, 'learning_rate': 3.125e-05, 'epoch': 6.88}
+{'loss': 5.0317, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 4.9456, 'learning_rate': 1.8750000000000002e-05, 'epoch': 8.12}
+{'loss': 4.9826, 'learning_rate': 1.25e-05, 'epoch': 8.75}
+{'loss': 4.9758, 'learning_rate': 6.25e-06, 'epoch': 9.38}
+{'loss': 4.91, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 6.1486, 'train_samples_per_second': 1.626, 'train_steps_per_second': 26.022, 'train_loss': 5.229877138137818, 'epoch': 10.0}
+
+***** Evaluation results for day 36:*****
+
+ eval_/next-item/avg_precision@10 = 0.21172748506069183
+ eval_/next-item/avg_precision@20 = 0.21446643769741058
+ eval_/next-item/ndcg@10 = 0.23950350284576416
+ eval_/next-item/ndcg@20 = 0.2490309625864029
+ eval_/next-item/recall@10 = 0.3272435963153839
+ eval_/next-item/recall@20 = 0.36378204822540283
+
+***** Launch training for day 36: *****
+{'loss': 5.3145, 'learning_rate': 9.411764705882353e-05, 'epoch': 0.59}
+{'loss': 5.1707, 'learning_rate': 8.823529411764706e-05, 'epoch': 1.18}
+{'loss': 4.9735, 'learning_rate': 8.23529411764706e-05, 'epoch': 1.76}
+{'loss': 5.0293, 'learning_rate': 7.647058823529411e-05, 'epoch': 2.35}
+{'loss': 4.8231, 'learning_rate': 7.058823529411765e-05, 'epoch': 2.94}
+{'loss': 4.7763, 'learning_rate': 6.470588235294118e-05, 'epoch': 3.53}
+{'loss': 4.7621, 'learning_rate': 5.882352941176471e-05, 'epoch': 4.12}
+{'loss': 4.6808, 'learning_rate': 5.294117647058824e-05, 'epoch': 4.71}
+{'loss': 4.5997, 'learning_rate': 4.705882352941177e-05, 'epoch': 5.29}
+{'loss': 4.5496, 'learning_rate': 4.11764705882353e-05, 'epoch': 5.88}
+{'loss': 4.519, 'learning_rate': 3.529411764705883e-05, 'epoch': 6.47}
+{'loss': 4.5176, 'learning_rate': 3e-05, 'epoch': 7.06}
+{'loss': 4.4937, 'learning_rate': 2.411764705882353e-05, 'epoch': 7.65}
+{'loss': 4.4988, 'learning_rate': 1.8235294117647057e-05, 'epoch': 8.24}
+{'loss': 4.4013, 'learning_rate': 1.2352941176470589e-05, 'epoch': 8.82}
+{'loss': 4.4848, 'learning_rate': 6.470588235294119e-06, 'epoch': 9.41}
+{'loss': 4.4363, 'learning_rate': 5.882352941176471e-07, 'epoch': 10.0}
+{'train_runtime': 6.2621, 'train_samples_per_second': 1.597, 'train_steps_per_second': 27.148, 'train_loss': 4.707714776431813, 'epoch': 10.0}
+
+***** Evaluation results for day 37:*****
+
+ eval_/next-item/avg_precision@10 = 0.16672304272651672
+ eval_/next-item/avg_precision@20 = 0.1726212352514267
+ eval_/next-item/ndcg@10 = 0.22886119782924652
+ eval_/next-item/ndcg@20 = 0.2497459352016449
+ eval_/next-item/recall@10 = 0.4270491898059845
+ eval_/next-item/recall@20 = 0.5081967115402222
+
+***** Launch training for day 37: *****
+{'loss': 4.4229, 'learning_rate': 9.5e-05, 'epoch': 0.5}
+{'loss': 4.2981, 'learning_rate': 9.05e-05, 'epoch': 1.0}
+{'loss': 4.2095, 'learning_rate': 8.55e-05, 'epoch': 1.5}
+{'loss': 4.1268, 'learning_rate': 8.05e-05, 'epoch': 2.0}
+{'loss': 4.0849, 'learning_rate': 7.55e-05, 'epoch': 2.5}
+{'loss': 3.9501, 'learning_rate': 7.05e-05, 'epoch': 3.0}
+{'loss': 3.9876, 'learning_rate': 6.55e-05, 'epoch': 3.5}
+{'loss': 3.7908, 'learning_rate': 6.05e-05, 'epoch': 4.0}
+{'loss': 3.8337, 'learning_rate': 5.550000000000001e-05, 'epoch': 4.5}
+{'loss': 3.7699, 'learning_rate': 5.05e-05, 'epoch': 5.0}
+{'loss': 3.8254, 'learning_rate': 4.55e-05, 'epoch': 5.5}
+{'loss': 3.6508, 'learning_rate': 4.05e-05, 'epoch': 6.0}
+{'loss': 3.6837, 'learning_rate': 3.55e-05, 'epoch': 6.5}
+{'loss': 3.6718, 'learning_rate': 3.05e-05, 'epoch': 7.0}
+{'loss': 3.663, 'learning_rate': 2.5500000000000003e-05, 'epoch': 7.5}
+{'loss': 3.6105, 'learning_rate': 2.05e-05, 'epoch': 8.0}
+{'loss': 3.6103, 'learning_rate': 1.55e-05, 'epoch': 8.5}
+{'loss': 3.5907, 'learning_rate': 1.05e-05, 'epoch': 9.0}
+{'loss': 3.6613, 'learning_rate': 5.500000000000001e-06, 'epoch': 9.5}
+{'loss': 3.4972, 'learning_rate': 5.000000000000001e-07, 'epoch': 10.0}
+{'train_runtime': 7.5087, 'train_samples_per_second': 1.332, 'train_steps_per_second': 26.636, 'train_loss': 3.846948528289795, 'epoch': 10.0}
+
+***** Evaluation results for day 38:*****
+
+ eval_/next-item/avg_precision@10 = 0.19233019649982452
+ eval_/next-item/avg_precision@20 = 0.19653789699077606
+ eval_/next-item/ndcg@10 = 0.27040618658065796
+ eval_/next-item/ndcg@20 = 0.28670215606689453
+ eval_/next-item/recall@10 = 0.5185185074806213
+ eval_/next-item/recall@20 = 0.5848225951194763
+
+***** Launch training for day 38: *****
+{'loss': 3.8813, 'learning_rate': 9.523809523809524e-05, 'epoch': 0.48}
+{'loss': 3.8622, 'learning_rate': 9.047619047619048e-05, 'epoch': 0.95}
+{'loss': 3.8231, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 3.752, 'learning_rate': 8.095238095238096e-05, 'epoch': 1.9}
+{'loss': 3.7699, 'learning_rate': 7.619047619047618e-05, 'epoch': 2.38}
+{'loss': 3.5427, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 3.68, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 3.4569, 'learning_rate': 6.19047619047619e-05, 'epoch': 3.81}
+{'loss': 3.4928, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 3.4394, 'learning_rate': 5.2380952380952384e-05, 'epoch': 4.76}
+{'loss': 3.4611, 'learning_rate': 4.761904761904762e-05, 'epoch': 5.24}
+{'loss': 3.3654, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 3.3557, 'learning_rate': 3.809523809523809e-05, 'epoch': 6.19}
+{'loss': 3.3295, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 3.3343, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 3.1768, 'learning_rate': 2.380952380952381e-05, 'epoch': 7.62}
+{'loss': 3.4123, 'learning_rate': 1.9047619047619046e-05, 'epoch': 8.1}
+{'loss': 3.1958, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 3.2996, 'learning_rate': 9.523809523809523e-06, 'epoch': 9.05}
+{'loss': 3.1822, 'learning_rate': 4.7619047619047615e-06, 'epoch': 9.52}
+{'loss': 3.3297, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 7.8336, 'train_samples_per_second': 1.277, 'train_steps_per_second': 26.808, 'train_loss': 3.4829788571312315, 'epoch': 10.0}
+
+***** Evaluation results for day 39:*****
+
+ eval_/next-item/avg_precision@10 = 0.17918169498443604
+ eval_/next-item/avg_precision@20 = 0.18368011713027954
+ eval_/next-item/ndcg@10 = 0.24442754685878754
+ eval_/next-item/ndcg@20 = 0.25854626297950745
+ eval_/next-item/recall@10 = 0.45424342155456543
+ eval_/next-item/recall@20 = 0.5055873990058899
+
+***** Launch training for day 39: *****
+{'loss': 3.9124, 'learning_rate': 9.444444444444444e-05, 'epoch': 0.56}
+{'loss': 3.8024, 'learning_rate': 8.888888888888889e-05, 'epoch': 1.11}
+{'loss': 3.8164, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 3.7628, 'learning_rate': 7.777777777777778e-05, 'epoch': 2.22}
+{'loss': 3.6238, 'learning_rate': 7.222222222222222e-05, 'epoch': 2.78}
+{'loss': 3.67, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 3.4854, 'learning_rate': 6.111111111111112e-05, 'epoch': 3.89}
+{'loss': 3.6233, 'learning_rate': 5.555555555555556e-05, 'epoch': 4.44}
+{'loss': 3.4653, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 3.4637, 'learning_rate': 4.4444444444444447e-05, 'epoch': 5.56}
+{'loss': 3.4195, 'learning_rate': 3.888888888888889e-05, 'epoch': 6.11}
+{'loss': 3.4103, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 3.5339, 'learning_rate': 2.777777777777778e-05, 'epoch': 7.22}
+{'loss': 3.3171, 'learning_rate': 2.2222222222222223e-05, 'epoch': 7.78}
+{'loss': 3.4018, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 3.3247, 'learning_rate': 1.1111111111111112e-05, 'epoch': 8.89}
+{'loss': 3.3976, 'learning_rate': 5.555555555555556e-06, 'epoch': 9.44}
+{'loss': 3.4151, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 6.7848, 'train_samples_per_second': 1.474, 'train_steps_per_second': 26.53, 'train_loss': 3.5469836129082575, 'epoch': 10.0}
+
+***** Evaluation results for day 40:*****
+
+ eval_/next-item/avg_precision@10 = 0.1695813089609146
+ eval_/next-item/avg_precision@20 = 0.17594550549983978
+ eval_/next-item/ndcg@10 = 0.21800625324249268
+ eval_/next-item/ndcg@20 = 0.24127238988876343
+ eval_/next-item/recall@10 = 0.373036652803421
+ eval_/next-item/recall@20 = 0.4653141498565674
+
+***** Launch training for day 40: *****
+{'loss': 3.9595, 'learning_rate': 9.375e-05, 'epoch': 0.62}
+{'loss': 3.9373, 'learning_rate': 8.75e-05, 'epoch': 1.25}
+{'loss': 3.8771, 'learning_rate': 8.125000000000001e-05, 'epoch': 1.88}
+{'loss': 3.7704, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 3.693, 'learning_rate': 6.875e-05, 'epoch': 3.12}
+{'loss': 3.6955, 'learning_rate': 6.25e-05, 'epoch': 3.75}
+{'loss': 3.6294, 'learning_rate': 5.6250000000000005e-05, 'epoch': 4.38}
+{'loss': 3.5333, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 3.491, 'learning_rate': 4.375e-05, 'epoch': 5.62}
+{'loss': 3.5201, 'learning_rate': 3.7500000000000003e-05, 'epoch': 6.25}
+{'loss': 3.5556, 'learning_rate': 3.125e-05, 'epoch': 6.88}
+{'loss': 3.4619, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 3.4273, 'learning_rate': 1.8750000000000002e-05, 'epoch': 8.12}
+{'loss': 3.3861, 'learning_rate': 1.25e-05, 'epoch': 8.75}
+{'loss': 3.5041, 'learning_rate': 6.25e-06, 'epoch': 9.38}
+{'loss': 3.4407, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 6.5355, 'train_samples_per_second': 1.53, 'train_steps_per_second': 24.482, 'train_loss': 3.617638182640076, 'epoch': 10.0}
+
+***** Evaluation results for day 41:*****
+
+ eval_/next-item/avg_precision@10 = 0.15105672180652618
+ eval_/next-item/avg_precision@20 = 0.15996558964252472
+ eval_/next-item/ndcg@10 = 0.2014632225036621
+ eval_/next-item/ndcg@20 = 0.23382873833179474
+ eval_/next-item/recall@10 = 0.37011003494262695
+ eval_/next-item/recall@20 = 0.4978606700897217
+
+***** Launch training for day 41: *****
+{'loss': 3.7063, 'learning_rate': 9.444444444444444e-05, 'epoch': 0.56}
+{'loss': 3.6425, 'learning_rate': 8.888888888888889e-05, 'epoch': 1.11}
+{'loss': 3.526, 'learning_rate': 8.333333333333334e-05, 'epoch': 1.67}
+{'loss': 3.6248, 'learning_rate': 7.777777777777778e-05, 'epoch': 2.22}
+{'loss': 3.4084, 'learning_rate': 7.222222222222222e-05, 'epoch': 2.78}
+{'loss': 3.532, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 3.3413, 'learning_rate': 6.111111111111112e-05, 'epoch': 3.89}
+{'loss': 3.4329, 'learning_rate': 5.555555555555556e-05, 'epoch': 4.44}
+{'loss': 3.3207, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 3.2389, 'learning_rate': 4.4444444444444447e-05, 'epoch': 5.56}
+{'loss': 3.3039, 'learning_rate': 3.888888888888889e-05, 'epoch': 6.11}
+{'loss': 3.1959, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 3.2291, 'learning_rate': 2.777777777777778e-05, 'epoch': 7.22}
+{'loss': 3.203, 'learning_rate': 2.2222222222222223e-05, 'epoch': 7.78}
+{'loss': 3.2533, 'learning_rate': 1.6666666666666667e-05, 'epoch': 8.33}
+{'loss': 3.1958, 'learning_rate': 1.1111111111111112e-05, 'epoch': 8.89}
+{'loss': 3.1861, 'learning_rate': 5.555555555555556e-06, 'epoch': 9.44}
+{'loss': 3.2687, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 6.7292, 'train_samples_per_second': 1.486, 'train_steps_per_second': 26.749, 'train_loss': 3.3672080251905654, 'epoch': 10.0}
+
+***** Evaluation results for day 42:*****
+
+ eval_/next-item/avg_precision@10 = 0.12538427114486694
+ eval_/next-item/avg_precision@20 = 0.13485945761203766
+ eval_/next-item/ndcg@10 = 0.17628563940525055
+ eval_/next-item/ndcg@20 = 0.21295879781246185
+ eval_/next-item/recall@10 = 0.34827420115470886
+ eval_/next-item/recall@20 = 0.4980824589729309
+
+***** Launch training for day 42: *****
+{'loss': 3.2927, 'learning_rate': 9.545454545454546e-05, 'epoch': 0.45}
+{'loss': 3.2695, 'learning_rate': 9.090909090909092e-05, 'epoch': 0.91}
+{'loss': 3.1166, 'learning_rate': 8.636363636363637e-05, 'epoch': 1.36}
+{'loss': 3.0294, 'learning_rate': 8.181818181818183e-05, 'epoch': 1.82}
+{'loss': 3.0108, 'learning_rate': 7.727272727272727e-05, 'epoch': 2.27}
+{'loss': 3.014, 'learning_rate': 7.272727272727273e-05, 'epoch': 2.73}
+{'loss': 2.8916, 'learning_rate': 6.818181818181818e-05, 'epoch': 3.18}
+{'loss': 2.8558, 'learning_rate': 6.363636363636364e-05, 'epoch': 3.64}
+{'loss': 2.8328, 'learning_rate': 5.90909090909091e-05, 'epoch': 4.09}
+{'loss': 2.772, 'learning_rate': 5.4545454545454546e-05, 'epoch': 4.55}
+{'loss': 2.7066, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 2.7483, 'learning_rate': 4.545454545454546e-05, 'epoch': 5.45}
+{'loss': 2.6744, 'learning_rate': 4.0909090909090915e-05, 'epoch': 5.91}
+{'loss': 2.7214, 'learning_rate': 3.6363636363636364e-05, 'epoch': 6.36}
+{'loss': 2.6594, 'learning_rate': 3.181818181818182e-05, 'epoch': 6.82}
+{'loss': 2.6191, 'learning_rate': 2.7272727272727273e-05, 'epoch': 7.27}
+{'loss': 2.6709, 'learning_rate': 2.272727272727273e-05, 'epoch': 7.73}
+{'loss': 2.6034, 'learning_rate': 1.8181818181818182e-05, 'epoch': 8.18}
+{'loss': 2.6915, 'learning_rate': 1.3636363636363637e-05, 'epoch': 8.64}
+{'loss': 2.5884, 'learning_rate': 9.090909090909091e-06, 'epoch': 9.09}
+{'loss': 2.6341, 'learning_rate': 4.5454545454545455e-06, 'epoch': 9.55}
+{'loss': 2.5542, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 8.4611, 'train_samples_per_second': 1.182, 'train_steps_per_second': 26.001, 'train_loss': 2.816216139359908, 'epoch': 10.0}
+
+***** Evaluation results for day 43:*****
+
+ eval_/next-item/avg_precision@10 = 0.12994936108589172
+ eval_/next-item/avg_precision@20 = 0.1496855616569519
+ eval_/next-item/ndcg@10 = 0.16619668900966644
+ eval_/next-item/ndcg@20 = 0.2334624081850052
+ eval_/next-item/recall@10 = 0.2878577411174774
+ eval_/next-item/recall@20 = 0.5409836173057556
+
+***** Launch training for day 43: *****
+{'loss': 2.7567, 'learning_rate': 9.473684210526316e-05, 'epoch': 0.53}
+{'loss': 2.5936, 'learning_rate': 8.947368421052632e-05, 'epoch': 1.05}
+{'loss': 2.6521, 'learning_rate': 8.421052631578948e-05, 'epoch': 1.58}
+{'loss': 2.5473, 'learning_rate': 7.894736842105263e-05, 'epoch': 2.11}
+{'loss': 2.5782, 'learning_rate': 7.368421052631579e-05, 'epoch': 2.63}
+{'loss': 2.5012, 'learning_rate': 6.842105263157895e-05, 'epoch': 3.16}
+{'loss': 2.4292, 'learning_rate': 6.31578947368421e-05, 'epoch': 3.68}
+{'loss': 2.4341, 'learning_rate': 5.789473684210527e-05, 'epoch': 4.21}
+{'loss': 2.3876, 'learning_rate': 5.2631578947368424e-05, 'epoch': 4.74}
+{'loss': 2.3512, 'learning_rate': 4.736842105263158e-05, 'epoch': 5.26}
+{'loss': 2.3563, 'learning_rate': 4.210526315789474e-05, 'epoch': 5.79}
+{'loss': 2.3872, 'learning_rate': 3.6842105263157895e-05, 'epoch': 6.32}
+{'loss': 2.2888, 'learning_rate': 3.157894736842105e-05, 'epoch': 6.84}
+{'loss': 2.3203, 'learning_rate': 2.6315789473684212e-05, 'epoch': 7.37}
+{'loss': 2.2812, 'learning_rate': 2.105263157894737e-05, 'epoch': 7.89}
+{'loss': 2.2808, 'learning_rate': 1.5789473684210526e-05, 'epoch': 8.42}
+{'loss': 2.2895, 'learning_rate': 1.0526315789473684e-05, 'epoch': 8.95}
+{'loss': 2.332, 'learning_rate': 5.263157894736842e-06, 'epoch': 9.47}
+{'loss': 2.234, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 7.2021, 'train_samples_per_second': 1.388, 'train_steps_per_second': 26.381, 'train_loss': 2.421130591944644, 'epoch': 10.0}
+
+***** Evaluation results for day 44:*****
+
+ eval_/next-item/avg_precision@10 = 0.14541903138160706
+ eval_/next-item/avg_precision@20 = 0.15633124113082886
+ eval_/next-item/ndcg@10 = 0.20276455581188202
+ eval_/next-item/ndcg@20 = 0.24079839885234833
+ eval_/next-item/recall@10 = 0.3894821107387543
+ eval_/next-item/recall@20 = 0.5363054275512695
+
+***** Launch training for day 44: *****
+{'loss': 2.3738, 'learning_rate': 9.5e-05, 'epoch': 0.5}
+{'loss': 2.347, 'learning_rate': 9e-05, 'epoch': 1.0}
+{'loss': 2.2846, 'learning_rate': 8.5e-05, 'epoch': 1.5}
+{'loss': 2.2273, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 2.1482, 'learning_rate': 7.500000000000001e-05, 'epoch': 2.5}
+{'loss': 2.1859, 'learning_rate': 7e-05, 'epoch': 3.0}
+{'loss': 2.0952, 'learning_rate': 6.500000000000001e-05, 'epoch': 3.5}
+{'loss': 2.103, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 2.1069, 'learning_rate': 5.500000000000001e-05, 'epoch': 4.5}
+{'loss': 2.016, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 2.0271, 'learning_rate': 4.5e-05, 'epoch': 5.5}
+{'loss': 2.0226, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 1.9951, 'learning_rate': 3.5e-05, 'epoch': 6.5}
+{'loss': 1.9826, 'learning_rate': 3e-05, 'epoch': 7.0}
+{'loss': 1.9959, 'learning_rate': 2.5e-05, 'epoch': 7.5}
+{'loss': 1.9402, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 1.9107, 'learning_rate': 1.5e-05, 'epoch': 8.5}
+{'loss': 1.9893, 'learning_rate': 1e-05, 'epoch': 9.0}
+{'loss': 1.9694, 'learning_rate': 5e-06, 'epoch': 9.5}
+{'loss': 1.945, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 7.5139, 'train_samples_per_second': 1.331, 'train_steps_per_second': 26.617, 'train_loss': 2.083289613723755, 'epoch': 10.0}
+
+***** Evaluation results for day 45:*****
+
+ eval_/next-item/avg_precision@10 = 0.14793914556503296
+ eval_/next-item/avg_precision@20 = 0.16039618849754333
+ eval_/next-item/ndcg@10 = 0.22127830982208252
+ eval_/next-item/ndcg@20 = 0.26985061168670654
+ eval_/next-item/recall@10 = 0.4127604365348816
+ eval_/next-item/recall@20 = 0.6110026240348816
+
+***** Launch training for day 45: *****
+{'loss': 2.2233, 'learning_rate': 9.411764705882353e-05, 'epoch': 0.59}
+{'loss': 2.0111, 'learning_rate': 8.882352941176471e-05, 'epoch': 1.18}
+{'loss': 2.1785, 'learning_rate': 8.294117647058824e-05, 'epoch': 1.76}
+{'loss': 1.8583, 'learning_rate': 7.705882352941177e-05, 'epoch': 2.35}
+{'loss': 2.1812, 'learning_rate': 7.11764705882353e-05, 'epoch': 2.94}
+{'loss': 1.9259, 'learning_rate': 6.529411764705883e-05, 'epoch': 3.53}
+{'loss': 1.8024, 'learning_rate': 5.9411764705882355e-05, 'epoch': 4.12}
+{'loss': 2.0152, 'learning_rate': 5.3529411764705884e-05, 'epoch': 4.71}
+{'loss': 1.9069, 'learning_rate': 4.7647058823529414e-05, 'epoch': 5.29}
+{'loss': 2.0215, 'learning_rate': 4.1764705882352944e-05, 'epoch': 5.88}
+{'loss': 1.7914, 'learning_rate': 3.5882352941176474e-05, 'epoch': 6.47}
+{'loss': 1.864, 'learning_rate': 3.058823529411765e-05, 'epoch': 7.06}
+{'loss': 1.9816, 'learning_rate': 2.4705882352941178e-05, 'epoch': 7.65}
+{'loss': 1.7749, 'learning_rate': 1.8823529411764708e-05, 'epoch': 8.24}
+{'loss': 2.0151, 'learning_rate': 1.2941176470588238e-05, 'epoch': 8.82}
+{'loss': 1.7597, 'learning_rate': 7.647058823529413e-06, 'epoch': 9.41}
+{'loss': 1.7716, 'learning_rate': 1.7647058823529412e-06, 'epoch': 10.0}
+{'train_runtime': 6.5586, 'train_samples_per_second': 1.525, 'train_steps_per_second': 25.92, 'train_loss': 1.9460404676549574, 'epoch': 10.0}
+
+***** Evaluation results for day 46:*****
+
+ eval_/next-item/avg_precision@10 = 0.14951640367507935
+ eval_/next-item/avg_precision@20 = 0.16526302695274353
+ eval_/next-item/ndcg@10 = 0.20603926479816437
+ eval_/next-item/ndcg@20 = 0.263427197933197
+ eval_/next-item/recall@10 = 0.3812454640865326
+ eval_/next-item/recall@20 = 0.6082549095153809
+
+***** Launch training for day 46: *****
+{'loss': 2.2035, 'learning_rate': 9.333333333333334e-05, 'epoch': 0.67}
+{'loss': 2.1932, 'learning_rate': 8.666666666666667e-05, 'epoch': 1.33}
+{'loss': 2.1521, 'learning_rate': 8e-05, 'epoch': 2.0}
+{'loss': 2.1119, 'learning_rate': 7.333333333333333e-05, 'epoch': 2.67}
+{'loss': 2.0937, 'learning_rate': 6.666666666666667e-05, 'epoch': 3.33}
+{'loss': 2.0384, 'learning_rate': 6e-05, 'epoch': 4.0}
+{'loss': 2.0156, 'learning_rate': 5.333333333333333e-05, 'epoch': 4.67}
+{'loss': 2.0571, 'learning_rate': 4.666666666666667e-05, 'epoch': 5.33}
+{'loss': 1.9638, 'learning_rate': 4e-05, 'epoch': 6.0}
+{'loss': 1.9806, 'learning_rate': 3.3333333333333335e-05, 'epoch': 6.67}
+{'loss': 2.0128, 'learning_rate': 2.6666666666666667e-05, 'epoch': 7.33}
+{'loss': 1.9055, 'learning_rate': 2e-05, 'epoch': 8.0}
+{'loss': 1.9694, 'learning_rate': 1.3333333333333333e-05, 'epoch': 8.67}
+{'loss': 1.9236, 'learning_rate': 6.666666666666667e-06, 'epoch': 9.33}
+{'loss': 1.9678, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 5.6581, 'train_samples_per_second': 1.767, 'train_steps_per_second': 26.511, 'train_loss': 2.039263153076172, 'epoch': 10.0}
+
+***** Evaluation results for day 47:*****
+
+ eval_/next-item/avg_precision@10 = 0.15785038471221924
+ eval_/next-item/avg_precision@20 = 0.16906410455703735
+ eval_/next-item/ndcg@10 = 0.21946081519126892
+ eval_/next-item/ndcg@20 = 0.25987106561660767
+ eval_/next-item/recall@10 = 0.4123169481754303
+ eval_/next-item/recall@20 = 0.5722869038581848
+
+***** Launch training for day 47: *****
+{'loss': 2.1457, 'learning_rate': 9.285714285714286e-05, 'epoch': 0.71}
+{'loss': 2.0163, 'learning_rate': 8.571428571428571e-05, 'epoch': 1.43}
+{'loss': 2.0953, 'learning_rate': 7.857142857142858e-05, 'epoch': 2.14}
+{'loss': 2.019, 'learning_rate': 7.142857142857143e-05, 'epoch': 2.86}
+{'loss': 1.967, 'learning_rate': 6.428571428571429e-05, 'epoch': 3.57}
+{'loss': 1.9926, 'learning_rate': 5.714285714285714e-05, 'epoch': 4.29}
+{'loss': 1.9273, 'learning_rate': 5e-05, 'epoch': 5.0}
+{'loss': 1.9121, 'learning_rate': 4.2857142857142856e-05, 'epoch': 5.71}
+{'loss': 1.9799, 'learning_rate': 3.571428571428572e-05, 'epoch': 6.43}
+{'loss': 1.8556, 'learning_rate': 2.857142857142857e-05, 'epoch': 7.14}
+{'loss': 1.8683, 'learning_rate': 2.1428571428571428e-05, 'epoch': 7.86}
+{'loss': 1.9251, 'learning_rate': 1.4285714285714285e-05, 'epoch': 8.57}
+{'loss': 1.8579, 'learning_rate': 7.142857142857143e-06, 'epoch': 9.29}
+{'loss': 1.8572, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 5.5283, 'train_samples_per_second': 1.809, 'train_steps_per_second': 25.324, 'train_loss': 1.9585258211408343, 'epoch': 10.0}
+
+***** Evaluation results for day 48:*****
+
+ eval_/next-item/avg_precision@10 = 0.1372644603252411
+ eval_/next-item/avg_precision@20 = 0.14716792106628418
+ eval_/next-item/ndcg@10 = 0.20163388550281525
+ eval_/next-item/ndcg@20 = 0.23879511654376984
+ eval_/next-item/recall@10 = 0.40411311388015747
+ eval_/next-item/recall@20 = 0.5511568188667297
+
+***** Launch training for day 48: *****
+{'loss': 2.1431, 'learning_rate': 9.090909090909092e-05, 'epoch': 0.91}
+{'loss': 2.1067, 'learning_rate': 8.181818181818183e-05, 'epoch': 1.82}
+{'loss': 2.0719, 'learning_rate': 7.272727272727273e-05, 'epoch': 2.73}
+{'loss': 2.0188, 'learning_rate': 6.363636363636364e-05, 'epoch': 3.64}
+{'loss': 2.0771, 'learning_rate': 5.4545454545454546e-05, 'epoch': 4.55}
+{'loss': 2.0555, 'learning_rate': 4.545454545454546e-05, 'epoch': 5.45}
+{'loss': 1.9808, 'learning_rate': 3.6363636363636364e-05, 'epoch': 6.36}
+{'loss': 1.9621, 'learning_rate': 2.7272727272727273e-05, 'epoch': 7.27}
+{'loss': 1.9879, 'learning_rate': 1.8181818181818182e-05, 'epoch': 8.18}
+{'loss': 2.0197, 'learning_rate': 9.090909090909091e-06, 'epoch': 9.09}
+{'loss': 1.9334, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 4.3556, 'train_samples_per_second': 2.296, 'train_steps_per_second': 25.255, 'train_loss': 2.03245924169367, 'epoch': 10.0}
+
+***** Evaluation results for day 49:*****
+
+ eval_/next-item/avg_precision@10 = 0.14604996144771576
+ eval_/next-item/avg_precision@20 = 0.15692077577114105
+ eval_/next-item/ndcg@10 = 0.19755084812641144
+ eval_/next-item/ndcg@20 = 0.23049816489219666
+ eval_/next-item/recall@10 = 0.3353927731513977
+ eval_/next-item/recall@20 = 0.4845542907714844
+ indexed_by_time_eval_/next-item/avg_precision@10 = 0.1470533492974937
+ indexed_by_time_eval_/next-item/avg_precision@20 = 0.15507105831056833
+ indexed_by_time_eval_/next-item/ndcg@10 = 0.1953211008415868
+ indexed_by_time_eval_/next-item/ndcg@20 = 0.22458572794372836
+ indexed_by_time_eval_/next-item/recall@10 = 0.3509998213655005
+ indexed_by_time_eval_/next-item/recall@20 = 0.4669581529063483
